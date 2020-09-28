@@ -4,8 +4,8 @@ entries:
     entries:
       # - title: email
       #  url: mailto:diazarnau0@gmail.com
-      # - title: github
-      #  url: http://github.com/vrnvu/
+    - title: github
+      url: http://github.com/vrnvu/
       #- title: keep in touch
       #  url: false
       #  entries:
