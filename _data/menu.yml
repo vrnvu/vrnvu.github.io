@@ -9,7 +9,7 @@ entries:
       #- title: keep in touch
       #  url: false
       #  entries:
-      - title: rss
+    - title: rss
       url: /feed.xml
 
   - title: entries
