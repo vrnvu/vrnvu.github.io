@@ -10,7 +10,7 @@ slug: epoche-etude-postmortem
 >suspension of judgment
 
 - Noun
-    1. In ancient skepticism,  the act of refraining from any conclusion for or against anything as the decisive step for the attainment of ataraxy
+    1. in ancient skepticism,  the act of refraining from any conclusion for or against anything as the decisive step for the attainment of ataraxy
     2. the methodological attitude of phenomenology in which one refrains from judging whether anything exists or can exist as the first step in the phenomenological recognition, comprehension, and description of sense appearances : transcendental reduction
 
 ---
