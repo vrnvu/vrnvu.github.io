@@ -2,15 +2,15 @@ entries:
   - title: me
     url: false
     entries:
-      - title: email
-        url: mailto:diazarnau0@gmail.com
-      - title: github
-        url: http://github.com/vrnvu/
-      - title: keep in touch
-        url: false
-        entries:
-          - title: rss
-            url: /feed.xml
+      # - title: email
+      #  url: mailto:diazarnau0@gmail.com
+      # - title: github
+      #  url: http://github.com/vrnvu/
+      #- title: keep in touch
+      #  url: false
+      #  entries:
+      - title: rss
+      url: /feed.xml
 
   - title: entries
     post_list: true
