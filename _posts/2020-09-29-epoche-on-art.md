@@ -44,6 +44,37 @@ Given this categorization, I don't see where there could be a software product t
 
 
 ---
+{: data-content="Taste and Style"}
+
+> The idea of style in programming is now coming to the forefront at last, and I hope that most of you have seen the excellent little book on Elements of Programming Style by Kernighan and Plauger [16]. In this connection it is most important for us all to remember that there is no one "best" style; everybody has his own preferences, and it is a mistake to try to force people into an unnatural mold. We often hear the saying, "I don't know anything about art, but I know what I like." The important thing is that you really like the style you are using; it should be the best way you prefer to express yourself.
+
+I would like to make an observation and comment on some psychoanalysis. A recent article that I found fascinating about programming languages is fue The Perverts Guide to computer programming. Programming languages are created to concisely model a specific problem or to maximize expression while solving a broad range of problems. Psychoanalysts have noted that manydecisions we make as humans are not based on rational premises, but rather are based on fears and desires that stem from upbringing and our societal ideologies. In the paper they use the psychoanalysis of Jacques Lacan and Slavoj Zizek to critique programming languages. I will not go too deep into the article, I highly recommend you to scrim over it just for fun.
+
+What I don’t agree with is the claim “there is no best style”, if we focus more in detail on the concept of style, we can all conclude that there are tools more suitable for one job than another. A style of programming is nothing but a manifestation, a causality of the tools and context from which it originates. Every style is composed of fundamental elements and limited by external factors. When external factors change, the style will evolve like water adapting to a container. To give some specific examples about programming, most of the changes about paradigms, languages and tooling have been caused by an external factor you may be familiar with, the hardware. Multi core and multi thread CPUs, contemporary CPU microarchitectures... Hardware evolution and performance improvements are external factors that have affected the software we write and the tools we use. In a similar way, distributed systems, scalability needs, growing source code repositories and project requirements are other external elements that directly affect methodologies and engineering. We don't use a control version like git because we think it's the perfect solution, we use it because it's the best solution we know at this moment in time and I really hope that when there's a superior alternative, we'll be able to see the beauty of it and adopt it.
+
+
+---
+{: data-content="Beauty"}
+
+> There are many senses in which a program can be "good," of course. In the first place, it's especially good to have a program that works correctly. Secondly it is often good to have a program that won't be hard to change, when the time for adaptation arises. Both of these goals are achieved when the program is easily readable and understandable to a person who knows the appropriate language.
+
+> Another important way for a production program to be good is for it to interact gracefully with its users, especially when recovering from human errors in the input data. It's a real art to compose meaningful error messages or to design flexible input formats which are not error-prone.
+
+> Another important aspect of program quality is the efficiency with which the computer's resources are actually being used. I am sorry to say that many people nowadays are condemning program efficiency, telling us that it is in bad taste. The reason for this is that we are now experiencing a reaction from the time when efficiency was the only reputable criterion of goodness, and programmers in the past have tended to be so preoccupied with efficiency that they have produced needlessly complicated code; the result of this unnecessary complexity has been that net efficiency has gone down, due to difficulties of debugging and maintenance.
+
+> The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming.
+
+Knuth also was encouraged to analyze what constitute programming a work of art and what makes it beautiful, he decided not do it in a categoric/schematic way as we attempted previously, he constructed his discourse referring to his contemporaries and just named some of the components, unfortunately he lacked the perspective of the 42 years of software development that we have. It would be interesting to know how he would define the beauty of the art of programming after so many decades of banging our heads against walls.
+
+---
+{: data-content="final thoughts"}
+
+- Some people are fascinated by how the “classics” have predicted the future. They actually did not predict anything. We have built on them. I like this perspective way more. We walk over the shoulders of giants don’t we?
+
+- We haven’t yet agreed on the components of aesthetics and beauty because humans are emotional and we do get offended easily. Still, we evolve. Even if we do not verbalise it, we advance in the right path, it just takes us more time to reach our destination or fulfill our true potential. Even though I'd like people to encourage and accept criticism way more openly. I’m not criticizing you, it's just an opinion about your art. Your work does not define you, you define your art piece. We are artists, we should act as such. Love your craft and be responsible for it. Live and learn. 
+
+
+---
 {: data-content="footnotes"}
 
 [^1]: https://amturing.acm.org/award_winners/knuth_1013846.cfm
