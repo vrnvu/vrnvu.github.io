@@ -11,13 +11,15 @@ I will quote Knuth directly for the body of the commentary since I liked his ori
 ---
 {: data-content="Art"}
 
-> Going back to Latin roots, we find ars, artis meaning "skill." It is perhaps significant that the corresponding Greek word was τεχνη, the root of both "technology" and "technique."
+```
+Going back to Latin roots, we find ars, artis meaning "skill." It is perhaps significant that the corresponding Greek word was τεχνη, the root of both "technology" and "technique."
 
-> Nowadays when someone speaks of "art" you probably think first of "fine arts" such as painting and sculpture, but before the twentieth century the word was generally used in quite a different sense. Since this older meaning of "art" still survives in many idioms, especially when we are contrasting art with science.
+Nowadays when someone speaks of "art" you probably think first of "fine arts" such as painting and sculpture, but before the twentieth century the word was generally used in quite a different sense. Since this older meaning of "art" still survives in many idioms, especially when we are contrasting art with science.
 
-> In medieval times, an "art" meant something devised by man's intellect, as opposed to activities derived from nature or instinct. During the middle ages the word "art" by itself usually meant logic, which usually meant the study of syllogisms.
+In medieval times, an "art" meant something devised by man's intellect, as opposed to activities derived from nature or instinct. During the middle ages the word "art" by itself usually meant logic, which usually meant the study of syllogisms.
 
-> As civilization and learning developed, the words took on more and more independent meanings, "science" being used to stand for knowledge, and "art" for the application of knowledge. Thus, the science of astronomy was the basis for the art of navigation. The situation was almost exactly like the way in which we now distinguish between "science" and "engineering."
+As civilization and learning developed, the words took on more and more independent meanings, "science" being used to stand for knowledge, and "art" for the application of knowledge. Thus, the science of astronomy was the basis for the art of navigation. The situation was almost exactly like the way in which we now distinguish between "science" and "engineering."
+```
 
 ---
 {: data-content="Works of art"}
