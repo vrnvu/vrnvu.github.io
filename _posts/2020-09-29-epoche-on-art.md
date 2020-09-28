@@ -69,9 +69,9 @@ Knuth also was encouraged to analyze what constitute programming a work of art a
 ---
 {: data-content="final thoughts"}
 
-- Some people are fascinated by how the “classics” have predicted the future. They actually did not predict anything. We have built on them. I like this perspective way more. We walk over the shoulders of giants don’t we?
+Some people are fascinated by how the “classics” have predicted the future. They actually did not predict anything. We have built on them. I like this perspective way more. We walk over the shoulders of giants don’t we?
 
-- We haven’t yet agreed on the components of aesthetics and beauty because humans are emotional and we do get offended easily. Still, we evolve. Even if we do not verbalise it, we advance in the right path, it just takes us more time to reach our destination or fulfill our true potential. Even though I'd like people to encourage and accept criticism way more openly. I’m not criticizing you, it's just an opinion about your art. Your work does not define you, you define your art piece. We are artists, we should act as such. Love your craft and be responsible for it. Live and learn. 
+We haven’t yet agreed on the components of aesthetics and beauty because humans are emotional and we do get offended easily. Still, we evolve. Even if we do not verbalise it, we advance in the right path, it just takes us more time to reach our destination or fulfill our true potential. Even though I'd like people to encourage and accept criticism way more openly. I’m not criticizing you, it's just an opinion about your art. Your work does not define you, you define your art piece. We are artists, we should act as such. Love your craft and be responsible for it. Live and learn. 
 
 
 ---
