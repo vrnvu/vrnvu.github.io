@@ -81,7 +81,7 @@ We haven’t yet agreed on the components of aesthetics and beauty because human
 
 [^2]: I gave a categorization that plays nicely with opportunistic programming, data oriented + functional programming, hexagonal/onion/polylith and similar contemporary ideas that I probably expand in the future 
 
-[^3]: Please do read and recommend classic content like this, Peter Norvig's style guide on common lisp will also pleasure you. Computer sci literature is poluted by low quality books.
+[^3]: Please do read and recommend classic content like this, Peter Norvig's style guide on common lisp will also please you :P . Contemporary Computer sci literature is poluted by low quality books.
 
 [^4]: I personally suggest Zizek or Jung over Freud for starters. For learning/communication dig into constructivism.
 
