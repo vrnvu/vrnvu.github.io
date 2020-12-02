@@ -6,7 +6,7 @@ slug: epoche-on-elements
 
 Elements of programming style. (1974)
 
-Brain Kernighan and P.J Plauger
+Brian Kernighan and P.J Plauger
 
 ---
 {: data-content="Introduction"}
