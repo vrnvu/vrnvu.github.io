@@ -4,7 +4,7 @@ title: Epoche on elements of programming style
 slug: epoche-on-elements
 ---
 
-Elements of programming style. (1978)
+Elements of programming style. (1974)
 
 Brain Kernighan and P.J Plauger
 
