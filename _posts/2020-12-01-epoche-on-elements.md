@@ -74,7 +74,10 @@ Consisteny.
 
 > Use the fundamental control flow constructs.
 
+
 > Write first in an easy-to-understand pseudo-language; then translate into whatever language you have to use.
+
+Paper first. 
 
 > Avoid THEN-IF and null ELSE.
 
@@ -86,24 +89,42 @@ Consisteny.
 
 > Choose a data representation that makes the program simple.
 
+Data oriented programming. Data first. Data moves your code.
+
 > Don't stop with your first draft.
+
+Forth philosophy. Thinking Forth.
 
 ---
 {: data-content="Program structure"}
 
 > Modularize. Use subroutines.
 
+Write cohesive. Build languages. Extend your program as needed.
+
 > Make the coupling between modules visible.
+
+Port. Adapter.
 
 > Each module should do one thing well.
 
+One thing.
+
 > Make sure every module hides something.
+
+It's not about what you hide. It's more about what rules you expose. An interface is a contract.
 
 > Let the data structure the program.
 
+Data first.
+
 > Don't patch bad code - rewrite it.
 
+Opportunistic programming. A program evolves. Always keep it in mind.
+
 > Write and test a big program in small pieces.
+
+You don't write test to check if it works. You write it assert it won't break.
 
 > Use recursive procedures for recursively-defined data structures.
 
@@ -112,11 +133,15 @@ Consisteny.
 
 > Test input for validity and plausiblity
 
+Don't validate. Parse. Use your type system.
+
 > Make sure input cannot violate the limits of the program.
 
 > Terminate input by end-of-file or marker, not by count.
 
 > Identify bad input; recover if possible.
+
+If your code can recover it's well written. 
 
 > Treat end of file conditions in a uniform manner.
 
@@ -130,6 +155,8 @@ Consisteny.
 
 > Localize input and output in subroutines.
 
+Limit side effects in the process.
+
 ---
 {: data-content="Common blunders"}
 
@@ -139,6 +166,8 @@ Consisteny.
 
 > Use debuggin compilers.
 
+Invest in your environment.
+
 > Initialize constants with DATA statements or INITIAL attributes; initialize variable with executable code.
 
 > Watch out for off-by-one errors.
@@ -146,6 +175,8 @@ Consisteny.
 > Take care to branch the right way on equality.
 
 > Avoid multiple exits from loops.
+
+Algorithm design code smell.
 
 > Make sure your code "does nothing" gracefully.
 
@@ -160,29 +191,45 @@ Consisteny.
 
 > Make it right before you make it faster.
 
+You probably won't ever need to make EVERYTHING faster.
+
 > Keep it right when you make it faster.
 
 > Make it clear before you make it faster.
 
+Requirements will change anyway.
+
 > Don't sacrifice clarity for small gains in "efficiency".
+
+You don't even know what a GC is.
 
 > Let your compiler do the simple optimizations.
 
+Help the compiler. Smaller chunks of code usually help.
+
 > Don't strain to re-use code; reorganize instead.
+
+Please don't add complexity. You are not writting clean code.
 
 > Make sure special cases are truly special.
 
 > Keep it simple to make it faster.
 
-> Don't didle code to make it faster - find a better algorithm.
+> Don't diddle code to make it faster - find a better algorithm.
+
+Algorithm design code smell.
 
 > Instrument your programs. Measure before makign "efficiency" changes.
+
+Code so it's easy to test. Code so it's easy to benchmark.
 
 
 ---
 {: data-content="Documentation"}
 
 > Make sure comments and code agree.
+
+Use your type system. 
 
 > Make every comment count.
 
@@ -192,9 +239,10 @@ Consisteny.
 
 > Format a program to help a reader understand it.
 
+Explain the why.
+
 > Indent to show the logical structure of a program.
 
 > Document your data layouts.
 
 > Don't over comment.
-
