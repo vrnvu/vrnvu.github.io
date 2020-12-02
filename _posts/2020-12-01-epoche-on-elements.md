@@ -175,4 +175,3 @@ Brain Kernighan and P.J Plauger
 
 > Don't over comment.
 
-> 
