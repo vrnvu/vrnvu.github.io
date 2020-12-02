@@ -17,41 +17,54 @@ Brain Kernighan and P.J Plauger
 {: data-content="Expression"}
 
 > Say what you mean, simply and directly.
+
 Explicit. Intention. 
 
 > Use library functions.
+
 Don't re-invent the wheel. Copy. Even better. Steal. Good artist copy, genius steal.
 
 > Avoid temporary variables.
+
 Avoid mutable data structures when it makes sense.
 
 > Write clearly - don't sacrifice clarity for "efficiency".
+
 Never.
 
 > Let the machine do the dirty work.
+
 Computers are fast. More than you think.
 
 > Replace repetitive expressions by calls to a common function.
+
 But don't add abstractions you won't need.
 
 > Parenthesize to avoid ambiguity.
+
 Rename, rewrite.
 
 > Choose variable names that won't be confused.
 
+
 > Avoid unnecessary branches.
+
 Algorithm design code smell.
 
 > Use the good features of a language; avoid the bad ones.
+
 Use the right tool for the job.
 
 > Don't use conditional branches as a substitue for a logical expression.
+
 Think in expressions. Write with expressions. Always.
 
 ---
 {: data-content="Control structure"}
 
 > Delimit group of statements.
+
+Consisteny. 
 
 > Use IF-ELSE to emphasize that only one of two actions is to be performed.
 
