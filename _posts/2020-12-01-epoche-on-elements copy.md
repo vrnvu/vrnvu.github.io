@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Epoche on elements of programming style
+title: Epoche on elements of programming 
 slug: epoche-on-elements
 ---
 
