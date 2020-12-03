@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Epoche on Art
-slug: epoche-on-art 
+title: Epoche on essentialism 1
+slug: epoche-on-essentialism-1
 ---
 
-Some lazy intro.
+Intro
 
 ---
 {: data-content="Essentialism"}
