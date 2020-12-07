@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Epoche on forth philosophy elegance
-slug: epoche-on-forth-philosophy-elegance
+title: Epoche on forth elegance
+slug: epoche-on-forth-elegance
 ---
 
 # Thinking Forth
 
 > Everything old is new again. There are no new ideas. Modern software development is not so modern. 
+
+# Elegance
 
 ## An armchair history of softare elegance
 
