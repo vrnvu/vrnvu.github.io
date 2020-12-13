@@ -10,7 +10,7 @@ slug: epoche-on-forth-elegance
 
 # Elegance
 
-## An armchair history of softare elegance
+## An armchair history of software elegance
 
 ### Memorability 
 
