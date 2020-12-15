@@ -56,6 +56,8 @@ Harris then applies the scientific method to the software development cycle:
 
 4. The program is tested to determine if the functions were implemented correctly.
 
+![development-cyclce](./assets/forth/development-cycle.PNG)
+
 ## Tip
 
 > Start simple. Get it running. Learn what you’re trying to do. Add complexity gradually, as needed to ﬁt the requirements and constraints. Don’t be afraid to restart from scratch.
@@ -86,7 +88,7 @@ A conceptual model is more ﬂexible than a design. It’s easier to ﬁt the re
 
 Like the entire development cycle, the analysis phase is best approach iteratively. Each new requirement will tend to suggest something in your mental model
 
-# TODO IMAGE
+![analysis-cyclce](./assets/forth/analysis-cycle.PNG)
 
 In the next three sections we’ll explore three techniques for deﬁning and documenting the conceptual model:
 
@@ -110,7 +112,7 @@ A discipline called structured analysis [^2] offers some techniques for describi
 
 A data-ﬂow diagram, such as the one depicted in the next figure, emphasizes what happens to items of data as they travel through the system. The circles represent “transforms,” functions that act upon information. The arrows represent the inputs and outputs of the transforms. 
 
-# TODO IMAGE DFD
+![data-flow-diagram](./assets/forth/data-flow-diagram.PNG)
 
 The diagram depicts a frozen moment of the system in action. It ignores initialization, looping structures, and other details of programming that relate to time. Three benefits of DFD:
 
