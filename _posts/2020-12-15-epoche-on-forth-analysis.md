@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Epoche on forth elegance
-slug: epoche-on-forth-elegance
+title: Epoche on forth analysis
+slug: epoche-on-forth-analysis
 ---
 
 # Thinking Forth
