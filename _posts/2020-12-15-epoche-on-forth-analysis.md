@@ -12,7 +12,7 @@ slug: epoche-on-forth-analysis
 
 A development cycle that represents an avarage of the most successful approaches would be something like the following:
 
-- Analysis
+- **Analysis**
 
 1. Discover the Requirements and Constraints 
 
@@ -20,7 +20,7 @@ A development cycle that represents an avarage of the most successful approaches
 
 3. Estimate Cost/Schedule/Performance
 
-- Engineering
+- **Engineering**
 
 4. Preliminary Design 
 
@@ -28,7 +28,7 @@ A development cycle that represents an avarage of the most successful approaches
 
 6. Implementation
 
-- Usage
+- **Usage**
 
 7. Optimization 
 
@@ -48,13 +48,13 @@ The iterative approach was explained eloquently by Kim Harris [^1]. He begins by
 
 Harris then applies the scientific method to the software development cycle:
 
-1. A problem is analyzed to determine what functions are required in the solution.
+1. **A problem is analyzed** to determine what functions are required in the solution.
 
-2. Decisions are made about how to achieve those functions with the available resources.
+2. **Decisions are made** about how to achieve those functions with the available resources.
 
-3. A program is written which attempts to implement the design.
+3. **A program is written** which attempts to implement the design.
 
-4. The program is tested to determine if the functions were implemented correctly.
+4. **The program is tested** to determine if the functions were implemented correctly.
 
 ![development-cyclce](./assets/forth/development-cycle.PNG)
 
@@ -78,7 +78,7 @@ In the Forth environment planning is necessary. But it should be kept short. Tes
 
 # The analysis phase
 
-A conceptual model is an imaginary solution to the problem. It is a view of how the system appears to work. It is an answer to all the requirements and constraints. 
+A **conceptual model** is an imaginary solution to the problem. It is a view of how the system appears to work. It is an answer to all the requirements and constraints. 
 
 A conceptual model is not quite a design, however. A design begins to describe how the system really works.
 
@@ -102,15 +102,15 @@ In the next three sections we’ll explore three techniques for deﬁning and do
 
 > Decide on error- and exception-handling early as part of deﬁning the interface.
 
-It’s true that when coding for oneself, a programmer can often concentrate ﬁrst on making the code run correctly under normal conditions, then worry about error-handling later. When working for someone else, however, error-handling should be worked out ahead of time. This is an area often overlooked by the beginning programmer. 
+It’s true that when coding for oneself, a programmer can often concentrate ﬁrst on making the code run correctly under normal conditions, then worry about error-handling later. When working for someone else, however, **error-handling should be worked out ahead of time**. This is an area often overlooked by the beginning programmer. 
 
 The reason why it's important at this stage is the wide divergence in how erros can be treated. An error might be ignored, made to set a flag, made to halt the application or designed to initiate procedures to correct the problem.
 
 > Develop the conceptual model by imagining the data traveling through and being acted upon by the parts of the model.
 
-A discipline called structured analysis [^2] offers some techniques for describing interfaces in ways that your clients will easily understand. One of these techniques is called the “data-ﬂow diagram” (DFD).
+A discipline called **structured analysis** [^2] offers some techniques for describing interfaces in ways that your clients will easily understand. One of these techniques is called the “data-ﬂow diagram” (DFD).
 
-A data-ﬂow diagram, such as the one depicted in the next figure, emphasizes what happens to items of data as they travel through the system. The circles represent “transforms,” functions that act upon information. The arrows represent the inputs and outputs of the transforms. 
+A **data-ﬂow diagram**, such as the one depicted in the next figure, emphasizes what happens to items of data as they travel through the system. The circles represent “transforms,” functions that act upon information. The arrows represent the inputs and outputs of the transforms. 
 
 ![data-flow-diagram](./assets/forth/data-flow-diagram.PNG)
 
@@ -127,11 +127,11 @@ The diagram depicts a frozen moment of the system in action. It ignores initiali
 
 Most of your efforts at deﬁning a problem will center on describing the interface. Some applications will also require that you deﬁne the set of application rules. 
 
-Make use of decision trees, decision tables, simplify the lengauge...
+Make use of decision trees, decision tables, simplify the language...
 
 # Defining the data structures
 
-We’re not referring here to the implementation of the data structures, but rather to a description of their conceptual model. 
+We’re not referring here to the implementation of the data structures, but rather to **a description of their conceptual model**. 
 
 If you’re automating a library index, for instance, a crucial portion of your analysis will concern developing the logical data structure. You’ll have to decide what information will be kept for each book: title, author, subject, etc. These “attributes” will comprise an “entity” (set of related records) called BOOKS. 
 
@@ -147,15 +147,17 @@ While you are taking these crucial ﬁrst steps toward understanding the problem
 
 This is especially true in software design. The simpler solution is often more diﬃcult to discover, but once found, it is:
 
-- easier to understand 
+- easier to **understand** 
 
-- easier to implement 
+- easier to **implement** 
 
-- easier to verify and debug 
+- easier to **verify** and **debug** 
 
-- easier to maintain 
+- easier to **maintain** 
 
-- more compact - more efficient 
+- more **compact** 
+
+- more **efficient** 
 
 > Generality usually involves complexity. Don’t generalize your solution any more than will be required; instead, keep it changeable.
 
@@ -163,7 +165,7 @@ This is especially true in software design. The simpler solution is often more d
 
 Another important aspect of the analysis phase is ﬁguring the price tag. Again, this process is much more diﬃcult than it would seem. If you don’t know the problem till you solve it, how can you possibly know how long it will take to solve it? 
 
-Careful planning is essential, because things always take longer than you expect. I have a theory about this, based on the laws of probability:
+Careful planning is essential, because **things always take longer than you expect**. I have a theory about this, based on the laws of probability:
 
 > The mean time for making a “two-hour” addition to an application is approximately 12 hours
 
@@ -181,11 +183,11 @@ Imagine the following scenario: You’re in the middle of writing a large applic
 
 6. After you’ve spent anywhere from 2 to 12 hours installing and debugging your new feature, you suddenly ﬁnd that element Y of your application bombs out. Worst yet, you have no idea why. You spend two hours reading memory dumps trying to divine the reason. Once you do, you spend as many as 12 additional hours redesigning element Y. (Total 26.) Then you have to document the syntax change you made to element Y. (Total 27.)
 
-How can you improve your chances of judging time requirements correctly?  I have little to add to this body of knowledge except for some personal observations.
+**How can you improve your chances of judging time requirements correctly?**  I have little to add to this body of knowledge except for some personal observations.
 
-- Don’t guess on a total. Break the problem up into the smallest possible pieces, then estimate the time for each piece. 
+- **Don’t guess on a total**. Break the problem up into the smallest possible pieces, then estimate the time for each piece. 
 
-- In itemizing the pieces, separate those you understand well enough to hazard a guess from those you don’t. For the second category, give the customer a range.
+- In itemizing the pieces, **separate those you understand well** enough to hazard a guess from those you don’t. For the second category, give the customer a range.
 
 
 ---
