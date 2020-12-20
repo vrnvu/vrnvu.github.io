@@ -68,21 +68,23 @@ Open source projects usually have templates for issues. Use them. Adopt them in 
 
 ## Be precise and infromative about your problem
 
-    - Describe the symptoms of your problem or bug carefully and clearly.
+- Describe the symptoms of your problem or bug carefully and clearly.
 
-    - Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).
+- Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).
 
-    - Describe the research you did to try and understand the problem before you asked the question.
+- Describe the research you did to try and understand the problem before you asked the question.
 
-    - Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
+- Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
 
-    - Describe any possibly relevant recent changes in your computer or software configuration.
+- Describe any possibly relevant recent changes in your computer or software configuration.
 
-    - If at all possible, provide a way to reproduce the problem in a controlled environment. 
+- If at all possible, provide a way to reproduce the problem in a controlled environment. 
 
 ## Don't rush to claim that you have found a bug
 
-When you are having problems with a piece of software, don't claim you have found a bug unless you are very, very sure of your ground. Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.
+When you are having problems with a piece of software, don't claim you have found a bug unless you are very, very sure of your ground. 
+
+*Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.*
 
 ## Describe the problem's symptoms, not your guesses
 
@@ -132,36 +134,44 @@ Much of what looks like rudeness in hacker circles is not intended to give offen
 # Questions not to ask
 
 >Q: Where can I find program or resource X?
+
 >Q: How can I use X to do Y?
+
 >Q: How can I configure my shell prompt?
+
 >Q: Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter?
+
 >Q: My {program, configuration, SQL statement} doesn't work
+
 >Q: I'm having problems with my Windows machine. Can you help?
+
 >Q: My program doesn't work. I think system facility X is broken.
+
 >Q: I'm having problems installing Linux or X. Can you help?
+
 >Q: How can I crack root/steal channel-ops privileges/read someone's e-mail?
 
 # How to answer questions in a helpful way
 
-- Be gentle. Problem-related stress can make people seem rude or stupid even when they're not.
+- **Be gentle**. Problem-related stress can make people seem rude or stupid even when they're not.
 
 - Reply to a first offender off-line. There is no need of public humiliation for someone who may have made an honest mistake. A real newbie may not know how to search archives or where the FAQ is stored or posted.
 
-- If you don't know for sure, say so! A wrong but authoritative-sounding answer is worse than none at all. Don't point anyone down a wrong path simply because it's fun to sound like an expert. Be humble and honest; set a good example for both the querent and your peers.
+- **If you don't know for sure, say so!** A wrong but authoritative-sounding answer is worse than none at all. Don't point anyone down a wrong path simply because it's fun to sound like an expert. Be humble and honest; set a good example for both the querent and your peers.
 
-- If you can't help, don't hinder. Don't make jokes about procedures that could trash the user's setup — the poor sap might interpret these as instructions.
+- **If you can't help, don't hinder.** Don't make jokes about procedures that could trash the user's setup — the poor sap might interpret these as instructions.
 
-- Ask probing questions to elicit more details. If you're good at this, the querent will learn something — and so might you. Try to turn the bad question into a good one; remember we were all newbies once.
+- **Ask probing questions to elicit more details**. If you're good at this, the querent will learn something — and so might you. Try to turn the bad question into a good one; remember we were all newbies once.
 
 - While muttering RTFM is sometimes justified when replying to someone who is just a lazy slob, a pointer to documentation (even if it's just a suggestion to google for a key phrase) is better.
 
-- If you're going to answer the question at all, give good value. Don't suggest kludgy workarounds when somebody is using the wrong tool or approach. Suggest good tools. Reframe the question.
+- **If you're going to answer the question at all, give good value**. Don't suggest kludgy workarounds when somebody is using the wrong tool or approach. Suggest good tools. Reframe the question.
 
-- Answer the actual question! If the querent has been so thorough as to do his or her research and has included in the query that X, Y, Z, A, B, and C have already been tried without good result, it is supremely unhelpful to respond with “Try A or B,” or with a link to something that only says, “Try X, Y, Z, A, B, or C.”.
+- **Answer the actual question!** If the querent has been so thorough as to do his or her research and has included in the query that X, Y, Z, A, B, and C have already been tried without good result, it is supremely unhelpful to respond with “Try A or B,” or with a link to something that only says, “Try X, Y, Z, A, B, or C.”.
 
-- Help your community learn from the question. When you field a good question, ask yourself “How would the relevant documentation or FAQ have to change so that nobody has to answer this again?” Then send a patch to the document maintainer.
+- **Help your community learn from the question**. When you field a good question, ask yourself “How would the relevant documentation or FAQ have to change so that nobody has to answer this again?” Then send a patch to the document maintainer.
 
-- If you did research to answer the question, demonstrate your skills rather than writing as though you pulled the answer out of your butt. Answering one good question is like feeding a hungry person one meal, but teaching them research skills by example is showing them how to grow food for a lifetime.
+- **If you did research to answer the question, demonstrate your skills rather than writing as though you pulled the answer out of your butt**. Answering one good question is like feeding a hungry person one meal, but teaching them research skills by example is showing them how to grow food for a lifetime.
 
 ---
 {: data-content="footnotes"}
