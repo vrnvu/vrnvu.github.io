@@ -8,8 +8,7 @@ Tutorial on Good Lisp Programming style. (1993)
 
 Peter Norvig.
 
----
-{: data-content="What is good style?"}
+# What is good style?
 
 ## Good programming style
 
@@ -252,8 +251,7 @@ Strike a balance between tolerance and pickiness that is appropiate to your apll
 - Don't presuppose the debugger's user interface in describing how to continue. This may cause portablity problems since different implementations use differnet interfaces.
 - Specify enough detail in the message to ditnguish it from other errors, and if you can, enough to help you debug the problem later if it happens
 
----
-{: data-content="Abstraction"}
+# Abstraction
 
 All programming languages allow the programmer to define *abstractions*. All modern languages provide support for:
 
@@ -387,8 +385,7 @@ Good to use if it fills a hole in orthogonality of your lang.
 - Obeys declarations, returns
 - Extends established syntax with keyboards
 
----
-{: data-content="Programming in the large"}
+# Programming in the large
 
 Be aware of stages of software development:
 
@@ -441,8 +438,7 @@ But be aware that you or someone else may want to use it in another environment 
 - Be careful with declarations. Incorrect declaratoins can break code
 - One-to-one correspondence
 
----
-{: data-content="Miscellaneous"}
+# Miscellaneous
 
 > Expect the unexpected
 
