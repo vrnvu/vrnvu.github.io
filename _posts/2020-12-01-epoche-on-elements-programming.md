@@ -8,13 +8,12 @@ Elements of programming style. (1974)
 
 Brian Kernighan and P.J Plauger
 
----
-{: data-content="Introduction"}
+# Introduction
 
 > Write clearly - don't be to clever.
 
----
-{: data-content="Expression"}
+
+# Expression
 
 > Say what you mean, simply and directly.
 
@@ -59,8 +58,7 @@ Use the right tool for the job.
 
 Think in expressions. Write with expressions. Always.
 
----
-{: data-content="Control structure"}
+# Control structure
 
 > Delimit group of statements.
 
@@ -95,8 +93,7 @@ Data oriented programming. Data first. Data moves your code.
 
 Forth philosophy. Thinking Forth.
 
----
-{: data-content="Program structure"}
+# Program structure
 
 > Modularize. Use subroutines.
 
@@ -157,8 +154,7 @@ If your code can recover it's well written.
 
 Limit side effects in the process.
 
----
-{: data-content="Common blunders"}
+# Common blunders
 
 > Make sure all variables are initialized before use.
 
@@ -186,8 +182,7 @@ Algorithm design code smell.
 
 > 10.0 times 0.1 is hardly ever 1.0.
 
----
-{: data-content="Efficiency and insturmentation"}
+# Efficiency and insturmentation
 
 > Make it right before you make it faster.
 
@@ -224,8 +219,7 @@ Algorithm design code smell.
 Code so it's easy to test. Code so it's easy to benchmark.
 
 
----
-{: data-content="Documentation"}
+# Documentation
 
 > Make sure comments and code agree.
 
