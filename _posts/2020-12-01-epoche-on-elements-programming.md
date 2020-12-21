@@ -182,7 +182,7 @@ Algorithm design code smell.
 
 > 10.0 times 0.1 is hardly ever 1.0.
 
-# Efficiency and insturmentation
+# Efficiency
 
 > Make it right before you make it faster.
 
