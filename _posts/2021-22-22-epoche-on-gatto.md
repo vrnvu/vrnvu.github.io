@@ -62,4 +62,7 @@ I assign "homework" so that this surveillance extends into the household, where 
 
 The lesson of constant surveillance is that no one can be trusted, that privacy is not legitimate. Surveillance is an ancient urgency among certain influential thinkers; it was a central prescription set down by Calvin in the Institutes, by Plato in the Republic, by Hobbes, by Comte, by Francis Bacon. All these childless men discovered the same thing: Children must be closely watched if you want to keep a society under central control. 
 
+---
+{: data-content="footnotes"}
+
 [^1]: *Thanks to Nathan Myers* [gatto](https://www.cantrip.org/gatto.html)
