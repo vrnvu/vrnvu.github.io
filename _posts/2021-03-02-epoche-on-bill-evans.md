@@ -33,8 +33,8 @@ The whole process of learning the facility to play jazz, is to **take these prob
 
 Additional reading.
 
-[^1]: *Animation resources* [animation resources](https://animationresources.org/theory-bill-evans-on-the-creative-process-and-self-teaching/)
+[animation resources](https://animationresources.org/theory-bill-evans-on-the-creative-process-and-self-teaching/)
 
-[^2]: *brain picknigs* [brain picknigs](https://www.brainpickings.org/2014/10/30/the-universal-mind-of-bill-evans/)
+[brain picknigs](https://www.brainpickings.org/2014/10/30/the-universal-mind-of-bill-evans/)
 
-[^3]: *presentationzen* [presentationzen](https://www.presentationzen.com/presentationzen/2016/05/the-creative-process.html)
+[presentationzen](https://www.presentationzen.com/presentationzen/2016/05/the-creative-process.html)
