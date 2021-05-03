@@ -10,7 +10,7 @@ How To Ask Questions The Smart Way [^1], by ESR.
 
 Notes, commentary and personal adaptation.
 
-# Before you ask
+## Before you ask
 
 Before asking a techincal question:
 
@@ -40,118 +40,91 @@ Never assume you are entitled to an answer.
 
 On the other hand, making it clear that you are able and willing to help in the process of developing the solution is a very good start. **“Would someone provide a pointer?”, “What is my example missing?”, and “What site should I have checked?”** are more likely to get answered than “Please post the exact procedure I should use.” because you're making it clear that you're truly willing to complete the process if someone can just point you in the right direction.
 
-# When you ask
+## When you ask
 
-## Choose your forum carefully
+- **Choose your forum carefully**: Don't ask a technical questions in the wrong forum.
 
-Don't ask a technical questions in the wrong forum.
+- **Don't trust stack overflow**: People post easy to copy and paste code but don't explain the answer. Deprecated answers for frameworks and libraries. Low quality explanations missing the fundamentals. Take all the answers with a grain of salt.
 
-## Don't trust stack overflow
+- **Web and IRC forums, Slack**: If you can interact with the main developers of an open source project do it. You can assert their knowladge in the problem.
 
-People post easy to copy and paste code but don't explain the answer. Deprecated answers for frameworks and libraries. Low quality explanations missing the fundamentals. Take all the answers with a grain of salt.
+- **Use meaningful, specific subject headers**: Be SMART, specific in versions and errors. Use key words.
 
-## Web and IRC forums, Slack
+- **Make it easy to reply**
 
-If you can interact with the main developers of an open source project do it. You can assert their knowladge in the problem.
+- **Write in clear, grammatical, correctly-spelled language**
 
-## Use meaningful, specific subject headers
+- **Send question in accesible, standard formats**: Open source projects usually have templates for issues. Use them. Adopt them in your own projects.
 
-Be SMART, specific in versions and errors. Use key words.
+- **Be precise and infromative about your problem**:
 
-## Make it easy to reply
+    - Describe the symptoms of your problem or bug carefully and clearly.
 
-## Write in clear, grammatical, correctly-spelled language
+    - Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).
 
-## Send question in accesible, standard formats
+    - Describe the research you did to try and understand the problem before you asked the question.
 
-Open source projects usually have templates for issues. Use them. Adopt them in your own projects.
+    - Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
 
-## Be precise and infromative about your problem
+    - Describe any possibly relevant recent changes in your computer or software configuration.
 
-- Describe the symptoms of your problem or bug carefully and clearly.
+    - If at all possible, provide a way to reproduce the problem in a controlled environment. 
 
-- Describe the environment in which it occurs (machine, OS, application, whatever). Provide your vendor's distribution and release level (e.g.: “Fedora Core 7”, “Slackware 9.1”, etc.).
+- **Don't rush to claim that you have found a bug**: When you are having problems with a piece of software, don't claim you have found a bug unless you are very, very sure of your ground. 
 
-- Describe the research you did to try and understand the problem before you asked the question.
+    - *Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.*
 
-- Describe the diagnostic steps you took to try and pin down the problem yourself before you asked the question.
+- **Describe the problem's symptoms, not your guesses**: Another example of [^2]. It's not useful to tell hackers what you think is causing your problem. So, make sure you're telling them the raw symptoms of what goes wrong, rather than your interpretations and theories. Let them do the interpretation and diagnosis. If you feel it's important to state your guess, clearly label it as such and describe why that answer isn't working for you.
 
-- Describe any possibly relevant recent changes in your computer or software configuration.
+- **Describe your problem's symptoms in chronological order**: The clues most useful in figuring out something that went wrong often lie in the events immediately prior. So, your account should describe precisely what you did, and what the machine and software did, leading up to the blowup. 
 
-- If at all possible, provide a way to reproduce the problem in a controlled environment. 
+- **Describe the goal, not the step**: If you are trying to find out how to do something (as opposed to reporting a bug), begin by describing the goal. Only then describe the particular step towards it that you are blocked on.
 
-## Don't rush to claim that you have found a bug
+- **Be explicit about your question**: Open-ended questions tend to be perceived as open-ended time sinks. Those people most likely to be able to give you a useful answer are also the busiest people (if only because they take on the most work themselves). 
 
-When you are having problems with a piece of software, don't claim you have found a bug unless you are very, very sure of your ground. 
+    You are more likely to get a useful response if you are explicit about what you want respondents to do (provide pointers, send code, check your patch, whatever). This will focus their effort and implicitly put an upper bound on the time and energy a respondent must allocate to helping you. This is good.
 
-*Hint: unless you can provide a source-code patch that fixes the problem, or a regression test against a previous version that demonstrates incorrect behavior, you are probably not sure enough. This applies to webpages and documentation, too; if you have found a documentation “bug”, you should supply replacement text and which pages it should go on.*
+- **When asking about code**: The most effective way to be precise about a code problem is to **provide a minimal bug-demonstrating test case**. How do you make a minimal test case? If you know what line or section of code is producing the problematic behavior, make a copy of it and add just enough supporting code to produce a complete example. If you can't narrow it down to a particular section, make a copy of the source and start removing chunks that don't affect the problematic behavior. **The smaller your minimal test case is, the better*.
 
-## Describe the problem's symptoms, not your guesses
+    Generating a really small minimal test case will not always be possible, but trying to is good discipline. It may help you learn what you need to solve the problem on your own — and even when it doesn't, hackers like to see that you have tried. It will make them more cooperative.
 
-Another example of [^2]. It's not useful to tell hackers what you think is causing your problem. So, make sure you're telling them the raw symptoms of what goes wrong, rather than your interpretations and theories. Let them do the interpretation and diagnosis. If you feel it's important to state your guess, clearly label it as such and describe why that answer isn't working for you.
+    If you simply want a code review, say as much up front, and be sure to mention what areas you think might particularly need review and why.
 
-## Describe your problem's symptoms in chronological order
+- **Prune pointless queries**
 
-The clues most useful in figuring out something that went wrong often lie in the events immediately prior. So, your account should describe precisely what you did, and what the machine and software did, leading up to the blowup. 
+- **Courtesy never hurts, and sometimes helps**: Please, Thank you.
 
-## Describe the goal, not the step
+- **Follow up with a brief note on the solution**: When you already found a valid solution or explored a hint, update your original question to let the people who helped you know what the answer was. Let your research be useful.
 
-If you are trying to find out how to do something (as opposed to reporting a bug), begin by describing the goal. Only then describe the particular step towards it that you are blocked on.
+## How to interpret answers
 
-## Be explicit about your question
+- **RTFM**: If you are told to RTFM, then RTFM
 
-Open-ended questions tend to be perceived as open-ended time sinks. Those people most likely to be able to give you a useful answer are also the busiest people (if only because they take on the most work themselves).
+- **If you don't understand...**: If you don't understand the answer, do not immediately bounce back a demand for clarification. Use the same tools that you used to try and answer your original question (manuals, FAQs, the Web, skilled friends) to understand the answer. Then, if you still need to ask for clarification, **exhibit what you have learned**.
 
-You are more likely to get a useful response if you are explicit about what you want respondents to do (provide pointers, send code, check your patch, whatever). This will focus their effort and implicitly put an upper bound on the time and energy a respondent must allocate to helping you. This is good.
+- **Dealing with rudeness**: Much of what looks like rudeness in hacker circles is not intended to give offense. Rather, it's the product of the direct, cut-through-the-bullshit communications style that is natural to people who are more concerned about solving problems than making others feel warm and fuzzy.
 
-## When asking about code
+## Questions not to ask
 
-The most effective way to be precise about a code problem is to **provide a minimal bug-demonstrating test case**. How do you make a minimal test case? If you know what line or section of code is producing the problematic behavior, make a copy of it and add just enough supporting code to produce a complete example. If you can't narrow it down to a particular section, make a copy of the source and start removing chunks that don't affect the problematic behavior. **The smaller your minimal test case is, the better*.
+- Q: Where can I find program or resource X?
 
-Generating a really small minimal test case will not always be possible, but trying to is good discipline. It may help you learn what you need to solve the problem on your own — and even when it doesn't, hackers like to see that you have tried. It will make them more cooperative.
+- Q: How can I use X to do Y?
 
-If you simply want a code review, say as much up front, and be sure to mention what areas you think might particularly need review and why.
+- Q: How can I configure my shell prompt?
 
-## Prune pointless queries
+- Q: Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter?
 
-## Courtesy never hurts, and sometimes helps
+- Q: My {program, configuration, SQL statement} doesn't work
 
-## Follow up with a brief note on the solution
+- Q: I'm having problems with my Windows machine. Can you help?
 
-# How to interpret answers
+- Q: My program doesn't work. I think system facility X is broken.
 
-## RTFM 
+- Q: I'm having problems installing Linux or X. Can you help?
 
-If you are told to RTFM, then RTFM
+- Q: How can I crack root/steal channel-ops privileges/read someone's e-mail?
 
-## If you don't understand...
-
-If you don't understand the answer, do not immediately bounce back a demand for clarification. Use the same tools that you used to try and answer your original question (manuals, FAQs, the Web, skilled friends) to understand the answer. Then, if you still need to ask for clarification, **exhibit what you have learned**.
-
-## Dealing with rudeness
-Much of what looks like rudeness in hacker circles is not intended to give offense. Rather, it's the product of the direct, cut-through-the-bullshit communications style that is natural to people who are more concerned about solving problems than making others feel warm and fuzzy.
-
-# Questions not to ask
-
->Q: Where can I find program or resource X?
-
->Q: How can I use X to do Y?
-
->Q: How can I configure my shell prompt?
-
->Q: Can I convert an AcmeCorp document into a TeX file using the Bass-o-matic file converter?
-
->Q: My {program, configuration, SQL statement} doesn't work
-
->Q: I'm having problems with my Windows machine. Can you help?
-
->Q: My program doesn't work. I think system facility X is broken.
-
->Q: I'm having problems installing Linux or X. Can you help?
-
->Q: How can I crack root/steal channel-ops privileges/read someone's e-mail?
-
-# How to answer questions in a helpful way
+## How to answer questions in a helpful way
 
 - **Be gentle**. Problem-related stress can make people seem rude or stupid even when they're not.
 
