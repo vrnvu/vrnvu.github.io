@@ -133,7 +133,7 @@ Parnas proposes two criteria for decomposition:
 
 This new view of a “module” is different than the traditional view. This “module” is a collection of routines, usually very small, which together hide information about some aspect of the problem.
 
-Two other writers describe the same idea in a diﬀerent way, using the term “data abstraction” [^4].
+Two other writers describe the same idea in a diﬀerent way, using the term “data abstraction” [^5].
 
 The word uses plays an important role in this concept.
 
@@ -176,4 +176,4 @@ This is **not** what we’re concerned about. The purpose of hiding information,
 [^1]: *O.J. Dahl, E.W. Dijkstra, and C.A.R. Hoare, Structured Programming, London, Academic Press, 1972.* [strctured-programming](https://dl.acm.org/doi/book/10.5555/1243380) 
 [^2]: *Niklaus Wirth, “Program Development by Stepwise Reﬁnement,” Communications of ACM, 14, No. 4 (1971), 221-27.* [refinement-development](https://dl.acm.org/doi/10.1145/357980.358010) 
 [^3]: *W.P. Stevens, G.J. Myers, and L.L. Constantine, “Structured Design,” IBM Systems Journal, Vol. 13, No. 2, 1974.* [structured-design](https://dret.net/biblio/reference/ste74) 
-[^4]: *B.Liskov, S. Zilles, "Specification techniques for data abstractions"* [data-abstraction](https://dl.acm.org/doi/abs/10.1145/800027.808426) 
+[^4]: *B.Liskov, S. Zilles, "Specification techniques for data abstractions* [data-abstraction](https://dl.acm.org/doi/abs/10.1145/800027.808426) 
