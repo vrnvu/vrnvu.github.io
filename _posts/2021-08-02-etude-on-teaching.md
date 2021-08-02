@@ -84,6 +84,35 @@ The term computational thinking is bandied about a lot, in part because people c
 12. When the function finishes, Python erases its stack frame and jumps backs to the instructions it was executing before the function call. If there isn’t a “before,” the program has finished.
 
 
+# Expertise and Memory
+
+The key difference between experts and competent practitioners is that experts’ mental models are much more densely connected, i.e. they are more likely to know a connection between any two facts.
+
+The graph metaphor explains why helping learners make connections is as important as introducing them to facts: without those connections, people can’t recall and use what they know. It also explains many observed aspects of expert behavior:
+
+- **Experts can often jump directly from a problem to a solution because there actually is a direct link between the two in their mind**. Where a competent practitioner would have to reason A → B → C → D → E, an expert can go from A to E in a single step. We call this intuition: instead of reasoning their way to a solution, the expert recognizes a solution in the same way that they would recognize a familiar face.
+
+- Densely-connected graphs are also the basis for experts’ **fluid representations**, i.e. their ability to switch back and forth between different views of a problem.
+
+- This metaphor also explains why experts are better at diagnosis than competent practitioners: **more linkages between facts makes it easier to reason backward from symptoms to causes.**
+
+- Finally, experts are often so familiar with their subject that **they can no longer imagine what it’s like to not see the world that way.**
+
+## Pattern Recognition
+
+Recent research suggests that the actual size of short-term memory might be as low as 4±1 items.
+
+Experts have more and larger chunks than non-experts, i.e. experts “see” larger patterns and have more patterns to match things against. This allows them to reason at a higher level and to search for information more quickly and more accurately.
+
+# Becoming an Expert
+
+So how does someone become an expert? The idea that ten thousand hours of practice will do it is widely quoted but probably not true: doing the same thing over and over again is much more likely to solidify bad habits than improve performance. What actually works is doing similar but subtly different things, paying attention to what works and what doesn’t, and then changing behavior in response to that feedback to get cumulatively better. This is called deliberate or reflective practice, and a common progression is for people to go through three stages:
+
+- **Act on feedback from others.**
+
+- **Give feedback on others’ work.**
+
+- **Give feedback to themselves.**
 
 ---
 {: data-content="footnotes"}
