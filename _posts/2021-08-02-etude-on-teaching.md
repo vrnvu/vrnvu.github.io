@@ -14,7 +14,7 @@ How to create and deliver lessons that work and build a teaching community aroun
 
 The first task in teaching is to figure out who your learners are.
 
-- **Novies:** don’t know what they don’t know, i.e. they don’t yet have a usable mental model of the problem domain. 
+- **Novices:** don’t know what they don’t know, i.e. they don’t yet have a usable mental model of the problem domain. 
 
 - **Competent practitioners:** have a mental model that’s adequate for everyday purposes. They can do normal tasks with normal effort under normal circumstances, and have some understanding of the limits to their knowledge (i.e. they know what they don’t know). 
 
@@ -28,7 +28,7 @@ Presenting a novice with a pile of facts is counter-productive because they don�
 
 Your goal when teaching novices should therefore be to help them construct a mental model so that they have somewhere to put facts. 
 
-# Are People Learning?
+## Are People Learning?
 
 Mark Twain once wrote, “It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.” One of the exercises in building a mental model is therefore to clear away things that don’t belong. Broadly speaking, novices’ misconceptions fall into three categories:
 
@@ -46,7 +46,7 @@ The counterpoint to formative assessment is summative assessment, which takes pl
 
 Unfortunately, school has trained most people to believe that all assessment is summative.
 
-# Notional Machines
+## Notional Machines
 
 The term computational thinking is bandied about a lot, in part because people can agree it’s important while meaning very different things by it. Rather than arguing over what it does and doesn’t include, it’s more useful to think about the notional machine that you want learners to understand. A notional machine:
 
@@ -104,7 +104,7 @@ Recent research suggests that the actual size of short-term memory might be as l
 
 Experts have more and larger chunks than non-experts, i.e. experts “see” larger patterns and have more patterns to match things against. This allows them to reason at a higher level and to search for information more quickly and more accurately.
 
-# Becoming an Expert
+## Becoming an Expert
 
 So how does someone become an expert? The idea that ten thousand hours of practice will do it is widely quoted but probably not true: doing the same thing over and over again is much more likely to solidify bad habits than improve performance. What actually works is doing similar but subtly different things, paying attention to what works and what doesn’t, and then changing behavior in response to that feedback to get cumulatively better. This is called deliberate or reflective practice, and a common progression is for people to go through three stages:
 
