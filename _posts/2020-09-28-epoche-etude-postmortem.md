@@ -4,9 +4,6 @@ title: Epoche. Etude. Postmortem.
 slug: epoche-etude-postmortem 
 ---
 
-To the people who constantly asked me for the blog non-stop, here it is.
-
-The three main pillars on which I will elaborate all my posts and structure all the blog publication are the following:
 
 ---
 {: data-content="epoche"}

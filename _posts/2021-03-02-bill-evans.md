@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Epoche on Bill Evans
-slug: epoche-on-bill-evans
+title: Bill Evans
+slug: bill-evans
 ---
 
 # Bill Evans

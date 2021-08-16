@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Etude on teaching I
-slug: etude-on-teaching-part-i
+title: Teaching I
+slug: teaching-part-i
 ---
 
 # Teaching

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Epoche on elements of programming 
-slug: epoche-on-elements
+title: Elements of Programming 
+slug: elements-of-programming
 ---
 
 Elements of programming style. (1974)

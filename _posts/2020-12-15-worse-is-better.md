@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Epoche on worse is better
-slug: epoche-on-worse-is-better
+title: Worse is Better
+slug: worse-is-better
 ---
 
 # Worse is better

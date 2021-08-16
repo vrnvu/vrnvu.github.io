@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Epoche on unix philosohphy
-slug: epoche-on-unix philosohphy
+title: Unix Philosohphy
+slug: unix-philosohphy
 ---
 
 # Basics of the Unix Philosophy

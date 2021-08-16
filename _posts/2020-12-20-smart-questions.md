@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Epoche on smart questions
-slug: epoche-on-smart-questions
+title: Smart Questions
+slug: smart-questions
 ---
 
 # Smart questions
