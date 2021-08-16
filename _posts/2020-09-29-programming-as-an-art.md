@@ -6,6 +6,8 @@ slug: programming-as-an-art
 
 # Programming as an Art
 
+Art as skill, as technique. The lost meaning of the XXI century. [^1]
+
 ## The Arts of Old
 
 If we go back to the latin roots, we find ars, artis, meaning "skill". It is perhaps significant that the corresponding Greek word was τέχνη, the root of both "techonlogy" and "technique".
