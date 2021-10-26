@@ -10,7 +10,9 @@ This is an old essay I wrote in 2019 on how to learn anything. It's based on som
 
 ## Graphs, pyramids and trees
 
-Knowledge is a graph. Each node represents an entry on your brain. The more nodes you add to your brain the richer you become. For the purpose of visualization is also useful to think in a pyramid or a tree. You build your ideas from fundamentals and build in top of them. A learning framework would be an ordered methodology to build this pyramid. Two frameworks exists:  Bottom-up, from fundamentals to applications.  Top-down, from application to fundamentals. Let's see some examples.
+Knowledge is a graph. Each node represents an entry on your brain. The more nodes you add to your brain the richer you become. For the purpose of visualization is also useful to think in a pyramid or a tree. You build your ideas from fundamentals and build in top of them. A learning framework would be an ordered methodology to build this pyramid. 
+
+Two frameworks exists:  Bottom-up, from fundamentals to applications.  Top-down, from application to fundamentals. Let's see some examples.
 
 -  You read theory in a C book and you make a little program to test your knowledge. For example the topic could be manual memory management, allocation. Classical bottom up learning. From reading to writing. From theory to practice. 
 
