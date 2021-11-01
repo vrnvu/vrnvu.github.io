@@ -46,9 +46,9 @@ Let's start. You should first learn Basic and then C. Why? Because the list is i
 
 If your langauge of choice is not in the list, does it mean that it's not worth learning? Probably yes. 
 
-But here is a list of HMs: ADA, ATS, Coq, Haskell, Idris, Julia, Lean, Mercury, Nim, Shen, Zig
+But here is a list of HMs: ADA, ATS, Coq, Haskell, Idris, Julia, Lean, Mercury, Nim, Shen, Zig.
 
 ---
 {: data-content="footnotes"}
 
-[^1]: *Peter Norvig, teach yourself programming in 10 years*[21-days](https://norvig.com/21-days.html)
+[^1]: *Peter Norvig, teach yourself programming in 10 years* [21-days](https://norvig.com/21-days.html)
