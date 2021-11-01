@@ -22,7 +22,9 @@ I want to learn because I'm starting this new job or I want to change my career:
 
 ## Now really, what language should I learn next?
 
-This is my opinion. Others[^1] opinions exists obviously. I will add some explanations. You should start with C. Or Basic if you feeling fancy. Why? Because the list is in alphabetical order and I would not recommend APL to my worst enemy.
+This is my opinion. This is a list of langauges that are worth learning on 2021. Others[^1] opinions have been stated in the past obviously. They are outdated but I encourage you to also read others suggestions. 
+
+Let's start. You should first learn Basic and then C. Why? Because the list is in alphabetical order and I would not recommend APL to my worst enemy.
 
 - **Basic**:
 
@@ -41,6 +43,8 @@ This is my opinion. Others[^1] opinions exists obviously. I will add some explan
 - **Racket**:
 
 - **Rust**:
+
+If it's not in the list, does it mean that it's not worth learning? Probably yes. There are exceptions like the LISP family, which will be mentioned if they are worthy.
 
 ---
 {: data-content="footnotes"}
