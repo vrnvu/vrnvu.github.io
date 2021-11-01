@@ -30,7 +30,7 @@ Let's start. You should first learn Basic and then C. Why? Because the list is i
 
 - **C**: Introduction to memory management and systems programming.
 
-- **Elixir**: I recommend it over Erlang simply because it's contemporary. The VM is gorgeus. Elixir is real OOP.
+- **Elixir**: I recommend it over Erlang simply because it's contemporary. The VM is gorgeus. Elixir is real OOP. If you want to learn OOP this should be your choice.
 
 - **Forth**: Thinking Fourth. Forth Philosophy. 
 
