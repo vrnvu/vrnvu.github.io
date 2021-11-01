@@ -26,25 +26,27 @@ This is my opinion. This is a list of langauges that are worth learning on 2021.
 
 Let's start. You should first learn Basic and then C. Why? Because the list is in alphabetical order and I would not recommend APL to my worst enemy.
 
-- **Basic**:
+- **Basic**: Should be your first language.
 
-- **C**:
+- **C**: Introduction to memory management and systems programming.
 
-- **Elixir**:
+- **Elixir**: I recommend it over Erlang simply because it's contemporary. The VM is gorgeus. Elixir is real OOP.
 
-- **Forth**:
+- **Forth**: Thinking Fourth. Forth Philosophy. 
 
-- **Go**:
+- **Go**: Enterprise every day language that I recommend. Also CSP.
 
-- **J or Kona**:
+- **J or Kona**: Data models.
 
-- **Ocaml**:
+- **Ocaml**: A good language and a good type system.
 
-- **Racket**:
+- **Racket**: To learn functional programming you need LISP. HMs: Scheme and Clojure. 
 
-- **Rust**:
+- **Rust**: Functional programming applied in memory management.
 
-If it's not in the list, does it mean that it's not worth learning? Probably yes. There are exceptions like the LISP family, which will be mentioned if they are worthy.
+If your langauge of choice is not in the list, does it mean that it's not worth learning? Probably yes. 
+
+But here is a list of HMs: ADA, ATS, Coq, Haskell, Idris, Julia, Lean, Mercury, Nim, Shen, Zig
 
 ---
 {: data-content="footnotes"}
