@@ -40,6 +40,8 @@ Let's start. You should first learn Basic, and then C. Why? Because the list is 
 
 - **Ocaml**: A good language and a good type system.
 
+- **Prolog**: Has been requested to be added to the list.
+
 - **Racket**: To learn functional programming you need LISP. HMs: Scheme and Clojure. 
 
 - **Rust**: Functional programming applied in memory management.
