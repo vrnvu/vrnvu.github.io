@@ -2,7 +2,7 @@
 #================ Docs: https://github.com/isunjn/serene/wiki ============================
 #=========================================================================================
 
-base_url = "https://arnaudiaz.com" # The domain of your site
+base_url = "https://www.arnaudiaz.com" # The domain of your site
 title = "arnau diaz"
 description = "epokhe"
 default_language = "en"
