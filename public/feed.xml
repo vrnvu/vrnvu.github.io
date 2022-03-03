@@ -4,52 +4,8 @@
 	<subtitle>epokhe</subtitle>
 	<link href="https://arnaudiaz.com/feed.xml" rel="self" type="application/atom+xml"/>
     <link href="https://arnaudiaz.com"/>
-	<updated>2022-02-28T00:00:00+00:00</updated>
+	<updated>2022-02-11T00:00:00+00:00</updated>
 	<id>https://arnaudiaz.com/feed.xml</id>
-	<entry xml:lang="en">
-		<title>postmortem oop</title>
-		<published>2022-02-28T00:00:00+00:00</published>
-		<updated>2022-02-28T00:00:00+00:00</updated>
-        <summary>&lt;hr &#x2F;&gt;
-&lt;p&gt;Object oriented design is dead. A bad practice. An anti-pattern. A red flag.&lt;&#x2F;p&gt;
-</summary>
-		<link href="https://arnaudiaz.com/blog/postmortem-oop/" type="text/html"/>
-		<id>https://arnaudiaz.com/blog/postmortem-oop/</id>
-		<content type="html">&lt;hr &#x2F;&gt;
-&lt;p&gt;Object oriented design is dead. A bad practice. An anti-pattern. A red flag.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;not-real-oop&quot;&gt;Not real OOP&lt;&#x2F;h1&gt;
-&lt;p&gt;First of all. Let&#x27;s make it clear. Java, C#, C++... They are not real OOP.  As Alan Kay said. Ironic.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;nothing-new&quot;&gt;Nothing new&lt;&#x2F;h1&gt;
-&lt;p&gt;OOP has been killed several times already &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. What is sad to me is that we don&#x27;t learn from our past mistakes.&lt;&#x2F;p&gt;
-&lt;p&gt;My favourite killer. Peter. He did not only address OOP but also killed the gang of four nerds &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. If you are in touch with him could you please ask him to kill the Functional Programming evangelist too? They are getting a little bit out of hand. Thanks.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;a-lie&quot;&gt;A lie&lt;&#x2F;h1&gt;
-&lt;p&gt;Object Oriented is not intended to design how the world looks like. Code SHOULD NEVER be designed around the real world. If we have a car, we don&#x27;t need a Car class &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#3&quot;&gt;3&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. How did you reach such a wrong statement?&lt;&#x2F;p&gt;
-&lt;p&gt;The general recommendations I give to my students who fall into this trap. Unlearn everything you think you know about programming. Then. Start again. &lt;&#x2F;p&gt;
-&lt;h1 id=&quot;inheritance&quot;&gt;Inheritance&lt;&#x2F;h1&gt;
-&lt;p&gt;Don&#x27;t. Inheritance was invented as a performance hack &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#4&quot;&gt;4&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. We are over that phase. You should too. If you don&#x27;t understand hardware or software. Go back to school. I&#x27;m always learning myself. It&#x27;s great.&lt;&#x2F;p&gt;
-&lt;p&gt;In a similar note, you also don&#x27;t know what polymorphism really means or how it is implemented. And don&#x27;t start a math discussion on this. Code doesn&#x27;t run on your burritos. We are not talking about that most of the times anyway.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;an-object&quot;&gt;An object&lt;&#x2F;h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Data + State Management + Inheritance + Namespace + Polymorphic Dispatch&lt;&#x2F;p&gt;
-&lt;&#x2F;blockquote&gt;
-&lt;p&gt;Everything.  Mixed together.  In one place.  Wow. &lt;&#x2F;p&gt;
-&lt;p&gt;Does it sound like the SOLID principles OOP evangelists try to sell? Ironic.&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
-&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
-&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
-&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;loup-vaillant.fr&#x2F;articles&#x2F;deaths-of-oop&quot;&gt;deaths-of-oop&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;div&gt;
-&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
-&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;norvig.com&#x2F;design-patterns&#x2F;&quot;&gt;design-patterns&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;div&gt;
-&lt;div class=&quot;footnote-definition&quot; id=&quot;3&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;3&lt;&#x2F;sup&gt;
-&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;cellperformance.beyond3d.com&#x2F;articles&#x2F;2008&#x2F;03&#x2F;three-big-lies.html&quot;&gt;Three-Big-Lies&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;div&gt;
-&lt;div class=&quot;footnote-definition&quot; id=&quot;4&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;4&lt;&#x2F;sup&gt;
-&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;catern.com&#x2F;inheritance.html&quot;&gt;inheritance&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;&#x2F;div&gt;
-</content>
-	</entry>
 	<entry xml:lang="en">
 		<title>traits of a good programmer</title>
 		<published>2022-02-11T00:00:00+00:00</published>
