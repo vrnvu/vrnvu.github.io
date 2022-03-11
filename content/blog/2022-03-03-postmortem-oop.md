@@ -1,7 +1,7 @@
 +++
 title = "postmortem oop"
 date = 2022-02-28
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["programming"]
