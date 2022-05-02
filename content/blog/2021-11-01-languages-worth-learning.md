@@ -18,23 +18,11 @@ mermaid = false
 
 # What language should I learn next?
 
-A couple of entries about learning have been posted in the blog. If you have read them, you will have noticed how the context and the personal motivation matters. Start with the why. Find your final goal and set small objectives that will help you reach it. Knowing why we want to achieve something is the first step to obtain it. So, let me answer your question with another question to guide you:
+>"A language that doesn't affect the way you think about programming, is not worth knowing." Alan Parlis
 
 <!-- more -->
 
-Why do you want to learn a new language in the first place? Well, it turns out that the answer will always depend on two factors, your current context and your motivation. Everyone one has a context, our situation, the external factors that define our life. Paying the rent, saving money for emergencies, parenthood... And everyone also has motivations which are moved by internal thoughts. Who I want to be in life? Where I want to be in the next years? What are my hobbies and who I spend my time with? 
-
-Going back to our initial question. Most people program as a job or as a hobby or as both. Therefore, unless more details are provided we will get two answers from one question.
-
-I want to learn for the sake of learning:
-
->"A language that doesn't affect the way you think about programming, is not worth knowing." Alan Parlis
-
-I want to learn because I'm starting this new job or I want to change my career:
-
->"Don't worry. you will learn it at work." Everyone
-
-## Now really, what language should I learn next?
+## What language should I learn next?
 
 This is my opinion. This is a list of languages that are worth learning on 2021. Others[^1] opinions have been stated in the past obviously. They are outdated, but I encourage you to also read others suggestions. 
 
@@ -56,13 +44,19 @@ Let's start. You should first learn Basic, and then C. Why? Because the list is 
 
 - **Prolog**
 
-- **Racket**
+- **Racket or Scheme**
 
 - **Rust**
 
+- **Zig**
+
 If your langauge of choice is not in the list, does it mean that it's not worth learning? Probably yes. 
 
-But here is a list of HMs: ADA, ATS, Coq, Haskell, Idris, Julia, Lean, Mercury, Nim, Shen, Zig.
+But here is a list of HMs: ADA, ATS, Coq, Haskell, Idris, Julia, Lean, Mercury, Nim, Shen.
+
+Note that C is in the list for two reasons. To understand kernel programming. To understand why is to so bad.
+
+Note that sometimes I recommend a contemporary alternative, others the old school. It does not matter. Learn about both and their differences.
 
 ---
 # footnotes
