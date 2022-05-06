@@ -16,6 +16,8 @@ mermaid = false
 +++
 ---
 
+[![engineers as gardeners](https://www.housedigest.com/img/gallery/why-you-should-never-plant-seeds-in-wet-soil/be-careful-with-the-soil-1624023592.jpg)]
+
 There is a common belief in our culture about making software. In the same way as one imagines an architect working. You know, designing the building, in all its details, and then having that constructed. We've built an entire school of thought around the concept of software architecture. Like many people, I had assumed that we develop a product by following these principles. Indeed there was a point in the mid of the century XX century where we needed it. But things evolve.
 
 A century later we are constantly fighting to shape the landscapes of our culture. Nobody wants to admit that things have changed. What once was right now doesn't have a meaning to exist. And we have built a lot on top of our past beliefs. But all things must end. We come from a time when shipping a new version literally meant shipping it. Putting the new floppy disks in a box, load the truck and send it to our clients. Where new releases or patches were yearly releases. Where bug fixes were sent with the "urgent" tape on the envelope. Ponder about this for a second. Nowadays we are releasing changes straight to production multiple times per a day. How things have changed. We are already a couple of decades into the era of cloud computing. Microservices architectures in the form of service meshes. Or in the form of giant pub/sub orchestrations. Most of them started from a quick MVP written in Python or Javascript. So yes, things have changed. And will continue to do so.
