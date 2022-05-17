@@ -24,9 +24,7 @@ mermaid = false
 
 ## What language should I learn next?
 
-This is my opinion. This is a list of languages that are worth learning on 2021. Others[^1] opinions have been stated in the past obviously. They are outdated, but I encourage you to also read others suggestions. 
-
-Let's start. You should first learn Basic, and then C. Why? Because the list is in alphabetical order and I would not recommend APL to my worst enemy.
+You should first learn Basic, and then C. Why? Because the list is in alphabetical order and I would not recommend APL to my worst enemy.
 
 - **Basic**
 
@@ -57,8 +55,3 @@ But here is a list of HMs: ADA, ATS, Coq, Haskell, Idris, Julia, Lean, Mercury, 
 Note that C is in the list for two reasons. To understand kernel programming. To understand why is to so bad.
 
 Note that sometimes I recommend a contemporary alternative, others the old school. It does not matter. Learn about both and their differences.
-
----
-# footnotes
-
-[^1]: *Peter Norvig, teach yourself programming in 10 years* [21-days](https://norvig.com/21-days.html)
