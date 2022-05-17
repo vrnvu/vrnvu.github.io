@@ -1,6 +1,6 @@
 +++
 title = "java the good parts"
-date = 2022-02-28
+date = 2022-05-17
 draft = false
 
 [taxonomies]
