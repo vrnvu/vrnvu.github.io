@@ -73,7 +73,7 @@ How does the following example work? What does it print?
 9 }
 ```
 
-And what about this one?
+And what about this one? What does it print?
 
 ```rust
 1 var global = 0
@@ -81,10 +81,13 @@ And what about this one?
 3   f = foo()
 4   while (global != 3) {
 5     resume f
-6  }
-7 foo() {
-8   global++
-9 }
+6   }
+7   print(global)
+8 }
+8 foo() {
+9   global++
+10  suspend
+11}
 ```
 
 Then you have the keyword `await`. It will wait in the main instead of following the execution... It doesn't have any secret... instead of following the code it waits for the frame to return... This is a perfect fit for IO tasks for example, sometimes we do some work in the background sometimes we await the response!
