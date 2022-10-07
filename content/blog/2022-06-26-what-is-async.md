@@ -114,7 +114,7 @@ Does sync means that the execution of one function goes after the previous? It d
 
 So coroutine, from "cooperative". It is a cooperative routine because it returns the execution. We have a `suspend` in the body!
 
-If the scheduler can stop the execution from outside and give the CPU to another routine, then it would be a preemptive routine.  If it is not preemptive, the scheduler has to wait for the routine to finish and after its comletion it will start the new function.
+If the scheduler can stop the execution from outside and give the CPU to another routine, then it would be a preemptive routine.  If it is not preemptive, the scheduler has to wait for the routine to finish and after its completion it will start the new function.
 
-If it is a cooperative routine, the coroutine can do a `suspend` and return control. That's why it's called "cooperative" because it allows the scheduler to take control if required. This is what we call preemptive cooperative scheduling.
+So if it is a cooperative routine, the coroutine can do a `suspend` and return control. That's why it's called "cooperative" because it allows the scheduler to take control if required. If the scheduler can alsos uspend it, then we have what we call preemptive cooperative scheduling.
 
