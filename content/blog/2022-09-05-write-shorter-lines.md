@@ -19,11 +19,11 @@ mermaid = false
 
 # Long text lines
 
-Lately I've been re-visitng this email that Russ Cox wrote in 2008. Why? Because bad decissions stress me out more than bad code. In ugly days I start believing in the theory that some programmers write bad code on purpose to later maintain it. Let's write awful architectures so nobody else understands them. Well, the problem starts with writting long lines. Really it does. You start writting long lines and it snowballs into maitaining a 5k Haskell project that prints a `hello world`.
+Lately I've been re-visiting this email that Russ Cox wrote in 2008. Why? Because bad decisions stress me out more than bad code. I start believing in the theory that some programmers write bad code on purpose to later maintain it. Let's write awful architectures so nobody else understands them. Well, the problem starts with writing long lines. It does. You start writing long lines and it snowballs into maintaining a 5k Haskell project that prints a `hello world`.
 
 <!-- more -->
 
-I found this funny story in this post about Acme[^1]. Which touches some of the recurrent topics in software minimalsim, unix, forth philosophy and essentialism of engineering. I stop in the "Less is More" section and jump into the email that Russ Cox wrote answering some questions. I selected a few answers and removed unecessary text. I just want to focus in Russ answers. Let's jump into them:
+I found this funny story in this post about Acme[^1]. It touches some of the recurrent topics in software minimalism. Engineering essentialism. UNIX and forth philosophy. I stop in the "Less is More" section and jump into the email that Russ Cox wrote answering some questions. I selected a few answers and removed unnecessary text. I want to focus in Russ answers. Let's jump into them:
 
 ```
 > what is the Acme way of approaching it?
@@ -47,7 +47,7 @@ Can you see the space between this pharagraph and the previous? Took me millisec
 (...).  But again, just say no.
 ```
 
-Why someone needs all of these to write code in an editor? People use to write code in punch cards you know?
+Why someone needs all these to write code in an editor? People use to write code in punch cards you know?
 
 
 ```
@@ -60,7 +60,7 @@ Just say no. (...)
 Just say no.
 ```
 
-Again, why do you need all these tools to write text in a file? Why are all the questions about personal preference configurations? I could imagine someone reporting a bug in the editor. But, how are the lack of these features any bug? How is the lack of these features a problem?
+Again, why do you need all tools to write text in a file? Why are all the questions about personal preference configurations? I could imagine someone reporting a bug in the editor. But, how are the lack of these features any bug? How is the lack of these features a problem?
 
 ```
 > 09. Code folding
@@ -71,16 +71,16 @@ You're better off writing code that doesn't need folding
 to be read.
 ```
 
-This one is just funny. I love how Russ inserted
+This one is funny. I love how Russ inserted
 a new line.
 
 ## Don't make problems to solve problems
 
-The idea behind the message is that most of these problems are not real problems. If you are writting a CLI it doesn't matter the color of your syntax highlight or if you wrote the code in VIM or EMACS. The problem is to write a CLI to solve something right? What is the CLI going to do? It may seem obvious (or not) form the examples but when we starting to dig into more technical ideas people fall into a lot of traps. How many times an architecture design goes wrong? People just start throwing random problems that they don't even understand and make proposals to fix them. Let's see a good example and a bad one.
+The idea behind the message is that most of these problems are not real problems. If you are writing a CLI it doesn't matter the color of your syntax highlight or if you wrote the code in VIM or EMACS. The problem is to write a CLI to solve something right? What is the CLI going to do?
 
 A good example of this unix philosophy of not writting unecessary code is found the unix kernel[^3] itself. By Kernighan and Pike has to be one of my favourites examples. Page XXX.
 
-A bad example is probably most of your code and designs. 
+A bad example is most of your code and designs. 
 
 ## The best code is the one that you don't write
 
@@ -92,5 +92,7 @@ Overengineering starts with long lines of text.  Bad engineering starts when you
 # Footnotes
 
 [^1]: *Tao of acme* [acme](https://benghancock.github.io/blog/2022/tao-of-acme.html)
+
 [^2]: *Github nocode repository* [nocode](https://github.com/kelseyhightower/nocode)
+
 [^3]: *The unix programming environment* [unix programming environment](http://files.catwell.info/misc/mirror/the-unix-programming-environment-kernighan-pike.pdf)
