@@ -38,7 +38,8 @@ Imagine the following code snippet, we have a `main` and a `foo` corroutine that
 6 }
 ```
 
-I'm going to use the `async` keyword to indicate that `foo` will return us a pointer to the stackframe of the coroutine. This way from main you can return to where you were. Note that this behavior is normally only a convention, we could return more data about the coroutine if we wanted. And I'm going to use the `resume` keyword to indicate that I want to go back to the stackframe. Again, just some common syntax I invented.
+I'm going to use the `async` keyword to state that `foo` will return us a pointer to the stackframe of the coroutine. This way from main you can return to where you were. This behavior is only a convention, we could return more data about the coroutine if we wanted. And I'm going to use the `resume` keyword to state that I want to go back to the stackframe. Again, some common syntax I invented.
+
 
 ```rust
 1 main () {
@@ -98,7 +99,7 @@ Then you have the keyword `await`. It will wait in the main instead of following
 
 OMG this topic... Okay.
 
-Why do you need that the `async` things go with `async` and there are functions that can not be `async` as the main? Because if you are modifying memory and the code is executing it will come out to situations where you are pointing to uninitialized variables, if you don't do `await` and execute the code before the foo() that returned 2 at the end. What happens? it will print whatever you have in memory for the stack or pointer. Some things the compiler detects them as using the stack, but if you have an uninitialized pointer waiting for a value it will print garbage.
+Why do you need that the `async` things go with `async` and there are functions that can not be `async` as the main? Because when we manage memory there are situations where you could have uninitialized variables. If you don't do an `await` and execute the code before the foo() that returned 2 at the end. What happens? it will print whatever you have in memory for the stack or pointer. Some things the compiler detects them as using the stack, but if you have an uninitialized pointer waiting for a value it will print garbage.
 
 And at the end as you can see we are only using some pointers to execute the functions and coroutines. If you want to run it in one thread or in another... just write an scheduler! Whatever you need. As a conclusion I hope you understand that that parallelism has nothing to do with the coroutines.
 
