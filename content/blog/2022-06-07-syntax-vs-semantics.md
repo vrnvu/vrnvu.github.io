@@ -20,12 +20,11 @@ Ok. I'm tired of this topic.
 
 Two definitions quoting one of my favourite courses [^1].
 
-- **Syntax**. By syntax, we mean the rules that define what constitutes a textually well-formed program in the language, including the keywords, restrictions on whitespace and formatting, punctuation, operators, etc. 
+- **Syntax**. By syntax, we mean the rules that define what forms a well-formed program in the language. Including the keywords, restrictions on whitespace and formatting, punctuation, operators, etc. 
 
-- **Semantics**. By semantics, we mean the rules that define the behavior of programs. In other words, semantics is about the meaning of a program—what computation a particular piece of syntax represents. Note that although “semantics” is plural in form, we use it as singular. That’s similar to “mathematics” or “physics”.
+- **Semantics**. By semantics, we mean the rules that define the behavior of programs. In other words, semantics is about the meaning of a program—what computation a particular piece of syntax represents. Note that although “semantics” is plural in form, we use it as singular. That’s like “mathematics” or “physics”.
 
-
-So then, what is code readibility?
+So then, what is code readability?
 
 - Code readability = syntax that make semantics obvious.
 
