@@ -27,22 +27,20 @@ It turns out it is quite simple answer. A beginner should only focus on learning
 
 ## Operating systems
 
-OS, RAM, CPU, ROM, GPU, components of RAM/ROM, NUMA, architecture of the kernel, monolithic vs microkernel, I/O, syscalls, privilages 
+- OS, RAM, CPU, ROM, GPU, components of RAM/ROM, NUMA, architecture of the kernel, monolithic vs microkernel, I/O, syscalls, privilages 
 
 ## CPU
 
-CPU scheduling, processes, tasks, preemptive/non preemptive scheduling, scheduling algorithms
+- CPU scheduling, processes, tasks, preemptive/non preemptive scheduling, scheduling algorithms
 
 ## Tasks and processes syncronization
 
-Tasks, threads, processes, kernel vs user, M:N, IPC, deadlocks, shared memory, sockets, CSP, lockfree 
+- Tasks, threads, processes, kernel vs user, M:N, IPC, deadlocks, shared memory, sockets, CSP, lock free vs wait free
 
 ## Memory management and disk management
 
-Allocation, swap, virtual memory, pages and faults, segmentation, partitions, static/dynamic linking, tracing memory, file systems, structures, disk scheduling
+- Allocation, swap, virtual memory, pages and faults, segmentation, partitions, static/dynamic linking, tracing memory, file systems, structures, disk scheduling
 
 ## Networking
 
-Types of networks, data link, transport, application, compression, security and cryptography, distributed system, distributed algortihms
-
-**Note**: One day I will clean this list so it's more compact and memorable.
+- Types of networks, data link, transport, application, compression, security and cryptography, distributed system, distributed algortihms
