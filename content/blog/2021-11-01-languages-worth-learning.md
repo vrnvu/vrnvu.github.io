@@ -26,27 +26,7 @@ mermaid = false
 
 You should first learn Basic, and then C. Why? Because the list is in alphabetical order and I would not recommend APL to my worst enemy.
 
-- **Basic**
-
-- **C**
-
-- **Elixir**
-
-- **Forth**
-
-- **Go**
-
-- **J or Kona**
-
-- **Ocaml**
-
-- **Prolog**
-
-- **Racket or Scheme**
-
-- **Rust**
-
-- **Zig**
+- **Basic**, **C**, **Elixir**, **Forth**, **Go**, **J or Kona**, **Ocaml**, **Prolog**, **Racket or Scheme**, **Rust**, **Zig**
 
 If your langauge of choice is not in the list, does it mean that it's not worth learning? Probably yes. 
 
