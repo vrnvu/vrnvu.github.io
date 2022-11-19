@@ -39,7 +39,7 @@ Adapted examples of emotional micromanagament:
 - They are the certified coaches and psychologist of the team. It's their job make you fulfill your passion and goals!
 - They take pleasure in correcting how someone else deals with their mental health or soft skills.
 - They will OKR your life and feelings. "When was the last time you visited your mum? How did that make you feel? Can I help you? Let me help you!"
-- They never seem to be satisfied with how good you feel or how good you perform. The employee has to always PUSH and GRIND. Happinest must be achieved.
+- They never seem to be satisfied with how good you feel or how good you perform. The employee has to always PUSH and GRIND. Happiness must be achieved.
 
 
 ---
