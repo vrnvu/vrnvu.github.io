@@ -32,6 +32,6 @@ After some time, the traffic grows and we need to adapt our product to handle th
 - **Horizontal**: we can add more `t3.medium` instances.
 - **Vertical**: we can change the instance type to a `t3.large` which has more resources.
 
-A way to proceed with the decision is to analyse the cost. We know how much one instance costs. We know how much traffic it can handle. With this data we can consider both alternative and choose the most efficient. 
+A way to proceed with the decision is to analyse the cost. We know how much one instance costs. We know how much traffic it can handle. With this data we can consider both alternatives and choose the most efficient. 
 
 Stop. Did you see the problem? If you haven't seen it yet, then you are a 2D engineer. Good engineers see in 3D.
