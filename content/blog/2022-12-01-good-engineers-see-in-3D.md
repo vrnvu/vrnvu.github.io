@@ -19,6 +19,8 @@ mermaid = false
 
 # Good engineers see in 3D
 
+![2d vs 3d](https://t4.ftcdn.net/jpg/05/12/86/27/360_F_512862789_abYbb2RPLzpN8aAjteTBb4xGnRgqVSyw.jpg)
+
 Gabo is a software engineer. Gabo's team is responsible for a product that allows a user to create a TODO list and add/complete items. This product has three main components:
 
 - **Public API**: with simple `HTTP` operations like list my TODOs, create a TODO, complete a TODO.
