@@ -21,9 +21,9 @@ mermaid = false
 
 Gabo is a software engineer. Gabo's team is responsible for a product that allows a user to create a TODO list and add/complete items. This product has 3 main components:
 
-- Public API, with simple HTTP operations like list my TODOs, create a TODO, complete a TODO.
-- A core service, that processes the HTTP request.
-- Database, a persistence layer to store and manage the state of a user TODO list.
+- Public API: with simple HTTP operations like list my TODOs, create a TODO, complete a TODO.
+- A core service: that processes the HTTP request.
+- Database: a persistence layer to store and manage the state of a user TODO list.
 
 Let's imagine this product runs in AWS. It's not relevant. The team uses ALB, runs instances of the service in `t3.medium` ec2 instance and finally uses DynamoDB as database.
 
