@@ -19,13 +19,13 @@ mermaid = false
 
 # Good engineers see in 3D
 
-Gabo is a software engineer. Gabo's team is responsible for a product that allows a user to create a TODO list and add/complete items. This product has 3 main components:
+Gabo is a software engineer. Gabo's team is responsible for a product that allows a user to create a TODO list and add/complete items. This product has three main components:
 
-- Public API: with simple HTTP operations like list my TODOs, create a TODO, complete a TODO.
-- A core service: that processes the HTTP request.
-- Database: a persistence layer to store and manage the state of a user TODO list.
+- **Public API**: with simple `HTTP` operations like list my TODOs, create a TODO, complete a TODO.
+- **A core service**: that processes `HTTP` requests.
+- **Database**: a persistence layer to store and manage the state of a user TODO list.
 
-Let's imagine this product runs in AWS. It's not relevant. The team uses ALB, runs instances of the service in `t3.medium` ec2 instance and finally uses DynamoDB as database.
+Let's imagine this product runs in `AWS`. It's not relevant. The team uses `ALB`, runs instances of the service in `t3.medium` ec2 instance and finally uses `DynamoDB` as database.
 
 After some time, the traffic grows and we need to adapt our product to handle the new requirements. Here we have two scaling alternatives:
 
