@@ -1,7 +1,7 @@
 +++
 title = "elements of programming"
 date = 2020-12-01
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["programming"]

@@ -1,7 +1,7 @@
 +++
 title = "teaching i"
 date = 2021-08-02
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["meta"]
