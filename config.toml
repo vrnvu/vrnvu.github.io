@@ -81,7 +81,7 @@ footer_credits = false            # Whether to show "Powered by Zola and Serene"
 
 #============== Comment and Web analytics config ====================
 comment = "none"                 # gitalk / disqus / disqus_js
-analytics = "none"               # google_analytics / cloudflare_web_analytics / umami / baidu_tongji
+analytics = "google_analytics"               # google_analytics / cloudflare_web_analytics / umami / baidu_tongji
 
 
 #======================= Comment =======================
@@ -117,7 +117,7 @@ apikey = "xxxx"
 #======================= Analytics =====================
 
 [extra.google_analytics]
-id = "G-XXXXXXXX"  # or UA-XXXXXXXX
+id = "G-XQFJ3LKRH8"
 
 [extra.cloudflare_web_analytics]
 token = "xxxxxxxx"
