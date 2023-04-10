@@ -1,7 +1,7 @@
 +++
 title = "senior and junior engineers don't exists"
 date = 2023-03-23
-draft = yes
+draft = true
 
 [taxonomies]
 categories = ["culture"]
