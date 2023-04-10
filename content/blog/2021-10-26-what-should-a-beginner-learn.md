@@ -1,7 +1,7 @@
 +++
 title = "what should a beginner learn"
 date = 2021-10-26
-draft = false
+draft = true 
 
 [taxonomies]
 categories = ["programming"]
