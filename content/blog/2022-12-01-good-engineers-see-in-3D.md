@@ -21,19 +21,19 @@ mermaid = false
 
 ![2d vs 3d](https://t4.ftcdn.net/jpg/05/12/86/27/360_F_512862789_abYbb2RPLzpN8aAjteTBb4xGnRgqVSyw.jpg)
 
-Gabo is a software engineer. Gabo's team is responsible for a product that allows a user to create a TODO list and add/complete items. This product has three main components:
+Gabo is a software engineer, and his team is responsible for a product that enables users to create and manage a TODO list. This product has three primary components:
 
-- **Public API**: with simple `HTTP` operations like list my TODOs, create a TODO, complete a TODO.
-- **A core service**: that processes `HTTP` requests.
-- **Database**: a persistence layer to store and manage the state of a user TODO list.
+- **Public API**: includes simple HTTP operations such as listing my TODOs, creating a TODO, and completing a TODO.
+- **Core service**: processes HTTP requests.
+- **Database**: a persistence layer for storing and managing the state of a user's TODO list.
 
-Let's imagine this product runs in `AWS`. It's not relevant. The team uses `ALB`, runs instances of the service in `t3.medium` ec2 instance and finally uses `DynamoDB` as database.
+Let's assume this product runs on AWS. The team uses ALB, runs instances of the service in t3.medium EC2 instances, and uses DynamoDB as the database.
 
-After some time, the traffic grows and we need to adapt our product to handle the new requirements. Here we have two scaling alternatives:
+As the traffic grows, the team needs to adapt the product to meet the new requirements. There are two scaling alternatives:
 
-- **Horizontal**: we can add more `t3.medium` instances.
-- **Vertical**: we can change the instance type to a `t3.large` which has more resources.
+- **Horizontal scaling**: adding more t3.medium instances.
+- **Vertical scaling**: changing the instance type to a t3.large with more resources.
 
-A way to proceed with the decision is to analyse the cost. We know how much one instance costs. We know how much traffic it can handle. With this data we can consider both alternatives and choose the most efficient. 
+One way to make the decision is to analyze the cost. The team knows the cost of one instance and how much traffic it can handle. With this information, they can consider both alternatives and choose the most efficient one.
 
-Stop. Did you see the problem? If you haven't seen it yet, then you are a 2D engineer. Good engineers see in 3D.
+Stop. Did you see the problem? If you haven't yet, then you might be a 2D engineer. Good engineers can see in 3D.
