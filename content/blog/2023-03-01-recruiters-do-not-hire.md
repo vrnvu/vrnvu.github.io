@@ -18,14 +18,14 @@ mermaid = false
 
 # recruiters do not hire
 
-Recruiters don't hire, they retain. A recruitment process is a **retention mechanism**.
+Recruiters retain, not just hire. A recruitment process is a mechanism for that.
 
-Selection processes are annoying and tedious because they serve as a protection tool. Selection processes have evolved to become very hard and tedious not "to bring in the best talent possible" but with the objective of "retaining as many people as possible". Selection processes are tedious because they fight attrition.
+Selection processes suck because they're a shield. They're hard and long not to attract the best, but to keep as many as possible. They fight attrition.
 
-Imagine that a selection process was fast and simple for the candidates. Send your resume, have a 10 minute phone call with an engineer and the next day you receive an offer. Imagine that all companies did it. Can you foresee the job rotation? What stability could be guaranteed for a company?
+If selection were a breeze, job rotation would be a given. How stable can a company be then? But even with a long process, it's a middle ground. The decision is always whether you want to be there, and that's what matters.
 
-If you knew that changing jobs is only a 10 minutes investment you would do it all the time... An extreme example: one day you have an argument with your colleague about some architecture design, in the hypothetical scenario where is easier to change your job than to reach an agreement and convince three layers of engineers and middle manager what would you choose to do? Since you know that doing a selection process is a lot of hours and effort in your side, you choose to deal with your job problems instead of going somewhere else.
+Imagine you had an argument with a colleague. If changing jobs were a 10-minute affair, would you do it instead of dealing with the problem? Too easy. The reality is, changing jobs isn't that easy, and it shouldn't be. It should take more than a 10-minute conversation.
 
-The reality is obviously not this extreme and it lays in a middle ground. Although it has a clear objective. A selection process has to be hard and above all **tedious** so people don't change company. Most importantly, the critical decision in a selection process  is to decide if **you** want to work there, not if they accept you...
+Selection is not just about whether they accept you. It's about whether you want to be there. And that takes time to figure out. But the right fit is worth the effort, even if it means a longer selection process.
 
-PS: If an engineer needs more than a 10 minute conversation to know if someone is a hire or no hire they are bad engineers. 
+A technical conversation should be enough for a good engineer to showcase their abilities and recognize another good engineer. If they can't do it in 10 minutes, they're not good. The best engineers can spot talent quickly and accurately, and they know what to look for beyond what's on paper or in a formal interview.
