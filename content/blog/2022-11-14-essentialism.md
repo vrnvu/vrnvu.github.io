@@ -2,7 +2,7 @@
 +++
 title = "the essentialist engineer"
 date = 2022-11-14
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["culture"]

@@ -2,7 +2,7 @@
 +++
 title = "write shorter lines"
 date = 2022-09-05
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["culture"]

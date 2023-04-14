@@ -1,11 +1,11 @@
 +++
 title = "smart questions"
 date = 2020-12-20
-draft = false
+draft = true
 
 [taxonomies]
 categories = ["culture"]
-tags = ["culture", "programming"]
+tags = ["culture"]
 
 [extra]
 lang = "en"
