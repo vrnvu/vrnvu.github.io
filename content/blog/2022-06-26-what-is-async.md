@@ -19,15 +19,16 @@ mermaid = false
 
 # What is async?
 
-First of all if a function is a routine/subroutine, an async is a corrutine.
+To start, if a function is a routine or a subroutine, then an async function is a coroutine.
 
-Second, basic context. In the main you have the main stack. The memory space allocated to execute a function where you put the local variables and parameters is a stack frame. In the stack you have variables and stack frames of the functions executing.
+In the main program, there is a main stack that contains the memory space allocated to execute a function. This space is called a stack frame, and it stores local variables and parameters. The stack also contains the variables and stack frames of the functions being executed.
 
-When you do a return of a function, you discard the stackframe from the main stack. You lose the local variables of that function.
+When you return from a function, you get rid of the stack frame from the main stack, and you lose the local variables of that function.
 
-In a coroutine you can `suspend` the execution. You return the control to where you were but without popping the stack. This is an `async` function.
+In a coroutine, you can pause the execution and return control to where you were before without removing anything from the stack. This is an `async` function.
 
-Imagine the following code snippet, we have a `main` and a `foo` corroutine that I want to suspend.
+Let's consider this code snippet, which includes a `main` function and a `foo` coroutine that you can pause.
+
 
 ```rust
 1 main () {
@@ -38,8 +39,7 @@ Imagine the following code snippet, we have a `main` and a `foo` corroutine that
 6 }
 ```
 
-I'm going to use the `async` keyword to state that `foo` will return us a pointer to the stackframe of the coroutine. This way from main you can return to where you were. This behavior is only a convention, we could return more data about the coroutine if we wanted. And I'm going to use the `resume` keyword to state that I want to go back to the stackframe. Again, some common syntax I invented.
-
+We can use the `async` keyword to indicate that `foo` will give us a pointer to the stack frame of the coroutine. This allows us to return to where we were in the main function. Keep in mind that this behavior is only a convention, and we could return additional data about the coroutine if we wanted to. Similarly, we can use the `resume` keyword to indicate that we want to return to the stack frame. It's worth noting that this is a syntax convention that I've created.
 
 ```rust
 1 main () {
@@ -52,13 +52,13 @@ I'm going to use the `async` keyword to state that `foo` will return us a pointe
 8 }
 ```
 
-1. You start by loading the main in LOC 1.
-2. In your stack you have the execution line and the variables of the main and the frames...
-3. In LOC 2 you invoke foo(), and you save the pointer to the frame.
-4. You are in LOC 6 inside the stackfram of foo(), there you make a `suspend` call and you return the execution to the caller without popping the frame.
-5. You are in LOC 3, there you `resume` the frame.
-6. You are in LOC 7, now you make `return` of the 10 and pop the frame. 
-7. Now you are in LOC 4, there if you would have saved the value in a varaible then you can use it normally... it is just another variable in the stack right?
+1. Begin by loading the main function at LOC 1.
+2. The stack contains the execution line and the variables of the main function and its frames.
+3. At LOC 2, call the `foo()` function and save the pointer to the frame.
+4. At LOC 6, you are inside the stack frame of `foo()`, where you make a `suspend` call and return execution to the caller without popping the frame.
+5. At LOC 3, you `resume` the frame.
+6. At LOC 7, you `return` the value 10 and pop the frame.
+7. Now you are at LOC 4. If you had saved the value in a variable, you could use it normally. After all, it's just another variable in the stack, right?
 
 How does the following example work? What does it print?
 
@@ -93,29 +93,28 @@ And what about this one? What does it print?
 13}
 ```
 
-Then you have the keyword `await`. It will wait in the main instead of following the execution... It doesn't have any secret... instead of following the code it waits for the frame to return... This is a perfect fit for IO tasks for example, sometimes we do some work in the background sometimes we await the response!
+The `await` keyword causes the program to wait in the main function instead of continuing with the execution. There's nothing mysterious about it, it simply waits for the frame to return. This makes it ideal for IO tasks, where you may need to wait for a response. For example, you might do some work in the background and then await the response.
 
 ## Function coloring
 
-OMG this topic... Okay.
+The reason that `async` functions need to go with async is that when managing memory, there can be situations where you have uninitialized variables. If you execute code before the `await` and after the `async` function, it could print garbage because there are uninitialized pointers waiting for a value. Sometimes the compiler can detect this, but other times it can't.
 
-Why do you need that the `async` things go with `async` and there are functions that can not be `async` as the main? Because when we manage memory there are situations where you could have uninitialized variables. If you don't do an `await` and execute the code before the foo() that returned 2 at the end. What happens? it will print whatever you have in memory for the stack or pointer. Some things the compiler detects them as using the stack, but if you have an uninitialized pointer waiting for a value it will print garbage.
+It's worth noting that we're just using pointers to execute the functions and coroutines. This means that you can run them in any thread or scheduler you need, depending on your requirements.
 
-And at the end as you can see we are only using some pointers to execute the functions and coroutines. If you want to run it in one thread or in another... just write an scheduler! Whatever you need. As a conclusion I hope you understand that that parallelism has nothing to do with the coroutines.
+In conclusion, **it's important to understand that coroutines have nothing to do with parallelism**. They are simply a way to manage memory and handle IO tasks in an efficient and elegant way.
 
 ## Blocking, non-blocking
 
-A "normal" function the caller always waits for the return value. A corroutine, an `aync` function, the caller will only wait for the result if you wait. It has nothing to do with the `suspend` in the body if the caller has to block or not to block. It is the `await` that matters. Because waiting or not it is the caller who decides, `async` has nothing to do with blocking or non-blocking.
+In a subroutine, the caller always waits for the return value. However, with coroutines and `async` functions, the caller only waits for the result if they use the `await` keyword. The use of `suspend` in the function body doesn't determine whether the caller has to block or not.
+
+**The decision to wait or not is up to the caller**, and whether a function is `async` or not doesn't determine whether it blocks or is non-blocking. Instead, it's the use of `await` that matters in determining whether a caller needs to block or not.
 
 ## Sync
 
-Does sync means that the execution of one function goes after the previous? It doesn't have to actually. Depends on your runtime, you could load some pages and execute them in random order. And actually at low level there are a lot of situations where functions are executed out of order. 
+The term "sync" implies that the execution of one function follows the previous one, but in reality, it doesn't have to be that way. Depending on the runtime environment, you could load some pages and execute them in random order. At a low level, there are many situations where functions are executed out of order, so the order of execution isn't always guaranteed.
 
 ## Scheduling for dummies
 
-So coroutine, from "cooperative". It is a cooperative routine because it returns the execution. We have a `suspend` in the body!
+Yes, that's correct! A coroutine is cooperative because it cooperates with the scheduler by yielding control to it voluntarily through the use of `suspend`. In this way, the coroutine allows other tasks to execute while it is waiting for some operation to complete.
 
-If the scheduler can stop the execution from outside and give the CPU to another routine, then it would be a preemptive routine.  If it is not preemptive, the scheduler has to wait for the routine to finish and after its completion it will start the new function.
-
-So if it is a cooperative routine, the coroutine can do a `suspend` and return control. That's why it's called "cooperative" because it allows the scheduler to take control if required. If the scheduler can alsos uspend it, then we have what we call preemptive cooperative scheduling.
-
+On the other hand, if the scheduler is able to forcefully interrupt a task and switch to another one, then we have preemptive scheduling. If we combine this with the cooperative approach of coroutines, we get preemptive cooperative scheduling, where the scheduler can interrupt the coroutine at any time, but the coroutine can also yield control back to the scheduler when it needs to wait for some operation to complete.
