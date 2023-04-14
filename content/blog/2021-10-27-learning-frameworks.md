@@ -16,38 +16,44 @@ mermaid = false
 +++
 ---
 
-# How to learn anything
-
-This is an old essay I wrote in 2019 on how to learn anything. It's based on some solid psychological references that at some point I should add. You can read my entries on teaching/learning in the mean time.
-
-<!-- more -->
+# Learning frameworks
 
 ## Graphs, pyramids and trees
 
-Knowledge is a graph. Each node represents an entry on your brain. The more nodes you add to your brain the richer you become. To visualize it think in a pyramid or a tree. You build your ideas from fundamentals and build in top of them. A learning framework is a method to build this pyramid. 
+Think of knowledge as a graph, with each node representing a piece of information in your brain. As you add more nodes, you become richer in knowledge. To visualize this, think of a pyramid or a tree, where you build your ideas from fundamental concepts and build upon them. A learning framework is a method of building this pyramid.
 
-Two frameworks exists:  Bottom-up, from fundamentals to applications.  Top-down, from application to fundamentals. Let's see some examples.
+There are two main learning frameworks: bottom-up and top-down. In the bottom-up approach, you start with fundamentals and work your way up to practical applications. In the top-down approach, you start with a real-world application and work your way down to the fundamentals.
 
--  You read theory in a C book and you make a little program to test your knowledge. For example the topic could be manual memory management, allocation. Classical bottom up learning. From reading to writing. From theory to practice. 
+Let's say you want to learn how to build a web application. You start by learning the fundamentals of HTML, CSS, and JavaScript. Then, you build upon those fundamentals by learning about server-side programming and databases. Finally, you use that knowledge to build your web application. In this example, the fundamental concepts of HTML, CSS, and JavaScript are the base of the pyramid, and server-side programming and databases are built on top of that.
 
-- You follow one of my tutorials on how to write a rate limiting algorithm. If you have a lot of theory holes in your knowledge tree you will get confused. Then you will have to re-read the steps all the time. You google what you don't understand as you go. Top down learning. From a real world application to fundamentals. From a rate limiting algorithm to TCP and data structures. From practice to theory.
+Suppose you want to build a chat application. In this case, you may start with an existing chat application and work your way down to the underlying theory. You may start by examining how the chat application communicates with the server and then delve into the networking protocols and data structures that make it possible.
 
 ## What should I do?
 
-Both are valid paths and it's actually beneficial to alternate both of them as you learn a topic. The key is to follow your instinct. If you feel like doing a small app then do it. It does not matter if you lose interest on the topic. It's not a final result what you are looking for. You are after knowledge. Do you know why sometimes we stop working on side projects? It's not that we lose interest in the topic, but, most of the times we stop working on something when we have already fulfilled our curiosity.
+Both methods of learning, bottom-up and top-down, are valid and it's actually beneficial to use both approaches when learning a topic. It's important to trust your instincts and choose the method that feels most engaging to you. If you feel like building a small app, go ahead and do it, even if you lose interest in the topic later. Remember, the goal is not the final result, but rather to *learn*.
 
-If knowledge is a graph. Traverse it. BFS first. Then DFS as you find interesting subtopics that you consider worth of your time. It does not matter how you actually learn, exploration and then mastering. A, B, C.
+Have you ever wondered why you stop working on side projects? It's not always because you lose interest in the topic. More often, it's because you have satisfied your curiosity and have learned what you set out to learn.
 
-## Sometimes it does not work
+If you think of knowledge as a graph, you can traverse it using two methods: Breadth-First Search (BFS) and Depth-First Search (DFS). Start with BFS to gain a broad understanding of the topic, then switch to DFS as you discover interesting subtopics that you want to master. The important thing is to explore and then master, following the A, B, C approach.
 
-It does. The effects are not immediate so you haven't appreciated the learning yet. For beginners for example, it is better to have visual and functional things fast, to achieve engagement. Following tutorials at those levels is already a challenge. 
+Let's say you want to learn a new programming language, such as Python. You start by using BFS to get a broad understanding of the language's syntax, basic data types, control structures, functions, modules, and packages. Then, you switch to DFS to delve deeper into specific subtopics, such as object-oriented programming, file I/O, regular expressions, web scraping, data analysis, and machine learning.
 
-In fact, I would recommend doing many tutorials on the same topic by different authors. Try to compare them, compose them. Look at modern and old material.
+## Trust the process
+
+Remember, learning takes tame, so be patient. If you're a beginner, it's important to have quick and easy access to visual and interactive materials to stay interested. At this level, even following tutorials can be challenging.
+
+To improve your learning, I suggest doing multiple tutorials on the same topic by different authors. This will help you compare and combine their approaches. You should also look at both modern and old materials to get a well-rounded understanding of the topic.
 
 ## Temporality
 
-A broad topic of research is knowledge temporality. This matters and is crucial in this field. Knowledge can be temporal or timeless.
+The topic of knowledge temporality is a significant area of research. It's essential to understand that knowledge can be either temporal or timeless.
 
-Frameworks, libraries and languages are temporary i.e. They have an expiration date. They are implementations. They evolve and change according to the context and are opinionated.
+Temporary knowledge refers to knowledge that is specific to a particular context or implementation, such as a programming language, framework, or library. These implementations can evolve and change over time, making it necessary to stay up-to-date with the latest developments to continue using them effectively. While temporary knowledge can be useful in the short term, it may become obsolete or outdated as technology advances, making it less valuable over time.
 
-Fundamentals will last you a lifetime. Temporary knowledge is built atop of timeless knowledge. 
+Timeless knowledge, on the other hand, refers to fundamental concepts that are applicable across a range of contexts and implementations. These concepts are not tied to specific technologies and are less likely to become obsolete over time. For example, knowledge of variables, arrays, functions, loops, and conditions in programming languages are timeless concepts that can be applied in a wide range of programming contexts.
+
+Suppose you want to learn a new JavaScript framework, such as React. You may start by learning its fundamentals, such as JSX, components, props, state, and lifecycle methods. However, you should be aware that React is a temporary knowledge, as it may evolve, change, or become obsolete over time. In contrast, the fundamental concepts of JavaScript, such as variables, arrays, functions, loops, and conditions, are timeless knowledge that will stay with you forever. By focusing on timeless knowledge, you'll be better equipped to adapt to changes in technology and continue to learn and grow as a programmer.
+
+Developing a strong understanding of timeless concepts provides a solid foundation that can be built upon over time. Timeless knowledge helps you understand the underlying principles of a technology, making it easier to adapt to changes and learn new implementations quickly. It also helps you evaluate new technologies and determine which ones are worth investing your time and resources in.
+
+On the other hand, developing temporary knowledge helps you stay up-to-date with the latest trends and technologies in the industry. It helps you remain relevant and competitive in the job market. It also helps you become more versatile in your skill set, as you'll be able to work with different tools and technologies.
