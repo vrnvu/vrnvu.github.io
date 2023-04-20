@@ -1,5 +1,5 @@
 +++
-title = "types of coroutines"
+title = "types of coroutines, fibers"
 date = 2023-04-20
 draft = false
 
@@ -16,7 +16,7 @@ mermaid = false
 +++
 ---
 
-# Types of coroutines
+# Types of coroutines, fibers
 
 Coroutines have been used in programming since 1958 and were defined by Knuth as a way to generalize a subroutine. While regular subroutines start at the beginning and end at the end, coroutines can pause their execution and resume later from where they left off. An explanation of this can be found [here](https://arnaudiaz.com/blog/what-is-async/).
 
@@ -33,3 +33,7 @@ We can identify two types of coroutines based on their need for a stack:
 - **stackful**, allows you to suspend your coroutines at any point, providing more flexibility than stackless coroutines.
 
 The lack of a stack is what allows the compiler to transform and use a stackless coroutine, while the need for a stack requires a runtime.
+
+When you use async/await in your code, the compiler generates a state machine that will be executed later. This is because when you use async/await, you're only suspending execution at known points, which means you don't need a stack to keep track of where you left off. The compiler can transform your code into a state machine that saves the state of the local variables and continues execution where it left off when it's resumed.
+
+On the other hand, when you use goroutines/fibers/green threads, you can suspend and pause execution anywhere in the code, which means you need a stack to keep track of where you left off. These kinds of coroutines also require a runtime that can manage the stacks and schedule the coroutines to run on the available threads.
