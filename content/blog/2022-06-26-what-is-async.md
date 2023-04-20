@@ -108,3 +108,7 @@ In conclusion, **it's important to understand that coroutines have nothing to do
 In a subroutine, the caller always waits for the return value. However, with coroutines and `async` functions, the caller only waits for the result if they use the `await` keyword. The use of `suspend` in the function body doesn't determine whether the caller has to block or not.
 
 **The decision to wait or not is up to the caller**, and whether a function is `async` or not doesn't determine whether it blocks or is non-blocking. Instead, it's the use of `await` that matters in determining whether a caller needs to block or not.
+
+## More
+
+This post was an introduction with some inaccuracies. Read [this](https://arnaudiaz.com/blog/types-of-coroutines/) for more.
