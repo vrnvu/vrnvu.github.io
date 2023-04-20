@@ -108,13 +108,3 @@ In conclusion, **it's important to understand that coroutines have nothing to do
 In a subroutine, the caller always waits for the return value. However, with coroutines and `async` functions, the caller only waits for the result if they use the `await` keyword. The use of `suspend` in the function body doesn't determine whether the caller has to block or not.
 
 **The decision to wait or not is up to the caller**, and whether a function is `async` or not doesn't determine whether it blocks or is non-blocking. Instead, it's the use of `await` that matters in determining whether a caller needs to block or not.
-
-## Sync
-
-The term "sync" implies that the execution of one function follows the previous one, but in reality, it doesn't have to be that way. Depending on the runtime environment, you could load some pages and execute them in random order. At a low level, there are many situations where functions are executed out of order, so the order of execution isn't always guaranteed.
-
-## Scheduling for dummies
-
-Yes, that's correct! A coroutine is cooperative because it cooperates with the scheduler by yielding control to it voluntarily through the use of `suspend`. In this way, the coroutine allows other tasks to execute while it is waiting for some operation to complete.
-
-On the other hand, if the scheduler is able to forcefully interrupt a task and switch to another one, then we have preemptive scheduling. If we combine this with the cooperative approach of coroutines, we get preemptive cooperative scheduling, where the scheduler can interrupt the coroutine at any time, but the coroutine can also yield control back to the scheduler when it needs to wait for some operation to complete.
