@@ -22,10 +22,14 @@ Coroutines have been used in programming since 1958 and were defined by Knuth as
 
 The topic is complex because we normally mix "what a coroutine is" with "how it is going to run".
 
+## How
+
 There are two common ways to use coroutines: 
 
 - **stackless**, where the code is transformed into a state machine by the compiler.
 - **stackful**, also known as fibers, which are user-mode threads that run on top of a regular operating system thread.
+
+## What
 
 We can identify two types of coroutines based on their need for a stack:
 
@@ -33,6 +37,8 @@ We can identify two types of coroutines based on their need for a stack:
 - **stackful**, allows you to suspend your coroutines at any point, providing more flexibility than stackless coroutines.
 
 The lack of a stack is what allows the compiler to transform and use a stackless coroutine, while the need for a stack requires a runtime.
+
+## Conclusion
 
 When you use async/await in your code, the compiler generates a state machine that will be executed later. This is because when you use async/await, you're only suspending execution at known points, which means you don't need a stack to keep track of where you left off. The compiler can transform your code into a state machine that saves the state of the local variables and continues execution where it left off when it's resumed.
 
