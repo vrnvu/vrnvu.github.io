@@ -1,6 +1,6 @@
 +++
 title = "code reviews are bad"
-date = 2023-04-21
+date = 2023-05-10
 draft = false
 
 [taxonomies]
