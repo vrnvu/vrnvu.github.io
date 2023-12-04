@@ -3,6 +3,7 @@
 title = "what is async"
 date = 2022-06-26
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["programming"]

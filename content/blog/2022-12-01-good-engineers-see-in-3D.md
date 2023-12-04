@@ -3,6 +3,7 @@
 title = "good engineers see in 3D"
 date = 2022-12-01
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

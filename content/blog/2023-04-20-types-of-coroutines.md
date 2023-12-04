@@ -2,6 +2,7 @@
 title = "types of coroutines, fibers"
 date = 2023-04-20
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["programming"]

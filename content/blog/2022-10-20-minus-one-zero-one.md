@@ -3,6 +3,7 @@
 title = "minus one zero one"
 date = 2022-09-18
 draft = true
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

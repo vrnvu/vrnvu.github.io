@@ -2,6 +2,7 @@
 title = "the way of the engineer"
 date = 2023-12-04
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

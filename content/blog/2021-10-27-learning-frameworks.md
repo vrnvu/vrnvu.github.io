@@ -2,6 +2,7 @@
 title = "learning frameworks"
 date = 2021-10-27
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["meta"]

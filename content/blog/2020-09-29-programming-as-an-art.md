@@ -2,6 +2,7 @@
 title = "programming as an art"
 date = 2020-09-29
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

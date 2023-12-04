@@ -2,6 +2,7 @@
 title = "elements of programming"
 date = 2020-12-01
 draft = true
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["programming"]

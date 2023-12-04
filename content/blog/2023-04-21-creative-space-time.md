@@ -2,6 +2,7 @@
 title = "creative space and time"
 date = 2023-04-21
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

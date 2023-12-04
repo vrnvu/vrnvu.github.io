@@ -2,6 +2,7 @@
 title = "thinking forth (draft)"
 date = 2020-12-07
 draft = true
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["programming"]

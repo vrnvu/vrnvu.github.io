@@ -2,6 +2,7 @@
 title = "postmortem oop"
 date = 2022-03-03
 draft = true
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["programming"]

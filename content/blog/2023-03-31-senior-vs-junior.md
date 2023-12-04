@@ -2,6 +2,7 @@
 title = "senior and junior engineers don't exist"
 date = 2023-03-31
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

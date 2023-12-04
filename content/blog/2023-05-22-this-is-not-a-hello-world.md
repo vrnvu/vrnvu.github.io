@@ -2,6 +2,7 @@
 title = "this is not a hello world"
 date = 2023-05-22
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["meta"]

@@ -3,6 +3,7 @@
 title = "the essentialist engineer"
 date = 2022-11-14
 draft = true
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

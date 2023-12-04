@@ -3,6 +3,7 @@
 title = "write shorter lines"
 date = 2022-09-05
 draft = true
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["culture"]

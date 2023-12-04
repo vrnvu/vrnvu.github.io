@@ -2,6 +2,7 @@
 title = "bill evans"
 date = 2021-03-02
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["meta"]

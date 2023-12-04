@@ -2,6 +2,7 @@
 title = "syntax vs semantics"
 date = 2022-06-07
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["programming"]

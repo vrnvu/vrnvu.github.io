@@ -2,6 +2,7 @@
 title = "epoche etude postmortem"
 date = 2020-09-28
 draft = false
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["meta"]

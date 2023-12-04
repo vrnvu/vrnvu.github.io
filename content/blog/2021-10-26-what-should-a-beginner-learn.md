@@ -2,6 +2,7 @@
 title = "what should a beginner learn"
 date = 2021-10-26
 draft = true 
+authors = ["arnau"]
 
 [taxonomies]
 categories = ["programming"]
