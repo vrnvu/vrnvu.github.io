@@ -1,5 +1,6 @@
 +++
 title = "arnau diaz"
+author = "arnau"
 description = ""
 sort_by = "date"
 template = "blog.html"
