@@ -2,7 +2,7 @@
 title = "david lynch motivates you"
 date = 2023-01-25
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["meta"]

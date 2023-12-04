@@ -2,7 +2,7 @@
 title = "traits of a good programmer"
 date = 2022-02-11
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["meta"]

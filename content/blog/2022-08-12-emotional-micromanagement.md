@@ -3,7 +3,7 @@
 title = "emotional micromanagement"
 date = 2022-08-12
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["culture"]

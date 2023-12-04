@@ -2,7 +2,7 @@
 title = "engineers as gardeners"
 date = 2022-05-06
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["culture"]

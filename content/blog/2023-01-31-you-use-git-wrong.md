@@ -2,7 +2,7 @@
 title = "you use git wrong"
 date = 2023-01-31
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["programming"]

@@ -2,7 +2,7 @@
 title = "don't teach git, alias it"
 date = 2023-04-14
 draft = true
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["programming"]

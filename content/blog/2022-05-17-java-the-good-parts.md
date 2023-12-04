@@ -2,7 +2,7 @@
 title = "java the good parts"
 date = 2022-05-17
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["programming"]

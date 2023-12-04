@@ -2,7 +2,7 @@
 title = "why do i suck so much"
 date = 2022-02-28
 draft = true
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["programming"]

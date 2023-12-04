@@ -2,7 +2,7 @@
 title = "recruiters do not hire"
 date = 2023-03-01
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["culture"]

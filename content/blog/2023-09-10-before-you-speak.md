@@ -2,7 +2,7 @@
 title = "before you speak"
 date = 2023-09-10
 draft = false
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["meta"]

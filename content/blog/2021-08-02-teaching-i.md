@@ -2,7 +2,7 @@
 title = "teaching i"
 date = 2021-08-02
 draft = true
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["meta"]

@@ -2,7 +2,7 @@
 title = "smart questions"
 date = 2020-12-20
 draft = true
-authors = ["arnau"]
+ 
 
 [taxonomies]
 categories = ["culture"]
