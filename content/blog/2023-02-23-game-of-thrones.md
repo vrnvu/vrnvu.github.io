@@ -1,6 +1,6 @@
 +++
 title = "game of thrones"
-date = 2023-01-31
+date = 2023-01-23
 draft = false
 authors = ["arnau"]
 
