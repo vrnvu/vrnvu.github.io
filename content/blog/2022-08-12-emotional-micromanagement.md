@@ -1,7 +1,7 @@
 
 +++
 title = "emotional micromanagement"
-date = 2022-06-26
+date = 2022-08-12
 draft = false
 authors = ["arnau"]
 

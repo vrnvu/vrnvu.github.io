@@ -1,6 +1,6 @@
 +++
 title = "don't teach git, alias it"
-date = 2023-04-11
+date = 2023-04-14
 draft = true
 authors = ["arnau"]
 
