@@ -5,4 +5,4 @@ template = 'home.html'
 lang = 'en'
 +++
 
-I write code and it goes brr
+I am a human who fights entropy
