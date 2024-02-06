@@ -1,0 +1,7 @@
+[[project]]
+name = "work in progress"
+desc = "here you will find references that I  recommend"
+links = [
+	{name = "foo", url = "http://foo.com"},
+	{name = "foo", url = "http://foo.com"}
+]
