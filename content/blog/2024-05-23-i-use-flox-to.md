@@ -6,7 +6,7 @@ draft = false
 
 [taxonomies]
 categories = ["programming"]
-tags = ["metaprogramming"]
+tags = ["programming"]
 
 [extra]
 lang = "en"
