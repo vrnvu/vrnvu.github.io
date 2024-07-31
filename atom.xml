@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>arnau diaz</title>
+	<subtitle>epokhe</subtitle>
+	<link href="https://www.arnaudiaz.com/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www.arnaudiaz.com"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-07-22T00:00:00+00:00</updated>
+	<id>https://www.arnaudiaz.com/atom.xml</id>
+	<entry xml:lang="en">
+		<title>what is code</title>
+		<published>2024-07-22T00:00:00+00:00</published>
+		<updated>2024-07-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/what-is-code/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/what-is-code/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;p&gt;What is code?
+An instruction, a creation, a structure, a symphony.&lt;&#x2F;p&gt;
+&lt;p&gt;AND&lt;&#x2F;p&gt;
+&lt;p&gt;How do you use it?
+When it computes.&lt;&#x2F;p&gt;
+&lt;p&gt;What is a program?
+A medium.&lt;&#x2F;p&gt;
+&lt;p&gt;What is a machine?
+A collaborator, a colleague.&lt;&#x2F;p&gt;
+&lt;p&gt;What is a byte?
+A unit of movement.&lt;&#x2F;p&gt;
+&lt;p&gt;What is an algorithm?
+A means to an end.&lt;&#x2F;p&gt;
+&lt;p&gt;What is data?
+A pulse, a narrative.&lt;&#x2F;p&gt;
+&lt;p&gt;What is refactoring?
+Another chance.&lt;&#x2F;p&gt;
+&lt;p&gt;What is design?
+A conversation, a dialogue.&lt;&#x2F;p&gt;
+&lt;p&gt;What is functionality?
+A reply to a need.&lt;&#x2F;p&gt;
+&lt;p&gt;What is innovation?
+A need to reply.&lt;&#x2F;p&gt;
+&lt;p&gt;How do you approach product?
+We build products that people love to use.&lt;&#x2F;p&gt;
+&lt;p&gt;What would you like to develop? Besides Software?
+An understanding.&lt;&#x2F;p&gt;
+&lt;p&gt;What words do you live by?
+We.&lt;&#x2F;p&gt;
+&lt;p&gt;(Ends)&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>i use flox to</title>
+		<published>2024-05-23T00:00:00+00:00</published>
+		<updated>2024-05-23T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/i-use-flox-to/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/i-use-flox-to/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;i-use-flox-to&quot;&gt;I use flox to&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;I use flox to ensure my team environment is declarative&lt;&#x2F;li&gt;
+&lt;li&gt;I use flox to ensure my team environment is reproducible&lt;&#x2F;li&gt;
+&lt;li&gt;I use flox to ensure my team environment is reliable&lt;&#x2F;li&gt;
+&lt;li&gt;I use flox to manage and share development dependencies with my team
+&lt;ul&gt;
+&lt;li&gt;Java, Go, Rust, Python&lt;&#x2F;li&gt;
+&lt;li&gt;Gradle, Maven, Poetry&lt;&#x2F;li&gt;
+&lt;li&gt;Libtorch, CUDA&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;I use flox to manage and share operational dependencies with my team
+&lt;ul&gt;
+&lt;li&gt;curl, wget, fd, fzf, sd&lt;&#x2F;li&gt;
+&lt;li&gt;Jfrog, Artfactory, Github, gitconfig &lt;&#x2F;li&gt;
+&lt;li&gt;Scripts and utilities&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;I use flox to ensure that my team secrets are managed properly
+&lt;ul&gt;
+&lt;li&gt;VPN, AWS, Okta, SSM and SSH&lt;&#x2F;li&gt;
+&lt;li&gt;Shared and private secrets are now easy&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;I use flox to on-board new team members automatically in 5 minutes &lt;&#x2F;li&gt;
+&lt;li&gt;I use flox to ensure the local environment always works
+&lt;ul&gt;
+&lt;li&gt;We now have CI for local&#x2F;dev&#x2F;pre&#x2F;pro for ALL projects for free&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;I use flox because it works&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>spaceship to the end of time</title>
+		<published>2024-02-06T00:00:00+00:00</published>
+		<updated>2024-02-06T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/spaceship-to-the-end/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/spaceship-to-the-end/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;spaceship-to-the-end-of-time&quot;&gt;Spaceship to the end of time&lt;&#x2F;h1&gt;
+&lt;p&gt;Welcome aboard. Please fasten your seat belt securely and refrain from using the restrooms while the sign is on. Our ship will start to accelerate at 1G continuously to the end of time. Thanks for flying with us.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;After 10 years of ship time at maximum acceleration, the universe will be 10 years older.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;After 20 years of ship time at maximum acceleration, the universe will be 37 years older.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Due to time dilation, perceived speed increases faster and faster. While visible light blue-shifts to ultraviolet, infrared takes its place.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;After 50 years of ship time at maximum acceleration, the universe will be 218 years older.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;More and more photons hit the ship each second. Deep infrared left over from the big bang is blue-shifted too. There is a lot of cosmic microwave radiation.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;After 100 years of ship time at maximum acceleration, the universe will be 8,450 years older.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;It takes us only around 100 years to be staring into the big bang. Enjoy the views.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;After 150 years of ship time at maximum acceleration, the universe will be 15,000 years older.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;After 200 years of ship time at maximum acceleration, the universe will be 100,000 years older.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;After 850 years of ship time at maximum acceleration, the universe is 10^30 years older. To be more precise: 1,000,000,000,000,000,000,000,000,000,000 years older.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;At this point, only white dwarfs, neutron stars, and various stellar remnants remain. Galaxies have dissipated, and stars like our Sun are distant memories. If any still exist to remember them.&lt;&#x2F;p&gt;
+&lt;p&gt;We’re a long, long way from “heat death” – from the Universe becoming an undifferentiated entropic sea of particles – but it is already a very different place.&lt;&#x2F;p&gt;
+&lt;p&gt;Let’s keep going…&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>simulacra and simulation</title>
+		<published>2024-01-05T00:00:00+00:00</published>
+		<updated>2024-01-05T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/simulacra-and-simulation/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/simulacra-and-simulation/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;simulacra-and-simulation&quot;&gt;Simulacra and simulation&lt;&#x2F;h1&gt;
+&lt;p&gt;In his book “Simulacra and Simulation” published in 1981, Jean Baudrillard concluded that we were living in a simulation constructed by the media. I would argue that in tech companies, we live in a simulation constructed by management.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;distortion&quot;&gt;Distortion&lt;&#x2F;h2&gt;
+&lt;p&gt;Baudrillard categorizes the breakdown of the image into simulation via four successive phases in his book “Simulations”:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The image first reflects a basic reality.&lt;&#x2F;li&gt;
+&lt;li&gt;Then it masks or perverts that basic reality.&lt;&#x2F;li&gt;
+&lt;li&gt;Then it masks the absence of a basic reality.&lt;&#x2F;li&gt;
+&lt;li&gt;Finally, the image bears no relation to any reality whatever, it is its own pure simulacrum.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;In a company, processes and methodologies are distorted until they only exist in a pure simulacrum. Take meetings as an example:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;A meeting is created in order to discuss and reach an agreement for a product decision.&lt;&#x2F;li&gt;
+&lt;li&gt;A ritual is created, i.e. daily meeting, in order to make more decisions.&lt;&#x2F;li&gt;
+&lt;li&gt;Rituals are recreated, i.e. sprint planning, backlog, and retrospective, in order to accommodate previous rituals.&lt;&#x2F;li&gt;
+&lt;li&gt;Finally, methodologies and processes are formalized by management, new managers are needed to keep up with the rituals, which generates more meetings in order to reach an agreement on how to operate meetings, which will end up in more methodologies and processes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Business procedures and methodologies are abstracted and generalized until they become images that mirror deception, masking the absence of purpose until they mirror themselves.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>the way of a true leader</title>
+		<published>2023-12-04T00:00:00+00:00</published>
+		<updated>2023-12-04T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/the-way-of-a-true-leader/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/the-way-of-a-true-leader/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;the-way-of-a-true-leader&quot;&gt;The way of a true leader&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;acting-simpliy&quot;&gt;Acting simpliy&lt;&#x2F;h2&gt;
+&lt;p&gt;True leaders
+are hardly known to their followers.
+Next after them are the leaders
+the people know and admire;
+after them, those they fear;
+after them, those they despise.&lt;&#x2F;p&gt;
+&lt;p&gt;To give no trust
+is to get no trust.&lt;&#x2F;p&gt;
+&lt;p&gt;When the work’s done right,
+with no fuss or boasting,
+ordinary people say,
+Oh, we did it.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>before you speak</title>
+		<published>2023-09-10T00:00:00+00:00</published>
+		<updated>2023-09-10T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/before-you-speak/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/before-you-speak/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;before-you-speak&quot;&gt;Before you speak&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Is it true?&lt;&#x2F;li&gt;
+&lt;li&gt;Is it necessary?&lt;&#x2F;li&gt;
+&lt;li&gt;Is it kind?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>borges</title>
+		<published>2023-05-23T00:00:00+00:00</published>
+		<updated>2023-05-23T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/borges/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/borges/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;borges&quot;&gt;Borges&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.cadena3.com&#x2F;admin&#x2F;playerswf&#x2F;fotos&#x2F;ARCHI_941094.jpg&quot; alt=&quot;borges&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Creating abstractions means traversing an endless maze of illusions and distorted information. Mirrors deceive.&lt;&#x2F;p&gt;
+&lt;p&gt;Simplifying abstractions is to submerge oneself in the limitless complexity of reality. Myriads of grains of sand.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It only takes two facing mirrors to build a labyrinth.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Our fate is either to perish, disoriented in the labyrinth, or to be swallowed by the sands.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;on-exactitude-in-science&quot;&gt;On Exactitude in Science&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;... In that Empire, the Art of Cartography attained such Perfection that the map of a single Province occupied the entirety of a City, and the map of the Empire, the entirety of a Province. In time, those Unconscionable Maps no longer satisfied, and the Cartographers Guilds struck a Map of the Empire whose size was that of the Empire, and which coincided point for point with it. The following Generations, who were not so fond of the Study of Cartography as their Forebears had been, saw that that vast Map was Useless, and not without some Pitilessness was it, that they delivered it up to the Inclemencies of Sun and Winters. In the Deserts of the West, still today, there are Tattered Ruins of that Map, inhabited by Animals and Beggars; in all the Land there is no other Relic of the Disciplines of Geography.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;the-writing-of-the-god&quot;&gt;The Writing of the God&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One day or one night—between my days and nights, what difference can there be?—I dreamed that there was a grain of sand on the floor of my cell. Unconcerned, I went back to sleep; I dreamed that I woke up and there were two grains of sand. Again I slept; I dreamed that now there were three. Thus the grains of sand multiplied, little by little, until they filled the cell and I was dying beneath that hemisphere of sand. I realized that I was dreaming; with a vast effort I woke myself. But waking up was useless—I was suffocated by the countless sand. Someone said to me: You have wakened not out of sleep, but into a prior dream, and that dream lies within another, and so on, to infinity, which is the number of the grains of sand. The path that you are to take is endless, and you will die before you have truly awakened.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;the-two-kings-and-the-two-labyrinths&quot;&gt;The Two Kings and the Two Labyrinths&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It is said by men worthy of belief (though Allah’s knowledge is greater) that in the first days there was a king of the isles of Babylonia who called together his architects and his priests and bade them build him a labyrinth so confused and so subtle that the most prudent men would not venture to enter it, and those who did would lose their way. Most unseemly was the edifice that resulted, for it is the prerogative of God, not man, to strike confusion and inspire wonder. In time there came to the court a king of Arabs, and the king of Babylonia (to muck the simplicity of his guest) bade him enter the labyrinth, where the king of Arabs wandered, humiliated and confused, until the coming of the evening, when he implored God’s aid and found the door. His lips offered no complaint, though he said to the king of Babylonia that in his land he had another labyrinth, and Allah willing, he would see that someday the king of Babylonia made its acquaintance. Then he returned to Arabia with his captains and his wardens and he wreaked such havoc upon kingdoms of Babylonia, and with such great blessing by fortune, that he brought low his castles, crushed his people, and took the king of Babylonia himself captive. He tied him atop a swift-footed camel and led him into the desert. Three days they rode, and then he said to him, “O king of time and substance and cipher of the century! In Babylonia didst thou attempt to make me lose my way in a labyrinth of brass with many stairways, doors, and walls; now the Powerful One has seen fit to allow me to show thee mine, which has no stairways to climb, nor walls to impede thy passage.” Then he untied the bonds of the king of Babylonia and abandoned him in the middle of the desert, where he died of hunger and thirst. Glory to him who does not die. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>this is not a hello world</title>
+		<published>2023-05-22T00:00:00+00:00</published>
+		<updated>2023-05-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/this-is-not-a-hello-world/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/this-is-not-a-hello-world/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;this-is-not-a-hello-world&quot;&gt;This is not a hello world&lt;&#x2F;h1&gt;
+&lt;pre data-lang=&quot;c&quot; style=&quot;background-color:#2e3440;color:#d8dee9;&quot; class=&quot;language-c &quot;&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span style=&quot;color:#5e81ac;&quot;&gt;#include &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;lt;stdio.h&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;int &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;printf&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eceff4;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;This is not a hello world.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;This is not a program.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;This is not code.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>code reviews are bad</title>
+		<published>2023-05-10T00:00:00+00:00</published>
+		<updated>2023-05-10T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/code-reviews-are-bad/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/code-reviews-are-bad/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;code-reviews-are-bad&quot;&gt;Code reviews are bad&lt;&#x2F;h1&gt;
+&lt;p&gt;Code reviews don&#x27;t make the code better.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Code reviews are a mechanism to dilute responsibility.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;And in today&#x27;s software engineering, responsibility is virtually nonexistent.&lt;&#x2F;p&gt;
+&lt;p&gt;We all make mistakes.&lt;&#x2F;p&gt;
+&lt;p&gt;Having someone approve that pull request makes us share responsibility.&lt;&#x2F;p&gt;
+&lt;p&gt;Consequently, a worse quality job is done.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsibility =&amp;gt; Quality&lt;&#x2F;li&gt;
+&lt;li&gt;No responsibility =&amp;gt; No quality&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Code reviews are only useful if people take responsibility.&lt;&#x2F;p&gt;
+&lt;p&gt;Without it, code reviews can be ineffective and even harmful.&lt;&#x2F;p&gt;
+&lt;p&gt;The same concept applies to pair programming, design patterns, unit testing.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>creative space and time</title>
+		<published>2023-04-21T00:00:00+00:00</published>
+		<updated>2023-04-21T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/creative-space-time/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/creative-space-time/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;creative-space-and-time&quot;&gt;Creative space and time&lt;&#x2F;h1&gt;
+&lt;p&gt;I remember one time when I was in a meeting where we had to list the positives and negatives of our product. Our software had been in production for over six years and it was quite mature. As we went around the room, most of the discussion focused on the challenges of evaluating a product that had been in use for so long.&lt;&#x2F;p&gt;
+&lt;p&gt;When it was my turn, I spoke up and shared a positive point of a mature product: we had control over our creative space and time. &amp;quot;I like to speak in alien sometimes,&amp;quot; I joked. &amp;quot;So let me translate what I mean into everyday language and give you some examples.&amp;quot;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;space-and-time&quot;&gt;Space and time&lt;&#x2F;h2&gt;
+&lt;p&gt;Software engineering is all about creativity and solving problems. Some people like me even consider it an &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;arnaudiaz.com&#x2F;blog&#x2F;programming-as-an-art&#x2F;&quot;&gt;art&lt;&#x2F;a&gt; form.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Space&lt;&#x2F;strong&gt; means that engineers can choose what they work on, how they work on it, and which tools and libraries to use. This gives them the freedom to create innovative solutions and go beyond what is expected.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;&#x2F;strong&gt; lets engineers decide when to release a feature, how long to work on it, and how to improve it. With creative time, there&#x27;s no need to rush and it encourages experimentation and refinement.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;do-you-want-to-be-a-good-company&quot;&gt;Do you want to be a good company?&lt;&#x2F;h2&gt;
+&lt;p&gt;Hire good engineers. Give them space and time.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;do-you-want-to-be-a-good-team&quot;&gt;Do you want to be a good team?&lt;&#x2F;h2&gt;
+&lt;p&gt;Hire good engineers. Give them space and time.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;do-you-want-to-be-a-good-engineer&quot;&gt;Do you want to be a good engineer?&lt;&#x2F;h2&gt;
+&lt;p&gt;Bend space and time.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>types of coroutines, fibers</title>
+		<published>2023-04-20T00:00:00+00:00</published>
+		<updated>2023-04-20T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/types-of-coroutines/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/types-of-coroutines/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;types-of-coroutines-fibers&quot;&gt;Types of coroutines, fibers&lt;&#x2F;h1&gt;
+&lt;p&gt;Coroutines have been used in programming since 1958 and were defined by Knuth as a way to generalize a subroutine. While regular subroutines start at the beginning and end at the end, coroutines can pause their execution and resume later from where they left off. An explanation of this can be found &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;arnaudiaz.com&#x2F;blog&#x2F;what-is-async&#x2F;&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The topic is complex because we normally mix &amp;quot;what a coroutine is&amp;quot; with &amp;quot;how it is going to run&amp;quot;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how&quot;&gt;How&lt;&#x2F;h2&gt;
+&lt;p&gt;There are two common ways to use coroutines: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;stackless&lt;&#x2F;strong&gt;, where the code is transformed into a state machine by the compiler.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;stackful&lt;&#x2F;strong&gt;, also known as fibers, which are user-mode threads that run on top of a regular operating system thread.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;what&quot;&gt;What&lt;&#x2F;h2&gt;
+&lt;p&gt;We can identify two types of coroutines based on their need for a stack:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;stackless&lt;&#x2F;strong&gt;, only require a stack while the coroutine is running. Once the coroutine suspends, its local variables can be serialized into a fixed-size structure, and the current call stack can be used for executing the next coroutine.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;stackful&lt;&#x2F;strong&gt;, allows you to suspend your coroutines at any point, providing more flexibility than stackless coroutines.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The lack of a stack is what allows the compiler to transform and use a stackless coroutine, while the need for a stack requires a runtime.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;When you use async&#x2F;await in your code, the compiler generates a state machine that will be executed later. This is because when you use async&#x2F;await, you&#x27;re only suspending execution at known points, which means you don&#x27;t need a stack to keep track of where you left off. The compiler can transform your code into a state machine that saves the state of the local variables and continues execution where it left off when it&#x27;s resumed.&lt;&#x2F;p&gt;
+&lt;p&gt;On the other hand, when you use goroutines&#x2F;fibers&#x2F;green threads, you can suspend and pause execution anywhere in the code, which means you need a stack to keep track of where you left off. These kinds of coroutines also require a runtime that can manage the stacks and schedule the coroutines to run on the available threads.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>how to fix a monolith</title>
+		<published>2023-04-11T00:00:00+00:00</published>
+		<updated>2023-04-11T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/fix-a-mono/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/fix-a-mono/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;how-to-fix-a-monolith&quot;&gt;how to fix a monolith&lt;&#x2F;h1&gt;
+&lt;p&gt;When it comes to improving the performance of your monolithic application, the number of users is not as important as the amount of traffic they generate. For example, some products can have fewer users but generate more traffic than others with a larger user base. Therefore, it&#x27;s crucial to consider the requests and traffic your monolith receives.&lt;&#x2F;p&gt;
+&lt;p&gt;To enhance your application&#x27;s performance and efficiency, you need to identify bottlenecks and problematic functionalities. This involves monitoring the application to determine:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The functionalities that receive the most traffic&lt;&#x2F;li&gt;
+&lt;li&gt;The functionalities that block the most CPU time&lt;&#x2F;li&gt;
+&lt;li&gt;The functionalities that require the most memory&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;redesign&quot;&gt;redesign&lt;&#x2F;h2&gt;
+&lt;p&gt;After identifying bottlenecks and problems, the next step is to redesign the product accordingly. This may involve breaking down the monolith into microservices that can scale independently, and considering traffic patterns to ensure optimal performance. Evaluate whether certain functionalities can be split or merged when redesigning the backend. By addressing these issues, you can enhance the product&#x27;s performance, efficiency, and reduce costs.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, if you identify that a bottleneck is one functionality that is composed of two operations, you can start by splitting it into two. By doing this, you can scale both operations horizontally instead of having one, allowing you to better manage traffic and reduce the impact of high traffic on your system. This approach can also help you address the issue of load imbalances, where some servers or resources may be overloaded while others are underutilized.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;user-impact&quot;&gt;user impact&lt;&#x2F;h2&gt;
+&lt;p&gt;To create a better backend, it&#x27;s important to focus on the operational level, not just the service level. Each operation can have a varying number of requests, but their impact, measured by the ratio of errors, may differ significantly.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Operation A: 10,000 requests with 10 failures - error rate is 0.1%&lt;&#x2F;li&gt;
+&lt;li&gt;Operation B: 100 requests with 10 failures - error rate is 10%&lt;&#x2F;li&gt;
+&lt;li&gt;Operation C: 100 requests with 50 failures - error rate is 50%&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If these requests are in the same service, the initial requests may hide the true error rate of your service, making it appear to have an error rate of 0.03%. Therefore, it&#x27;s critical to analyze the impact of each operation and prioritize them accordingly.&lt;&#x2F;p&gt;
+&lt;p&gt;Focus on the operations that have the biggest impact on user experience, not just the ones that happen most often. For instance, if a manual step in a process is crucial, users may have a bad experience if it fails, even if it&#x27;s not done often. On the other hand, an operation with lots of requests that rarely fails may not affect the user experience, even if it has a high error rate. So, prioritize critical operations based on their impact, not just how often they&#x27;re used.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;To make a monolithic application perform better, focus on finding bottlenecks and problems. Check the traffic patterns and see what needs fixing. Then, redesign the app by breaking it down into smaller services or changing how the functions work. Also, prioritize critical tasks that impact the user experience. By doing these things, you can make the app run better, save money, and make users happy.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>senior and junior engineers don&#x27;t exist</title>
+		<published>2023-03-31T00:00:00+00:00</published>
+		<updated>2023-03-31T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/senior-vs-junior/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/senior-vs-junior/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;senior-and-junior-engineers-don-t-exists&quot;&gt;senior and junior engineers don&#x27;t exists&lt;&#x2F;h1&gt;
+&lt;p&gt;Interns, juniors, mids, seniors, staff, principals... These positions were invented for political reasons.&lt;&#x2F;p&gt;
+&lt;p&gt;Firstly, they serve as a way to enforce a social hierarchy inside the company and teams. A principal or staff engineer does not have to justify a decision to an intern or a junior engineer on the team. Team dynamics are like cockfighting. The manager decides and acts as the leader the team follows. Seniority levels are above juniors and interns. Older people teach the young. Old planning. Men over women. &amp;quot;It&#x27;s a Man&#x27;s Man&#x27;s Man&#x27;s World.&amp;quot; Sadly, this is the reality in most companies, if not all of them. Many female friends in engineering are constantly harassed by their managers because they are women. The same arguments do not happen when the engineer is male. It&#x27;s sad.&lt;&#x2F;p&gt;
+&lt;p&gt;What are some social constructions established in a tech work environment?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;An intern must be willing to learn and ask questions to learn.&lt;&#x2F;li&gt;
+&lt;li&gt;A junior engineer is someone who receives simple and easy tasks from their superiors to be completed.&lt;&#x2F;li&gt;
+&lt;li&gt;A mid-engineer is someone who has a limited scope of action. A mid-engineer cannot have a big impact without the consent and approval of the upper levels.&lt;&#x2F;li&gt;
+&lt;li&gt;A senior engineer is someone with &amp;quot;the seniority&amp;quot; to make decisions. But do you have ten years of experience, or one year repeated ten times?&lt;&#x2F;li&gt;
+&lt;li&gt;Staff and principal levels are defined as people who coordinate teams and are architecture designers. Gurus and leaders to follow.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Let&#x27;s forget about all the new ideas that a female engineer can bring from another field to a new team. Let&#x27;s forget about how great minds can work better when they have a creative space to work. Let&#x27;s forget that we are people. We are juniors or seniors. Managers or subordinates. A hierarchy that you cannot escape.&lt;&#x2F;p&gt;
+&lt;p&gt;Cockfighting goes deeper than work politics; it gets deeper into human behavior.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extroverts forcing one-on-one meetings with introverts to pressure them. Making the other side feel agitated and uncomfortable.&lt;&#x2F;li&gt;
+&lt;li&gt;Aggressive managers hijacking conversations until their ideas reach the end. They will justify themselves as being active and engaging when their real intention is to assert dominance.&lt;&#x2F;li&gt;
+&lt;li&gt;Knowledge silos. People feel threatened if they are replaceable.&lt;&#x2F;li&gt;
+&lt;li&gt;When egos are hurt, everything is taken into personal space. It&#x27;s not about making the right decision, it&#x27;s about MY idea vs YOUR idea.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Please take this as an open letter. Stop talking about senior or junior engineers. Stop hierarchical harassment. Everyone is valuable. It doesn&#x27;t matter how old you are, your ethnicity or race, or your gender. Stop cockfighting in meetings. It doesn&#x27;t matter your background or studies; everyone on a team is at the same level. And everyone deserves respect. We are human beings, not headcounts. We are different, and it&#x27;s okay to be different.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>tier list</title>
+		<published>2023-03-23T00:00:00+00:00</published>
+		<updated>2023-03-23T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/tier-list/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/tier-list/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;tier-list&quot;&gt;tier list&lt;&#x2F;h1&gt;
+&lt;p&gt;List for good engineers. &lt;&#x2F;p&gt;
+&lt;p&gt;No order.&lt;&#x2F;p&gt;
+&lt;p&gt;If you are a bad engineer looking for guidance you can check &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;codely.com&#x2F;&quot;&gt;this&lt;&#x2F;a&gt; instead to keep being bad at your job.&lt;&#x2F;p&gt;
+&lt;p&gt;If you are a PHD student or an university professor. You can @ me when you put some code in production that is not an over engineered hello world.&lt;&#x2F;p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th colspan=&quot;7&quot;&gt;Tier list&lt;&#x2F;th&gt;
+  &lt;&#x2F;tr&gt;
+&lt;&#x2F;thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Must&lt;&#x2F;td&gt;
+    &lt;td&gt;Assembly&lt;&#x2F;td&gt;
+    &lt;td&gt;Sh&lt;&#x2F;td&gt;
+    &lt;td&gt;C&lt;&#x2F;td&gt;
+    &lt;td colspan=&quot;3&quot;&gt;SQL&lt;&#x2F;td&gt;
+  &lt;&#x2F;tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;8-10&lt;&#x2F;td&gt;
+    &lt;td&gt;Erlang&lt;&#x2F;td&gt;
+    &lt;td&gt;Go&lt;&#x2F;td&gt;
+    &lt;td&gt;Rust&lt;&#x2F;td&gt;
+    &lt;td colspan=&quot;3&quot;&gt;Zig&lt;br&gt;&lt;&#x2F;td&gt;
+  &lt;&#x2F;tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;6-8&lt;&#x2F;td&gt;
+    &lt;td&gt;Elixir&lt;&#x2F;td&gt;
+    &lt;td&gt;Ocaml&lt;&#x2F;td&gt;
+    &lt;td colspan=&quot;4&quot;&gt;C#&lt;&#x2F;td&gt;
+  &lt;&#x2F;tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;4-6&lt;&#x2F;td&gt;
+    &lt;td colspan=&quot;6&quot;&gt;C++&lt;&#x2F;td&gt;
+  &lt;&#x2F;tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;2-4&lt;br&gt;&lt;&#x2F;td&gt;
+    &lt;td&gt;Java&lt;&#x2F;td&gt;
+    &lt;td&gt;Scala&lt;&#x2F;td&gt;
+    &lt;td&gt;Kotlin&lt;&#x2F;td&gt;
+    &lt;td&gt;Clojure&lt;&#x2F;td&gt;
+    &lt;td&gt;PHP&lt;&#x2F;td&gt;
+    &lt;td&gt;Nim&lt;&#x2F;td&gt;
+  &lt;&#x2F;tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;0-2&lt;br&gt;&lt;&#x2F;td&gt;
+    &lt;td&gt;Python&lt;&#x2F;td&gt;
+    &lt;td&gt;Javascript&lt;br&gt;&lt;&#x2F;td&gt;
+    &lt;td colspan=&quot;4&quot;&gt;Ruby&lt;&#x2F;td&gt;
+  &lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;
+&lt;&#x2F;table&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>recruiters do not hire</title>
+		<published>2023-03-01T00:00:00+00:00</published>
+		<updated>2023-03-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/recruiters-do-not-hire/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/recruiters-do-not-hire/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;recruiters-do-not-hire&quot;&gt;recruiters do not hire&lt;&#x2F;h1&gt;
+&lt;p&gt;Recruiters retain, not just hire. A recruitment process is a mechanism for that.&lt;&#x2F;p&gt;
+&lt;p&gt;Selection processes suck because they&#x27;re a shield. They&#x27;re hard and long not to attract the best, but to keep as many as possible. They fight attrition.&lt;&#x2F;p&gt;
+&lt;p&gt;If selection were a breeze, job rotation would be a given. How stable can a company be then? But even with a long process, it&#x27;s a middle ground. The decision is always whether you want to be there, and that&#x27;s what matters.&lt;&#x2F;p&gt;
+&lt;p&gt;Imagine you had an argument with a colleague. If changing jobs were a 10-minute affair, would you do it instead of dealing with the problem? Too easy. The reality is, changing jobs isn&#x27;t that easy, and it shouldn&#x27;t be. It should take more than a 10-minute conversation.&lt;&#x2F;p&gt;
+&lt;p&gt;Selection is not just about whether they accept you. It&#x27;s about whether you want to be there. And that takes time to figure out. But the right fit is worth the effort, even if it means a longer selection process.&lt;&#x2F;p&gt;
+&lt;p&gt;A technical conversation should be enough for a good engineer to showcase their abilities and recognize another good engineer. If they can&#x27;t do it in 10 minutes, they&#x27;re not good. The best engineers can spot talent quickly and accurately, and they know what to look for beyond what&#x27;s on paper or in a formal interview.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>you use git wrong</title>
+		<published>2023-01-31T00:00:00+00:00</published>
+		<updated>2023-01-31T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/you-use-git-wrong/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/you-use-git-wrong/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;you-use-git-wrong&quot;&gt;you use git wrong&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;fetching-changes-from-a-pr&quot;&gt;fetching changes from a PR&lt;&#x2F;h2&gt;
+&lt;p&gt;Imagine you are working on a project and want to fetch some changes that you see in a PR. For example let&#x27;s take &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;kubernetes&#x2F;kubernetes&#x2F;pull&#x2F;115382&quot;&gt;this&lt;&#x2F;a&gt; one.&lt;&#x2F;p&gt;
+&lt;p&gt;If you are working on your local first you will need to add the remote.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git remote add liggitt https:&#x2F;&#x2F;github.com&#x2F;liggitt&#x2F;kubernetes&#x2F;tree&#x2F;typecheck-stdlib&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Then fetch it.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git fetch liggitt&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;And then checkout to the branch you want to check.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git checkout liggitt&#x2F;typecheck-stdlib&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;And at this point you will be at the patch you wanted to check. Take some extra steps if you want to take this patch and apply it another branch.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fetching-changes-using-the-patch&quot;&gt;fetching changes using the patch&lt;&#x2F;h2&gt;
+&lt;p&gt;We are still going to use the same PR as example. The url is: &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;kubernetes&#x2F;kubernetes&#x2F;pull&#x2F;115382&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;kubernetes&#x2F;kubernetes&#x2F;pull&#x2F;115382&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now from this URL let&#x27;s get the patch of changes directly. Which we can do by adding &lt;code&gt;.patch&lt;&#x2F;code&gt; at the end of the url.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;kubernetes&#x2F;kubernetes&#x2F;pull&#x2F;115382.patch&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;kubernetes&#x2F;kubernetes&#x2F;pull&#x2F;115382.patch&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now we can simply curl it and apply it to our project.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;curl -L https:&#x2F;&#x2F;github.com&#x2F;kubernetes&#x2F;kubernetes&#x2F;pull&#x2F;115382.patch | git am&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;And we are done. We can apply the patch directly to our work in progress and play with it.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>david lynch motivates you</title>
+		<published>2023-01-25T00:00:00+00:00</published>
+		<updated>2023-01-25T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/david-lynch-motivates-you/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/david-lynch-motivates-you/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;david-lynch-motivates-you&quot;&gt;david lynch motivates you&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; title=&quot;david lynch motivates you&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=5NVMeVB5Q-Q&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;cdn.artphotolimited.com&#x2F;images&#x2F;60913d60bd40b85323893a87&#x2F;300x300&#x2F;david-lynch-2012.jpg&quot; alt=&quot;david lynch motivates you&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stay alert&lt;&#x2F;li&gt;
+&lt;li&gt;Do your work&lt;&#x2F;li&gt;
+&lt;li&gt;Don’t worry about the world going by&lt;&#x2F;li&gt;
+&lt;li&gt;Don’t sit around doing nothing&lt;&#x2F;li&gt;
+&lt;li&gt;Get in gear and do it &lt;&#x2F;li&gt;
+&lt;li&gt;Don’t take no for an answer &lt;&#x2F;li&gt;
+&lt;li&gt;Figure out how to get it done&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Translate these lessons to Cinema, or a painting, or to whatever. &lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>game of thrones</title>
+		<published>2023-01-23T00:00:00+00:00</published>
+		<updated>2023-01-23T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/game-of-thrones/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/game-of-thrones/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;game-of-thrones&quot;&gt;game of thrones&lt;&#x2F;h1&gt;
+&lt;p&gt;The tech scene is full of bullshit and fakery, plain and simple. We all need to understand our role in a team and be aware of the real intentions behind every piece of work we do if we want to survive.&lt;&#x2F;p&gt;
+&lt;p&gt;In tech, we often mix up the concepts of product understanding and business understanding, thinking they&#x27;re the same thing. But they&#x27;re not. Business is just politics, and it&#x27;s important to recognize that. Don&#x27;t get fooled by thinking that understanding the product is the same as understanding the business - it&#x27;s not.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Product understanding&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;How my work makes ‘the company’ make more money.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Politics&#x2F;Business understanding&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;How my work makes ‘me’ make more money.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are two examples of how politics work in a tech company from both a managerial and individual contributor perspective:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A manager wants a promotion or a raise, so they start a new initiative to improve a metric. They create a new product, which requires an increase in headcount. The team grows, delivers the product, and moves the metric. Now the manager has a success story to justify their promotion or raise. More headcount means more money for the manager.&lt;&#x2F;li&gt;
+&lt;li&gt;A software engineer wants a promotion or a raise, so they start a new initiative to improve a metric. They create a new product, which requires a development process, architecture design, and involves more people. The team develops the product, which moves the metric. Now the software engineer has a success story to justify their promotion or raise. More architecture means more money for the engineer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Here&#x27;s a fact no one talks about&lt;&#x2F;strong&gt;: after a year or two, someone else will come along and do the same thing. They&#x27;ll move your metric, redo your work, or replace it with something newer and cooler. In the end, the impact of your original work will be zero. But politically, it&#x27;s good. More products mean more headcount, more metrics, and more opportunities for growth and compensation for everyone.&lt;&#x2F;p&gt;
+&lt;p&gt;Here are some typical ways to improve your politics skills and move metrics to justify promotions or salary increases:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding complexity to products: this could be done by introducing new features, products, use cases, experimentation, or promoting collaboration between teams.&lt;&#x2F;li&gt;
+&lt;li&gt;From a technical perspective: introducing new technology, refactoring, complex architecture, complex design patterns, talks, and workshops.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;It&#x27;s important to focus on metrics that are easy to move and have short delivery times. The manager who approves the initiative also has metrics that they want to move quickly, and the C-Level also has quick metrics they want to move. Over time, the manager who initiated the initiative may leave the company, and the original developer team that delivered the product may have jumped to another company for a big salary increase, thanks to their metric-driven resume. If we focus on political metrics, we attract political talent.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;responsibility-doesn-t-exist&quot;&gt;Responsibility doesn’t exist&lt;&#x2F;h2&gt;
+&lt;p&gt;When it comes to responsibility in the tech industry, it&#x27;s important to understand that it doesn&#x27;t really exist. This may be a hard truth to swallow, particularly for managers who aren&#x27;t involved in the actual building of software.&lt;&#x2F;p&gt;
+&lt;p&gt;Consider the scenarios we previously discussed: a team builds a product under a manager&#x27;s supervision, and they deliver a success. But what happens when that product requires ongoing maintenance? The cost of maintaining a product can quickly become greater than the profit it generates. So, was the metric that was moved worth the increased salary expenses of the team?&lt;&#x2F;p&gt;
+&lt;p&gt;And what about when a rushed project results in faulty code that causes the product to break down? Who is accountable for that? It&#x27;s rare for a manager to be fired for a project they led years ago that&#x27;s now failing. In fact, responsibility in the tech industry is often difficult to pinpoint.&lt;&#x2F;p&gt;
+&lt;p&gt;Individual contributors can be put on performance improvement plans (PIPs) when they are deemed to be &amp;quot;underperforming.&amp;quot; But how many people will get laid off if a recession hits, like the one experienced in 2022? And how many C-level executives will resign or reduce their pay when things go wrong?&lt;&#x2F;p&gt;
+&lt;p&gt;In the end, responsibility is often something that&#x27;s easier to talk about than it is to actually enforce. Those who are in positions of power may call the shots, but they are rarely held accountable when things don&#x27;t go as planned.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;top-down-vs-bottom-up-decision-making&quot;&gt;Top-down vs bottom-up decision making&lt;&#x2F;h2&gt;
+&lt;p&gt;When it comes to decision-making in the workplace, the terms &amp;quot;top-down&amp;quot; and &amp;quot;bottom-up&amp;quot; are often used, but let&#x27;s be honest, a job is all about social hierarchy, and not everyone has the same power in the chain. Managers hold the power to make decisions, and their subordinates must follow them, or there will be consequences. However, managers want to project an image that they care about their employees, and they will listen to their proposals. They will even force their employees to make proposals to show that they are proactive.&lt;&#x2F;p&gt;
+&lt;p&gt;But, in reality, most proposals from the bottom rarely get approved, and it&#x27;s the harmful initiatives that usually end up being approved to maintain the image that the company cares. For instance, it&#x27;s easy to approve an internal initiative where the teams want to do monthly tech talks, but it&#x27;s harder to approve a renewal of the laptops and smartphones that people use. The easy proposal is approved to maintain the image that they care, while a massive layoff takes place the next month.&lt;&#x2F;p&gt;
+&lt;p&gt;In a mature tech company, a new CTO may propose a big change in the architecture and process of the company, which is a top-down decision where the metric to move has been cherry-picked by management. A manager then decides to re-do the architecture, and multiple teams spend a year migrating and working to it. At the end of the day, the metric that has been moved was the one that the manager decided on, and they will move on to a new company to share their success story on how they led this innovation and it was a success.&lt;&#x2F;p&gt;
+&lt;p&gt;On the other hand, startups operate differently. A product decision is a bottom-up decision, where the team focuses on making money and justifying their initiative to their manager for approval. After approval, the team is responsible for achieving the metric that will generate more money for the company.&lt;&#x2F;p&gt;
+&lt;p&gt;In summary, mature tech companies are environments where managers and senior roles want to maximize their profits, while startups focus on making money so they can obtain big returns. However, as time passes, every startup that becomes profitable will eventually become a mature company, and the political race begins. Let the game of thrones begin.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>わび・さび</title>
+		<published>2023-01-14T00:00:00+00:00</published>
+		<updated>2023-01-14T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/wabi-sabi/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/wabi-sabi/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;wabisabi&quot;&gt;わび・さび&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;不均斉&lt;&#x2F;li&gt;
+&lt;li&gt;簡素&lt;&#x2F;li&gt;
+&lt;li&gt;考古 &lt;&#x2F;li&gt;
+&lt;li&gt;自然 &lt;&#x2F;li&gt;
+&lt;li&gt;幽玄 &lt;&#x2F;li&gt;
+&lt;li&gt;脱俗&lt;&#x2F;li&gt;
+&lt;li&gt;静寂 &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>good engineers see in 3D</title>
+		<published>2022-12-01T00:00:00+00:00</published>
+		<updated>2022-12-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/good-engineers-see-in-3d/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/good-engineers-see-in-3d/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;good-engineers-see-in-3d&quot;&gt;Good engineers see in 3D&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;t4.ftcdn.net&#x2F;jpg&#x2F;05&#x2F;12&#x2F;86&#x2F;27&#x2F;360_F_512862789_abYbb2RPLzpN8aAjteTBb4xGnRgqVSyw.jpg&quot; alt=&quot;2d vs 3d&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Gabo is a software engineer, and his team is responsible for a product that enables users to create and manage a TODO list. This product has three primary components:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Public API&lt;&#x2F;strong&gt;: includes simple HTTP operations such as listing my TODOs, creating a TODO, and completing a TODO.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Core service&lt;&#x2F;strong&gt;: processes HTTP requests.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Database&lt;&#x2F;strong&gt;: a persistence layer for storing and managing the state of a user&#x27;s TODO list.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Let&#x27;s assume this product runs on AWS. The team uses ALB, runs instances of the service in t3.medium EC2 instances, and uses DynamoDB as the database.&lt;&#x2F;p&gt;
+&lt;p&gt;As the traffic grows, the team needs to adapt the product to meet the new requirements. There are two scaling alternatives:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Horizontal scaling&lt;&#x2F;strong&gt;: adding more t3.medium instances.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Vertical scaling&lt;&#x2F;strong&gt;: changing the instance type to a t3.large with more resources.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;One way to make the decision is to analyze the cost. The team knows the cost of one instance and how much traffic it can handle. With this information, they can consider both alternatives and choose the most efficient one.&lt;&#x2F;p&gt;
+&lt;p&gt;Stop. Did you see the problem? If you haven&#x27;t yet, then you might be a 2D engineer. Good engineers can see in 3D.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>emotional micromanagement</title>
+		<published>2022-08-12T00:00:00+00:00</published>
+		<updated>2022-08-12T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/emotional-micromanagement/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/emotional-micromanagement/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;emotional-micromanagement&quot;&gt;Emotional micromanagement&lt;&#x2F;h1&gt;
+&lt;p&gt;Examples of micromanagement that I found&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; with a quick Google search:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;They ask to be copied on all emails from the team, whether they genuinely need to be included or not.&lt;&#x2F;li&gt;
+&lt;li&gt;They are reluctant to delegate even the most minor tasks to their team members.&lt;&#x2F;li&gt;
+&lt;li&gt;They constantly check where their employees are, seeing if they&#x27;re at their desks or online, and may even monitor bathroom breaks.&lt;&#x2F;li&gt;
+&lt;li&gt;They ask for excessively frequent updates on even small tasks and check and double-check deadlines.&lt;&#x2F;li&gt;
+&lt;li&gt;They rarely ask for input from anyone else.&lt;&#x2F;li&gt;
+&lt;li&gt;They take pleasure in correcting someone else&#x27;s work or pointing out very small errors.&lt;&#x2F;li&gt;
+&lt;li&gt;They scrutinize each task intently, no matter how small or low-priority the work is.&lt;&#x2F;li&gt;
+&lt;li&gt;They never seem to be satisfied with any work an employee performs.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Adapted examples of emotional micromanagement:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;They attempt to be included in all casual conversations.&lt;&#x2F;li&gt;
+&lt;li&gt;They will force team activities, off-sites, and treat the team as a family.&lt;&#x2F;li&gt;
+&lt;li&gt;They constantly check how their employees feel and think it&#x27;s their job to help them.&lt;&#x2F;li&gt;
+&lt;li&gt;They ask for excessively frequent updates on feelings and personal topics they may think are relevant for the employee&#x27;s well-being.&lt;&#x2F;li&gt;
+&lt;li&gt;They are the certified coaches and psychologists of the team. It&#x27;s their job to help you fulfill your passions and goals!&lt;&#x2F;li&gt;
+&lt;li&gt;They take pleasure in correcting how someone else deals with their mental health or soft skills.&lt;&#x2F;li&gt;
+&lt;li&gt;They will OKR your life and feelings. &amp;quot;When was the last time you visited your mom? How did that make you feel? Can I help you? Let me help you!&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;They never seem to be satisfied with how good you feel or how well you perform. The employee has to always push and grind. Happiness must be achieved.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;em&gt;Micromanagement in the Workplace: Definition, Examples and Harmful Effects&lt;&#x2F;em&gt; &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;blog.empuls.io&#x2F;micromanagement&quot;&gt;micromanagement&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>what is async</title>
+		<published>2022-06-26T00:00:00+00:00</published>
+		<updated>2022-06-26T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/what-is-async/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/what-is-async/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;what-is-async&quot;&gt;What is async?&lt;&#x2F;h1&gt;
+&lt;p&gt;To start, if a function is a routine or a subroutine, then an async function is a coroutine.&lt;&#x2F;p&gt;
+&lt;p&gt;In the main program, there is a main stack that contains the memory space allocated to execute a function. This space is called a stack frame, and it stores local variables and parameters. The stack also contains the variables and stack frames of the functions being executed.&lt;&#x2F;p&gt;
+&lt;p&gt;When you return from a function, you get rid of the stack frame from the main stack, and you lose the local variables of that function.&lt;&#x2F;p&gt;
+&lt;p&gt;In a coroutine, you can pause the execution and return control to where you were before without removing anything from the stack. This is an &lt;code&gt;async&lt;&#x2F;code&gt; function.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s consider this code snippet, which includes a &lt;code&gt;main&lt;&#x2F;code&gt; function and a &lt;code&gt;foo&lt;&#x2F;code&gt; coroutine that you can pause.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2e3440;color:#d8dee9;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt; main () {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3 &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;4 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;   suspend 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;6 &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;We can use the &lt;code&gt;async&lt;&#x2F;code&gt; keyword to indicate that &lt;code&gt;foo&lt;&#x2F;code&gt; will give us a pointer to the stack frame of the coroutine. This allows us to return to where we were in the main function. Keep in mind that this behavior is only a convention, and we could return additional data about the coroutine if we wanted to. Similarly, we can use the &lt;code&gt;resume&lt;&#x2F;code&gt; keyword to indicate that we want to return to the stack frame. It&#x27;s worth noting that this is a syntax convention that I&#x27;ve created.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2e3440;color:#d8dee9;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt; main () {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;   f &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span&gt; async &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;   resume &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;4 &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;5 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;6&lt;&#x2F;span&gt;&lt;span&gt;   suspend 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;10
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;8 &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ol&gt;
+&lt;li&gt;Begin by loading the main function at LOC 1.&lt;&#x2F;li&gt;
+&lt;li&gt;The stack contains the execution line and the variables of the main function and its frames.&lt;&#x2F;li&gt;
+&lt;li&gt;At LOC 2, call the &lt;code&gt;foo()&lt;&#x2F;code&gt; function and save the pointer to the frame.&lt;&#x2F;li&gt;
+&lt;li&gt;At LOC 6, you are inside the stack frame of &lt;code&gt;foo()&lt;&#x2F;code&gt;, where you make a &lt;code&gt;suspend&lt;&#x2F;code&gt; call and return execution to the caller without popping the frame.&lt;&#x2F;li&gt;
+&lt;li&gt;At LOC 3, you &lt;code&gt;resume&lt;&#x2F;code&gt; the frame.&lt;&#x2F;li&gt;
+&lt;li&gt;At LOC 7, you &lt;code&gt;return&lt;&#x2F;code&gt; the value 10 and pop the frame.&lt;&#x2F;li&gt;
+&lt;li&gt;Now you are at LOC 4. If you had saved the value in a variable, you could use it normally. After all, it&#x27;s just another variable in the stack, right?&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;How does the following example work? What does it print?&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2e3440;color:#d8dee9;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt; main () {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt;   f &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span&gt; async &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;   v &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span&gt; resume &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;4   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(v)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;5 &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;6 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span&gt;   suspend 
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;8   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;return &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;10
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;9 &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;And what about this one? What does it print?&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2e3440;color:#d8dee9;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt; var global &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;0
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span&gt; main () {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;   f &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;4   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;while &lt;&#x2F;span&gt;&lt;span&gt;(global &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;!= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span&gt;) {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span&gt;     resume f
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;6   &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;7   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(global)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;8 &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;9 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#88c0d0;&quot;&gt;foo&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;10   &lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;while &lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;) {
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;     global&lt;&#x2F;span&gt;&lt;span style=&quot;color:#81a1c1;&quot;&gt;++
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;11&lt;&#x2F;span&gt;&lt;span&gt;     suspend
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;12  &lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;13&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The &lt;code&gt;await&lt;&#x2F;code&gt; keyword causes the program to wait in the main function instead of continuing with the execution. There&#x27;s nothing mysterious about it, it simply waits for the frame to return. This makes it ideal for IO tasks, where you may need to wait for a response. For example, you might do some work in the background and then await the response.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;function-coloring&quot;&gt;Function coloring&lt;&#x2F;h2&gt;
+&lt;p&gt;The reason that &lt;code&gt;async&lt;&#x2F;code&gt; functions need to go with async is that when managing memory, there can be situations where you have uninitialized variables. If you execute code before the &lt;code&gt;await&lt;&#x2F;code&gt; and after the &lt;code&gt;async&lt;&#x2F;code&gt; function, it could print garbage because there are uninitialized pointers waiting for a value. Sometimes the compiler can detect this, but other times it can&#x27;t.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s worth noting that we&#x27;re just using pointers to execute the functions and coroutines. This means that you can run them in any thread or scheduler you need, depending on your requirements.&lt;&#x2F;p&gt;
+&lt;p&gt;In conclusion, &lt;strong&gt;it&#x27;s important to understand that coroutines have nothing to do with parallelism&lt;&#x2F;strong&gt;. They are simply a way to manage memory and handle IO tasks in an efficient and elegant way.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blocking-non-blocking&quot;&gt;Blocking, non-blocking&lt;&#x2F;h2&gt;
+&lt;p&gt;In a subroutine, the caller always waits for the return value. However, with coroutines and &lt;code&gt;async&lt;&#x2F;code&gt; functions, the caller only waits for the result if they use the &lt;code&gt;await&lt;&#x2F;code&gt; keyword. The use of &lt;code&gt;suspend&lt;&#x2F;code&gt; in the function body doesn&#x27;t determine whether the caller has to block or not.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The decision to wait or not is up to the caller&lt;&#x2F;strong&gt;, and whether a function is &lt;code&gt;async&lt;&#x2F;code&gt; or not doesn&#x27;t determine whether it blocks or is non-blocking. Instead, it&#x27;s the use of &lt;code&gt;await&lt;&#x2F;code&gt; that matters in determining whether a caller needs to block or not.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;more&quot;&gt;More&lt;&#x2F;h2&gt;
+&lt;p&gt;This post was an introduction with some inaccuracies. Read &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;arnaudiaz.com&#x2F;blog&#x2F;types-of-coroutines&#x2F;&quot;&gt;this&lt;&#x2F;a&gt; for more.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>syntax vs semantics</title>
+		<published>2022-06-07T00:00:00+00:00</published>
+		<updated>2022-06-07T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/syntax-vs-semantics/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/syntax-vs-semantics/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;p&gt;Ok. I&#x27;m tired of this topic.&lt;&#x2F;p&gt;
+&lt;p&gt;Two definitions quoting one of my favourite courses &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Syntax&lt;&#x2F;strong&gt;. By syntax, we mean the rules that define what forms a well-formed program in the language. Including the keywords, restrictions on whitespace and formatting, punctuation, operators, etc. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Semantics&lt;&#x2F;strong&gt;. By semantics, we mean the rules that define the behavior of programs. In other words, semantics is about the meaning of a program—what computation a particular piece of syntax represents. Note that although “semantics” is plural in form, we use it as singular. That’s like “mathematics” or “physics”.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;So then, what is code readability?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code readability = syntax that make semantics obvious.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If a block of code is written in an imperative style or functional style doesn&#x27;t matter. Ask yourself instead, are the semantics clear? Are we coping or moving the values? Are we cloning the references? Are we iterating over mutable references or copies of the value?&lt;&#x2F;p&gt;
+&lt;p&gt;A good language, with good code readability, makes semantics obvious. A good programmer, encourages good readability. With good readability we don&#x27;t have doubts about what a piece of code is doing. &lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;em&gt;Cornell Ocaml cs3110&lt;&#x2F;em&gt; &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;cs3110.github.io&#x2F;textbook&#x2F;chapters&#x2F;basics&#x2F;intro.html?highlight=syntax&quot;&gt;cs3110&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>java the good parts</title>
+		<published>2022-05-17T00:00:00+00:00</published>
+		<updated>2022-05-17T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/java-the-good-parts/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/java-the-good-parts/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>engineers as gardeners</title>
+		<published>2022-05-06T00:00:00+00:00</published>
+		<updated>2022-05-06T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/engineers-as-gardeners/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/engineers-as-gardeners/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;p&gt;There is a common belief in our culture about making software. In the same way as one imagines an architect working. You know, designing the building, in all its details, and then having that constructed. We&#x27;ve built an entire school of thought around the concept of software architecture. Like many people, I had assumed that we develop a product by following these principles. Indeed there was a point in the mid of the century XX century where we needed it. But things evolve.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;A century later we are constantly fighting to shape the landscapes of our culture. Nobody wants to admit that things have changed. What once was right now doesn&#x27;t have a meaning to exist. And we have built a lot on top of our past beliefs. But all things must end. We come from a time when shipping a new version literally meant shipping it. Putting the new floppy disks in a box, load the truck and send it to our clients. Where new releases or patches were yearly releases. Where bug fixes were sent with the &amp;quot;urgent&amp;quot; tape on the envelope. Ponder about this for a second. Nowadays we are releasing changes straight to production multiple times per a day. How things have changed. We are already a couple of decades into the era of cloud computing. Microservices architectures in the form of service meshes. Or in the form of giant pub&#x2F;sub orchestrations. Most of them started from a quick MVP written in Python or Javascript. So yes, things have changed. And will continue to do so.&lt;&#x2F;p&gt;
+&lt;p&gt;We need to abandon the idea of a program as something that we perfectly plan ahead and reproduce. We are not building a bridge to last two hundred years. We are not building a pyramid. We need to understand that software behaves like a living being. A multicelullar organism. It grows, falls sick, reproduces… it dies. We build products by programming seeds and watching them turn into something. We prepare our fields by configuring a cloud provider like AWS or a Kubernetes cluster. We build pipelines to irrigate our infrastructure with new code. Watch it grow and fight the bad weather. Use pesticides when bugs appear. And proudly see how our clients reap the fruits of our hard work.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>traits of a good programmer</title>
+		<published>2022-02-11T00:00:00+00:00</published>
+		<updated>2022-02-11T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/traits-good-programmer/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/traits-good-programmer/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;checklist&quot;&gt;Checklist&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;say please and thank you&lt;&#x2F;li&gt;
+&lt;li&gt;show respect for the other person&#x27;s opinion, never say &amp;quot;you&#x27;re wrong&amp;quot;&lt;&#x2F;li&gt;
+&lt;li&gt;if you are wrong, admit it&lt;&#x2F;li&gt;
+&lt;li&gt;talk about your own mistakes before criticizing&lt;&#x2F;li&gt;
+&lt;li&gt;be a good listener&lt;&#x2F;li&gt;
+&lt;li&gt;be a good friend and a good son &lt;&#x2F;li&gt;
+&lt;li&gt;don&#x27;t criticize, condemn, or complain&lt;&#x2F;li&gt;
+&lt;li&gt;give honest and sincere appreciation&lt;&#x2F;li&gt;
+&lt;li&gt;treat people well&lt;&#x2F;li&gt;
+&lt;li&gt;become genuinely interested in other people&lt;&#x2F;li&gt;
+&lt;li&gt;breathe clean air&lt;&#x2F;li&gt;
+&lt;li&gt;exercise your body, mind and spirit&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>languages worth learning</title>
+		<published>2021-11-01T00:00:00+00:00</published>
+		<updated>2021-11-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/languages-worth-learning/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/languages-worth-learning/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;what-language-should-i-learn-next&quot;&gt;What language should I learn next?&lt;&#x2F;h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;A language that doesn&#x27;t affect the way you think about programming, is not worth knowing.&amp;quot; Alan Parlis&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;what-language-should-i-learn-next-1&quot;&gt;What language should I learn next?&lt;&#x2F;h2&gt;
+&lt;p&gt;You should first learn Basic, and then C. Why? Because the list is in alphabetical order and I would not recommend APL to my worst enemy.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Basic&lt;&#x2F;strong&gt;, &lt;strong&gt;C&lt;&#x2F;strong&gt;, &lt;strong&gt;Elixir&lt;&#x2F;strong&gt;, &lt;strong&gt;Forth&lt;&#x2F;strong&gt;, &lt;strong&gt;Go&lt;&#x2F;strong&gt;, &lt;strong&gt;J or Kona&lt;&#x2F;strong&gt;, &lt;strong&gt;Ocaml&lt;&#x2F;strong&gt;, &lt;strong&gt;Prolog&lt;&#x2F;strong&gt;, &lt;strong&gt;Racket or Scheme&lt;&#x2F;strong&gt;, &lt;strong&gt;Rust&lt;&#x2F;strong&gt;, &lt;strong&gt;Zig&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If your langauge of choice is not in the list, does it mean that it&#x27;s not worth learning? Probably yes. &lt;&#x2F;p&gt;
+&lt;p&gt;But here is a list of HMs: ADA, ATS, Coq, Haskell, Idris, Julia, Lean, Mercury, Nim, Shen.&lt;&#x2F;p&gt;
+&lt;p&gt;Note that C is in the list for two reasons. To understand kernel programming. To understand why is to so bad.&lt;&#x2F;p&gt;
+&lt;p&gt;Note that sometimes I recommend a contemporary alternative, others the old school. It does not matter. Learn about both and their differences.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>learning frameworks</title>
+		<published>2021-10-27T00:00:00+00:00</published>
+		<updated>2021-10-27T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/learning-frameworks/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/learning-frameworks/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;learning-frameworks&quot;&gt;Learning frameworks&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;graphs-pyramids-and-trees&quot;&gt;Graphs, pyramids and trees&lt;&#x2F;h2&gt;
+&lt;p&gt;Think of knowledge as a graph, with each node representing a piece of information in your brain. As you add more nodes, you become richer in knowledge. To visualize this, think of a pyramid or a tree, where you build your ideas from fundamental concepts and build upon them. A learning framework is a method of building this pyramid.&lt;&#x2F;p&gt;
+&lt;p&gt;There are two main learning frameworks: bottom-up and top-down. In the bottom-up approach, you start with fundamentals and work your way up to practical applications. In the top-down approach, you start with a real-world application and work your way down to the fundamentals.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s say you want to learn how to build a web application. You start by learning the fundamentals of HTML, CSS, and JavaScript. Then, you build upon those fundamentals by learning about server-side programming and databases. Finally, you use that knowledge to build your web application. In this example, the fundamental concepts of HTML, CSS, and JavaScript are the base of the pyramid, and server-side programming and databases are built on top of that.&lt;&#x2F;p&gt;
+&lt;p&gt;Suppose you want to build a chat application. In this case, you may start with an existing chat application and work your way down to the underlying theory. You may start by examining how the chat application communicates with the server and then delve into the networking protocols and data structures that make it possible.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-should-i-do&quot;&gt;What should I do?&lt;&#x2F;h2&gt;
+&lt;p&gt;Both methods of learning, bottom-up and top-down, are valid and it&#x27;s actually beneficial to use both approaches when learning a topic. It&#x27;s important to trust your instincts and choose the method that feels most engaging to you. If you feel like building a small app, go ahead and do it, even if you lose interest in the topic later. Remember, the goal is not the final result, but rather to &lt;em&gt;learn&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Have you ever wondered why you stop working on side projects? It&#x27;s not always because you lose interest in the topic. More often, it&#x27;s because you have satisfied your curiosity and have learned what you set out to learn.&lt;&#x2F;p&gt;
+&lt;p&gt;If you think of knowledge as a graph, you can traverse it using two methods: Breadth-First Search (BFS) and Depth-First Search (DFS). Start with BFS to gain a broad understanding of the topic, then switch to DFS as you discover interesting subtopics that you want to master. The important thing is to explore and then master, following the A, B, C approach.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s say you want to learn a new programming language, such as Python. You start by using BFS to get a broad understanding of the language&#x27;s syntax, basic data types, control structures, functions, modules, and packages. Then, you switch to DFS to delve deeper into specific subtopics, such as object-oriented programming, file I&#x2F;O, regular expressions, web scraping, data analysis, and machine learning.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;trust-the-process&quot;&gt;Trust the process&lt;&#x2F;h2&gt;
+&lt;p&gt;Remember, learning takes tame, so be patient. If you&#x27;re a beginner, it&#x27;s important to have quick and easy access to visual and interactive materials to stay interested. At this level, even following tutorials can be challenging.&lt;&#x2F;p&gt;
+&lt;p&gt;To improve your learning, I suggest doing multiple tutorials on the same topic by different authors. This will help you compare and combine their approaches. You should also look at both modern and old materials to get a well-rounded understanding of the topic.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;temporality&quot;&gt;Temporality&lt;&#x2F;h2&gt;
+&lt;p&gt;The topic of knowledge temporality is a significant area of research. It&#x27;s essential to understand that knowledge can be either temporal or timeless.&lt;&#x2F;p&gt;
+&lt;p&gt;Temporary knowledge refers to knowledge that is specific to a particular context or implementation, such as a programming language, framework, or library. These implementations can evolve and change over time, making it necessary to stay up-to-date with the latest developments to continue using them effectively. While temporary knowledge can be useful in the short term, it may become obsolete or outdated as technology advances, making it less valuable over time.&lt;&#x2F;p&gt;
+&lt;p&gt;Timeless knowledge, on the other hand, refers to fundamental concepts that are applicable across a range of contexts and implementations. These concepts are not tied to specific technologies and are less likely to become obsolete over time. For example, knowledge of variables, arrays, functions, loops, and conditions in programming languages are timeless concepts that can be applied in a wide range of programming contexts.&lt;&#x2F;p&gt;
+&lt;p&gt;Suppose you want to learn a new JavaScript framework, such as React. You may start by learning its fundamentals, such as JSX, components, props, state, and lifecycle methods. However, you should be aware that React is a temporary knowledge, as it may evolve, change, or become obsolete over time. In contrast, the fundamental concepts of JavaScript, such as variables, arrays, functions, loops, and conditions, are timeless knowledge that will stay with you forever. By focusing on timeless knowledge, you&#x27;ll be better equipped to adapt to changes in technology and continue to learn and grow as a programmer.&lt;&#x2F;p&gt;
+&lt;p&gt;Developing a strong understanding of timeless concepts provides a solid foundation that can be built upon over time. Timeless knowledge helps you understand the underlying principles of a technology, making it easier to adapt to changes and learn new implementations quickly. It also helps you evaluate new technologies and determine which ones are worth investing your time and resources in.&lt;&#x2F;p&gt;
+&lt;p&gt;On the other hand, developing temporary knowledge helps you stay up-to-date with the latest trends and technologies in the industry. It helps you remain relevant and competitive in the job market. It also helps you become more versatile in your skill set, as you&#x27;ll be able to work with different tools and technologies.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>bill evans</title>
+		<published>2021-03-02T00:00:00+00:00</published>
+		<updated>2021-03-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/bill-evans/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/bill-evans/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;the-creative-process-and-self-teaching&quot;&gt;The Creative Process and Self-Teaching&lt;&#x2F;h1&gt;
+&lt;p&gt;Evans discusses the step-by-step process of creative problem-solving.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; title=&quot;Bill Evans on the creative process&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YEHWaGuurUk&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i2.wp.com&#x2F;www.caravanjazz.es&#x2F;wp-content&#x2F;uploads&#x2F;2020&#x2F;09&#x2F;Bill-Evans.jpg&quot; alt=&quot;bill evans on creative process&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;be-real-and-true&quot;&gt;Be real and true&lt;&#x2F;h1&gt;
+&lt;p&gt;People tend to approximate the product rather than attacking it in a realistic, true way at any elementary level — regardless of how elementary — but it must be entirely true and entirely real and entirely accurate. &lt;strong&gt;They would rather approximate the entire problem than to take a small part of it and be real and true about it.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;if-you-re-confused-you-won-t-find-your-way-out&quot;&gt;If you&#x27;re confused, you won&#x27;t find your way out&lt;&#x2F;h1&gt;
+&lt;p&gt;To approximate the whole thing in a vague way gives you a feeling that you’ve more or less touched the thing, but in this way &lt;strong&gt;you just lead yourself toward confusion&lt;&#x2F;strong&gt; and ultimately you’re going to get so confused that you’ll never find your way out.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;build-on-what-you-know&quot;&gt;Build on what you know&lt;&#x2F;h1&gt;
+&lt;p&gt;They’re trying to do a thing in a way that is so general [that] they can’t possibly build on that. If they build on that, they’re building on top of confusion and vagueness and they can’t possibly progress. &lt;strong&gt;If you try to approximate something that is very advanced and don’t know what you’re doing, you can’t advance.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;subconscious&quot;&gt;Subconscious&lt;&#x2F;h1&gt;
+&lt;p&gt;The whole process of learning the facility to play jazz, is to &lt;strong&gt;take these problems from the outer level in&lt;&#x2F;strong&gt;, one by one, and to stay with it at a very intense conscience concentration level, &lt;strong&gt;until that process becomes secondary and subconscious&lt;&#x2F;strong&gt;. Now, when that becomes subconscious, then you can begin concentrating on that next problem, which will allow you to do a little bit more…&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
+&lt;p&gt;Additional reading.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;animationresources.org&#x2F;theory-bill-evans-on-the-creative-process-and-self-teaching&#x2F;&quot;&gt;animation resources&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.brainpickings.org&#x2F;2014&#x2F;10&#x2F;30&#x2F;the-universal-mind-of-bill-evans&#x2F;&quot;&gt;brain picknigs&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.presentationzen.com&#x2F;presentationzen&#x2F;2016&#x2F;05&#x2F;the-creative-process.html&quot;&gt;presentationzen&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>gatto</title>
+		<published>2021-02-22T00:00:00+00:00</published>
+		<updated>2021-02-22T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/gatto/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/gatto/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;the-six-lesson-schoolteacher&quot;&gt;The Six-Lesson Schoolteacher&lt;&#x2F;h1&gt;
+&lt;p&gt;Based on an essay found in the Fall &#x27;91 issue of Whole Earth Review &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. This is an extract, read the full text.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;&lt;strong&gt;Before reading, please set your irony detector to the on position.&lt;&#x2F;strong&gt; If you find yourself inclined to dismiss the below as paranoid, you should know that the design behind the current American school system is very well-documented historically, in published writings of dizzying cynicism by such well-known figures as Horace Mann and Andrew Carnegie. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;first-lesson&quot;&gt;First lesson&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stay in the class where you belong&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I don&#x27;t know who decides that my kids belong there but that&#x27;s not my business. The children are numbered so that if any get away they can be returned to the right class. &lt;&#x2F;p&gt;
+&lt;p&gt;In any case, again, that&#x27;s not my business. My job is to make the kids like it -- being locked in together, I mean -- or at the minimum, endure it. If things go well, the kids can&#x27;t imagine themselves anywhere else; they envy and fear the better classes and have contempt for the dumber classes. So the class mostly keeps itself in good marching order. That&#x27;s the real lesson of any rigged competition like school. You come to know your place. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The lesson of numbered classes is that there is no way out of your class except by magic. Until that happens you must stay where you are put.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;second-lesson&quot;&gt;Second lesson&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Turn on and off like a light switch&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I demand that they become totally involved in my lessons, jumping up and down in their seats with anticipation, competing vigorously with each other for my favor. But when the bell rings I insist that they drop the work at once and proceed quickly to the next work station. &lt;strong&gt;Nothing important is ever finished in my class, nor in any other class I know of.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;third-lesson&quot;&gt;Third lesson&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Surrender your will to a predestined chain of command&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Rights may be granted or withheld, by authority, without appeal. As a schoolteacher I intervene in many personal decisions, issuing a Pass for those I deem legitimate, or initiating a disciplinary confrontation for behavior that threatens my control. My judgments come thick and fast, because individuality is trying constantly to assert itself in my classroom. &lt;strong&gt;Individuality is a curse to all systems of classification, a contradiction of class theory.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fourth-lesson&quot;&gt;Fourth lesson&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I determine what curriculum you will study&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;(Rather, I enforce decisions transmitted by the people who pay me). This power lets me separate good kids from bad kids instantly. Good kids do the tasks I appoint with a minimum of conflict and a decent show of enthusiasm. Of the millions of things of value to learn, I decide what few we have time for. The choices are mine. Curiosity has no important place in my work, only conformity.&lt;&#x2F;p&gt;
+&lt;p&gt;Bad kids fight against this, of course, trying openly or covertly to make decisions for themselves about what they will learn. How can we allow that and survive as schoolteachers? Fortunately there are procedures to break the will of those who resist. &lt;&#x2F;p&gt;
+&lt;p&gt;This is another way I teach the lesson of dependency. &lt;strong&gt;Good people wait for a teacher to tell them what to do.&lt;&#x2F;strong&gt; This is the most important lesson of all, that we must wait for other people, better trained than ourselves, to make the meanings of our lives. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fifth-lesson&quot;&gt;Fifth lesson&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your self-respect should depend on an observer&#x27;s measure of your worth&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;My kids are constantly evaluated and judged.&lt;&#x2F;strong&gt; A monthly report, impressive in its precision, is sent into students&#x27; homes to spread approval or to mark exactly -- down to a single percentage point -- how dissatisfied with their children parents should be.&lt;&#x2F;p&gt;
+&lt;p&gt;Self-evaluation -- the staple of every major philosophical system that ever appeared on the planet -- is never a factor in these things. The lesson of report cards, grades, and tests is that children should not trust themselves or their parents, but must rely on the evaluation of certified officials. &lt;strong&gt;People need to be told what they are worth.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;sixth-lesson&quot;&gt;Sixth lesson&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I teach children that they are being watched &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I keep each student under constant surveillance and so do my colleagues. There are no private spaces for children; there is no private time. Class change lasts 300 seconds to keep promiscuous fraternization at low levels. Students are encouraged to tattle on each other, even to tattle on their parents. Of course I encourage parents to file their own child&#x27;s waywardness, too. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;I assign &amp;quot;homework&amp;quot; so that this surveillance extends into the household, where students might otherwise use the time to learn something unauthorized&lt;&#x2F;strong&gt;, perhaps from a father or mother, or by apprenticing to some wiser person in the neighborhood. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;The lesson of constant surveillance is that no one can be trusted, that privacy is not legitimate.&lt;&#x2F;strong&gt; Surveillance is an ancient urgency among certain influential thinkers; it was a central prescription set down by Calvin in the Institutes, by Plato in the Republic, by Hobbes, by Comte, by Francis Bacon. All these childless men discovered the same thing: Children must be closely watched if you want to keep a society under central control. &lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;em&gt;Thanks to Nathan Myers&lt;&#x2F;em&gt; &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.cantrip.org&#x2F;gatto.html&quot;&gt;gatto&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>worse is better</title>
+		<published>2020-12-15T00:00:00+00:00</published>
+		<updated>2020-12-15T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/worse-is-better/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/worse-is-better/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;p&gt;The rise of &amp;quot;Worse is better&amp;quot;&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, by Richard Gabriel&lt;&#x2F;p&gt;
+&lt;p&gt;In the commentary Richard introduces and compares different schools of design and philosophies applied to software engineering.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h1 id=&quot;right-thing-philosophy&quot;&gt;Right thing philosophy&lt;&#x2F;h1&gt;
+&lt;p&gt;The essence of this style can be captured by the phrase &amp;quot;the right thing.&amp;quot;.Most programmers (lisp) have an extreme exposure to the MIT&#x2F;Stanford style of design. To such a designer it is important to get all of the following characteristics right:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Simplicity&lt;&#x2F;strong&gt;: The design must be simple. Both in implementation and interface. It is more important for the interface to be simple than the implementation&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Correctness&lt;&#x2F;strong&gt;: The design must be correct in all observable aspects. Incorrectness is simply not allowed&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Consistency&lt;&#x2F;strong&gt;: The desgin must not be inconsistent. A design is allowed to be slightly less simple and less complete to avoid inconsitency. Consistency is as important as correctness&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Completeness&lt;&#x2F;strong&gt;: The desgin must cover as many important situations as is practical. All reasonably expected cases must be covered. Simplicity is not allowed to ovelry reduce completeness&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;worse-is-better-philosophy&quot;&gt;Worse is better philosophy&lt;&#x2F;h1&gt;
+&lt;p&gt;Slightly different from the &amp;quot;MIT approach&amp;quot;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Simplicity&lt;&#x2F;strong&gt;: The design must be simple, both in implementation and interface. It is more important for the implementation to be simple than the interface. Simplicity is the most important consideration in a design&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Correctness&lt;&#x2F;strong&gt;: The design must be correct in all observable aspects. It is slightly better to be simple than correct &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Consistency&lt;&#x2F;strong&gt;: The design must not be overly inconsistent. Consistency can be sacrificed for simplicity in some cases, but it is better to drop those parts of the design that deal with less common circumstances than to introduce either implementational complexity or inconsistency &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Completeness&lt;&#x2F;strong&gt;: The design must cover as many important situations as is practical. All reasonably expected cases should be covered. Completeness can be sacrificed in favor of any other quality. In fact, completeness must sacrificed whenever implementation simplicity is jeopardized. Consistency can be sacrificed to achieve completeness if simplicity is retained&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Early Unix and C are examples of the use of this school of design, Richard calls this school &lt;strong&gt;&amp;quot;New Jersey approach&amp;quot;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;em&gt;The Rise of &amp;quot;Worse is Better&amp;quot; By Richard Gabriel&lt;&#x2F;em&gt; &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;www.jwz.org&#x2F;doc&#x2F;worse-is-better.html&quot;&gt;worse-is-better&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>programming as an art</title>
+		<published>2020-09-29T00:00:00+00:00</published>
+		<updated>2020-09-29T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/programming-as-an-art/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/programming-as-an-art/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;p&gt;Art as skill, as technique. The lost meaning of the XXI century. &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;the-arts-of-old&quot;&gt;The Arts of Old&lt;&#x2F;h2&gt;
+&lt;p&gt;If we go back to the latin roots, we find ars, artis, meaning &amp;quot;skill&amp;quot;. It is perhaps significant that the corresponding Greek word was τέχνη, the root of both &amp;quot;techonlogy&amp;quot; and &amp;quot;technique&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;Nowadays when someone speaks of &amp;quot;art&amp;quot; you probably think first of &amp;quot;fine arts&amp;quot; such as painting and sculpture, but before the twentieth century the word was generally used in quite a different sense. &lt;&#x2F;p&gt;
+&lt;p&gt;In medieval times, &amp;quot;art&amp;quot; meant something derived by man&#x27;s intellect, as opposed to activities derived from nature or instinct. During the middle ages the word &amp;quot;art&amp;quot; by itself usually meant logic.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;science-vs-art&quot;&gt;Science vs Art&lt;&#x2F;h2&gt;
+&lt;p&gt;&amp;quot;Science&amp;quot; being used to stand for knowledge, and &amp;quot;art&amp;quot; for the application of knowledge. Thus, the sciecne of astronomy was teh basis for teh art of navegation. The situation was almost exactly like the way in which we now distinguish between &amp;quot;science&amp;quot; and &amp;quot;engineering&amp;quot;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;works-of-art&quot;&gt;Works of Art&lt;&#x2F;h2&gt;
+&lt;p&gt;When I speak about computer programming as an art, I am thinking primarily of it as an art form, in an aesthetic sense. &lt;&#x2F;p&gt;
+&lt;p&gt;My feeling is that when we prepare a program, it can be like composing poetry or music; programming can give us both intellectual and emotional satisfaction, because it is a real achievement to master complexity and to establish a system of consistent rules.&lt;&#x2F;p&gt;
+&lt;p&gt;Furthermore when we read other people&#x27;s programs, we can recognize some of them as genuine works of art.&lt;&#x2F;p&gt;
+&lt;p&gt;Some programs are elegant, some are exquisite, some are sparkling. My claim is that it is possible to write grand programs, noble programs, truly magnificient ones!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;&lt;em&gt;Communications of the ACMVolume 17Issue 12Dec 1974&lt;&#x2F;em&gt; &lt;a rel=&quot;nofollow noreferrer&quot; href=&quot;https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;361604.361612&quot;&gt;programming as an art&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>epoche etude postmortem</title>
+		<published>2020-09-28T00:00:00+00:00</published>
+		<updated>2020-09-28T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://www.arnaudiaz.com/blog/epoche-etude-postmortem/" type="text/html"/>
+		<id>https://www.arnaudiaz.com/blog/epoche-etude-postmortem/</id>
+		<content type="html">&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;epoche&quot;&gt;epoche&lt;&#x2F;h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;suspension of judgment&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Noun
+&lt;ol&gt;
+&lt;li&gt;in ancient skepticism,  the act of refraining from any conclusion for or against anything as the decisive step for the attainment of ataraxy&lt;&#x2F;li&gt;
+&lt;li&gt;the methodological attitude of phenomenology in which one refrains from judging whether anything exists or can exist as the first step in the phenomenological recognition, comprehension, and description of sense appearances : transcendental reduction&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;etude&quot;&gt;etude&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Noun
+&lt;ol&gt;
+&lt;li&gt;piece of music for the practice of a point of technique&lt;&#x2F;li&gt;
+&lt;li&gt;composition built on a technical motive but played for its artistic value&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;postmortem&quot;&gt;postmortem&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Adjective&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;done, occurring, or collected after death postmortem tissue specimens&lt;&#x2F;li&gt;
+&lt;li&gt;following the event&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Noun&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;an examination of a body after death to determine the cause of death or the character and extent of changes produced by disease, critical examination, evaluation, or assessment of someone or something past.&lt;&#x2F;li&gt;
+&lt;li&gt;an analysis or discussion of an event after it is over&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>
