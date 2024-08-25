@@ -19,7 +19,7 @@ mermaid = false
 
 # Simulacra and simulation
 
-In his book “Simulacra and Simulation” published in 1981, Jean Baudrillard concluded that we were living in a simulation constructed by the media. I would argue that in tech companies, we live in a simulation constructed by management.
+In his book “Simulacra and Simulation” published in 1981, Jean Baudrillard concluded that we were living in a simulation constructed by the media. We could argue that in tech companies, we live in a simulation constructed by management.
 
 ## Distortion
 
