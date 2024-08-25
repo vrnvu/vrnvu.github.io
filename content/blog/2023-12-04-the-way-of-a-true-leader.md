@@ -19,7 +19,7 @@ mermaid = false
 
 # The way of a true leader
 
-A reflectoin on Ursula K. Le Guin.
+A reflection on Ursula K. Le Guin.
 
 ## Acting simpliy
 
