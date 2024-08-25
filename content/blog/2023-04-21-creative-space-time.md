@@ -19,26 +19,20 @@ mermaid = false
 
 # Creative space and time
 
-I remember one time when I was in a meeting where we had to list the positives and negatives of our product. Our software had been in production for over six years and it was quite mature. As we went around the room, most of the discussion focused on the challenges of evaluating a product that had been in use for so long.
+Software engineering is driven by human creativity and problem-solving. For some, it is even regarded as a form of [art](https://arnaudiaz.com/blog/programming-as-an-art/).
 
-When it was my turn, I spoke up and shared a positive point of a mature product: we had control over our creative space and time. "I like to speak in alien sometimes," I joked. "So let me translate what I mean into everyday language and give you some examples.".
+- **Space** allows engineers, as people, to choose their projects, methods, and tools. This freedom encourages personal expression and unique approaches to solving problems.
 
-## Space and time
+- **Time** gives engineers the ability to set their own pace for releasing features, working on them, collaborating and making improvements. This flexibility supports thoughtful exploration and refinement.
 
-Software engineering is all about creativity and solving problems. Some people like me even consider it an [art](https://arnaudiaz.com/blog/programming-as-an-art/) form.
+## For company growth
 
-- **Space** means that engineers can choose what they work on, how they work on it, and which tools and libraries to use. This gives them the freedom to create innovative solutions and go beyond what is expected.
+Hire skilled engineers. Give them space and time.
 
-- **Time** lets engineers decide when to release a feature, how long to work on it, and how to improve it. With creative time, there's no need to rush and it encourages experimentation and refinement.
+## For team growth
 
-## Do you want to be a good company?
+Hire skilled engineers. Give them space and time.
 
-Hire good engineers. Give them space and time.
-
-## Do you want to be a good team?
-
-Hire good engineers. Give them space and time.
-
-## Do you want to be a good engineer?
+## For personal growth
 
 Bend space and time.
