@@ -1,7 +1,7 @@
 +++
 title = "programming as an art"
 date = 2020-09-29
-draft = false
+draft = true
  
 
 [taxonomies]

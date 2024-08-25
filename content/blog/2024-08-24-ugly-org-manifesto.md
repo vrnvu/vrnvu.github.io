@@ -1,12 +1,12 @@
 +++
-title = "java the good parts"
-date = 2022-05-17
+title = "ugly manifesto"
+date = 2024-08-24
 draft = true
  
 
 [taxonomies]
-categories = ["programming"]
-tags = ["programming"]
+categories = ["culture"]
+tags = ["culture"]
 
 [extra]
 lang = "en"

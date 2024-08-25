@@ -1,7 +1,7 @@
 +++
 title = "worse is better"
 date = 2020-12-15
-draft = false
+draft = true
  
 
 [taxonomies]

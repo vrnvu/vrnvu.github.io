@@ -20,7 +20,7 @@ mermaid = false
 
 # Emotional micromanagement
 
-Examples of micromanagement that I found[^1] with a quick Google search:
+Examples of micromanagement that we found[^1] with a quick Google search:
 
 - They ask to be copied on all emails from the team, whether they genuinely need to be included or not.
 - They are reluctant to delegate even the most minor tasks to their team members.

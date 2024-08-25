@@ -17,9 +17,8 @@ mermaid = false
 +++
 ---
 
-Ok. I'm tired of this topic.
 
-Two definitions quoting one of my favourite courses [^1].
+Two definitions quoting one of our favourite courses [^1].
 
 - **Syntax**. By syntax, we mean the rules that define what forms a well-formed program in the language. Including the keywords, restrictions on whitespace and formatting, punctuation, operators, etc. 
 
