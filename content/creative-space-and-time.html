@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative space and time - ar (nau)</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../post.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="../index.html" class="back-button">← Back</a>
+            <button id="theme-toggle">Dark Mode</button>
+        </nav>
+        <article>
+            <div class="post-meta">
+                <h1>creative space and time</h1>
+                <span class="date">2023-04-21</span>
+                <span class="category">culture</span>
+            </div>
+            <div class="post-content">
+                <p>Software engineering is driven by human creativity and problem-solving. For some, it is even regarded
+                    as a form of art.</p>
+
+                <ul>
+                    <li><strong>Space</strong> allows engineers, as people, to choose their projects, methods, and
+                        tools. This freedom encourages personal expression and unique approaches to solving problems.
+                    </li>
+                    <li><strong>Time</strong> gives engineers the ability to set their own pace for releasing features,
+                        working on them, collaborating and making improvements. This flexibility supports thoughtful
+                        exploration and refinement.</li>
+                </ul>
+
+                <h2>For company growth</h2>
+
+                <p>Hire skilled engineers. Give them space and time.</p>
+
+                <h2>For team growth</h2>
+
+                <p>Hire skilled engineers. Give them space and time.</p>
+
+                <h2>For personal growth</h2>
+
+                <p>Bend space and time.</p>
+
+            </div>
+        </article>
+    </div>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+            this.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+        });
+    </script>
+</body>
+
+</html>
