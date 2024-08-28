@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syntax vs Semantics - ar (nau)</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../post.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="../index.html" class="back-button">← Back</a>
+            <button id="theme-toggle">Dark Mode</button>
+        </nav>
+        <article>
+            <h1>syntax vs semantics</h1>
+            <div class="post-meta">
+                <span class="date">2022-06-07</span>
+                <span class="category">programming</span>
+            </div>
+            <div class="post-content">
+                <p>Two definitions quoting one of our favourite courses<sup>1</sup>.</p>
+
+                <ul>
+                    <li><strong>Syntax</strong>. By syntax, we mean the rules that define what forms a well-formed
+                        program in the language. Including the keywords, restrictions on whitespace and formatting,
+                        punctuation, operators, etc.</li>
+                    <li><strong>Semantics</strong>. By semantics, we mean the rules that define the behavior of
+                        programs. In other words, semantics is about the meaning of a program—what computation a
+                        particular piece of syntax represents. Note that although "semantics" is plural in form, we use
+                        it as singular. That's like "mathematics" or "physics".</li>
+                </ul>
+
+                <p>So then, what is code readability?</p>
+
+                <ul>
+                    <li>Code readability = syntax that make semantics obvious.</li>
+                </ul>
+
+                <p>If a block of code is written in an imperative style or functional style doesn't matter. Ask yourself
+                    instead, are the semantics clear? Are we coping or moving the values? Are we cloning the references?
+                    Are we iterating over mutable references or copies of the value?</p>
+
+                <p>A good language, with good code readability, makes semantics obvious. A good programmer, encourages
+                    good readability. With good readability we don't have doubts about what a piece of code is doing.
+                </p>
+
+                <p><sup>1</sup> <em>Cornell Ocaml cs3110</em> cs3110</p>
+            </div>
+        </article>
+    </div>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+            this.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ar (nau)</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>ar (nau)</h1>
+        </header>
+        <div class="content-wrapper">
+            <main>
+                <section id="blog" class="minimal-list">
+                    <h2>Posts</h2>
+                    <div class="filter">
+                        <a href="#all">All</a>
+                        <a href="#culture">Culture</a>
+                        <a href="#programming">Programming</a>
+                        <a href="#meta">Meta</a>
+                    </div>
+                    <div id="all"></div>
+                    <div id="culture"></div>
+                    <div id="programming"></div>
+                    <div id="meta"></div>
+                    <ul class="post-list">
+                        <li id="culture-what-is-code">
+                            <h3><a href="./content/what-is-code.html">what is code</a></h3>
+                            <span class="category category1">culture</span>
+                        </li>
+                        <li id="programming-i-use-flox-to">
+                            <h3><a href="./content/i-use-flox-to.html">i use flox to</a></h3>
+                            <span class="category category1">programming</span>
+                        </li>
+                        <li id="meta-spaceship-to-the-end-of-time">
+                            <h3><a href="./content/spaceship-to-the-end-of-time.html">spaceship to the end of time</a>
+                            </h3>
+                            <span class="category category1">meta</span>
+                        </li>
+                        <li id="culture-simulacra-and-simulation">
+                            <h3><a href="./content/simulacra-and-simulation.html">simulacra and simulation</a></h3>
+                            <span class="category category2">culture</span>
+                        </li>
+                        <li id="culture-the-way-of-a-true-leader">
+                            <h3><a href="./content/the-way-of-a-true-leader.html">the way of a true leader</a></h3>
+                            <span class="category category3">culture</span>
+                        </li>
+                        <li id="meta-before-you-speak">
+                            <h3><a href="./content/before-you-speak.html">before you speak</a></h3>
+                            <span class="category category2">meta</span>
+                        </li>
+                        <li id="meta-borges">
+                            <h3><a href="./content/borges.html">borges</a></h3>
+                            <span class="category category3">meta</span>
+                        </li>
+                        <li id="meta-this-is-not-a-hello-world">
+                            <h3><a href="./content/this-is-not-a-hello-world.html">this is not a hello world</a></h3>
+                            <span class="category category4">meta</span>
+                        </li>
+                        <li id="meta-david-lynch-motivates-you">
+                            <h3><a href="./content/david-lynch-motivates-you.html">david lynch motivates you</a></h3>
+                            <span class="category category5">meta</span>
+                        </li>
+                        <li id="culture-creative-space-and-time">
+                            <h3><a href="./content/creative-space-and-time.html">creative space and time</a></h3>
+                            <span class="category category4">culture</span>
+                        </li>
+                        <li id="programming-how-to-fix-a-monolith">
+                            <h3><a href="./content/how-to-fix-a-monolith.html">how to fix a monolith</a></h3>
+                            <span class="category category2">programming</span>
+                        </li>
+                        <li id="programming-think-in-3d">
+                            <h3><a href="./content/think-in-3d.html">think in 3D</a></h3>
+                            <span class="category category3">programming</span>
+                        </li>
+                        <li id="culture-emotional-micromanagement">
+                            <h3><a href="./content/emotional-micromanagement.html">emotional micromanagement</a></h3>
+                            <span class="category category5">culture</span>
+                        </li>
+                        <li id="programming-what-is-async">
+                            <h3><a href="./content/what-is-async.html">what is async</a></h3>
+                            <span class="category category4">programming</span>
+                        </li>
+                        <li id="programming-syntax-vs-semantics">
+                            <h3><a href="./content/syntax-vs-semantics.html">syntax vs semantics</a></h3>
+                            <span class="category category5">programming</span>
+                        </li>
+                        <li id="culture-engineers-as-gardeners">
+                            <h3><a href="./content/engineers-as-gardeners.html">engineers as gardeners</a></h3>
+                            <span class="category category6">culture</span>
+                        </li>
+                        <li id="meta-traits-of-a-good-programmer">
+                            <h3><a href="./content/traits-of-a-good-programmer.html">traits of a good programmer</a>
+                            </h3>
+                            <span class="category category6">meta</span>
+                        </li>
+                        <li id="meta-bill-evans">
+                            <h3><a href="./content/bill-evans.html">bill evans</a></h3>
+                            <span class="category category9">meta</span>
+                        </li>
+                        <li id="meta-epoche-etude-postmortem">
+                            <h3><a href="./content/epoche-etude-postmortem.html">epoche etude postmortem</a></h3>
+                            <span class="category category10">meta</span>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+            <aside>
+                <div class="sticky-container">
+                    <div class="about about1">
+                        <p>Notes on code, culture, and ideas.</p>
+                    </div>
+                    <button id="theme-toggle">Dark Mode</button>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+            this.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+        });
+    </script>
+
+</body>
+
+</html>

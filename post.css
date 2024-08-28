@@ -1,0 +1,129 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.back-button {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+#theme-toggle {
+    background: var(--text-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.post-meta .date {
+    margin-right: 1rem;
+}
+
+.post-meta .category {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.post-content p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    --bg-color: #000;
+    --text-color: #fff;
+}
+
+blockquote {
+    border-left: 2px solid var(--text-color);
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+}
+
+blockquote p {
+    margin-bottom: 0;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+dl {
+    margin-left: 1em;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+dd {
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+}
+
+pre {
+    background-color: var(--bg-color);
+    border: 1px solid var(--text-color);
+    padding: 1em;
+    overflow-x: auto;
+    font-family: monospace;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+code {
+    font-family: monospace;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+}
