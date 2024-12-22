@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TODO">
+    <title>How to code clearly - ar (nau)</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../post.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="../index.html" class="back-button">← Back</a>
+            <button id="theme-toggle">Dark Mode</button>
+        </nav>
+        <article>
+            <h1>how to code clearly</h1>
+            <div class="post-meta">
+                <span class="date">2024-12-22</span>
+                <span class="category">programming</span>
+            </div>
+            <div class="post-content">
+                <p> If you are afraid to code, don't be. If you think you've got to string together big fancy
+                    constructs and high-flying functions, forget it. To code well you only need to know how to get your
+                    ideas across simply and clearly.</p>
+                <p>It's not easy. But it's easier than you might imagine. There are only three basic requirements:</p>
+                <ol>
+                    <li>You must <b>want</b> to code clearly. And I believe you really do, if you've stayed this far
+                        with me.</li>
+                    <li>You must be willing to <b>work</b> hard. Thinking means work - and that's what it takes to do
+                        anything well.</li>
+                    <li>You must know and follow some basic guidelines.</li>
+                </ol>
+                <p>If, while you're coding for clarity, some lovely, dramatic, or inspired idea come to you, fine. Put
+                    them in.</p>
+                <p>But then with cold, objective eyes and mind ask yourself: <i>"Do they detract from clarity?"</i> If
+                    they do,
+                    grit your teeth and cut the frills.</p>
+
+                <h2>Follow some basic guidelines</h2>
+                <p>I can't give you a complete list of <i>"dos and don'ts"</i> for every code problem you'll ever face.
+                    But I can give you some fundamental guidelines that cover the most common problems.
+                </p>
+
+                <h3>1. Outline what you want to do</h3>
+                <p>I know that sounds grade-schoolish. But you can't code clearly until, <i>before you start</i>, you
+                    know where you will stop. Ironically, that's even a problem in writing an outline. I.e knowing the
+                    solution before solving the problem.</p>
+                <ol>
+                    <li>
+                        <p>Grab pen and paper. Or a sophisticated modern device of your preference. Start by drawing
+                            the problem with different representations.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Think about the simplest possible problem you have. Solve it by hand. Iterate. Think
+                            about
+                            alternatives. You can't solve what you don't understand. Fall
+                            in love with the
+                            problem.</p>
+                    </li>
+                    <li>
+                        <p>Group your ideas, move them around. Play and have fun.</p>
+                    </li>
+                    <li>
+                        <p>Think <b>concretely</b>. What data do you have? What data transformations will you need?
+                            What are
+                            the inputs and
+                            outputs? How do you
+                            represent the state of the problem?</p>
+                    </li>
+                </ol>
+                <p> There you have your outline, needing only to be coded. This is a practical way to outline. It's
+                    also flexible. You can add, delete or change ideas as you go along.
+                </p>
+
+                <h3>2. Start where you are</h3>
+                <p>How much do you know about your problem? Don't code to a level higher than your knowledge is. If
+                    you haven't coded your solution yet, you can't be sure you have solved it. Code your solution,
+                    nothing more.</p>
+                <p>Code it again. Repeat until satisfied. Every iteration should be clearer than the last.</p>
+                <p><b>CAUTION</b> Forget that old- and wrong- advice about writing clean code, using smart patterns and
+                    making
+                    architecture decissions. That's insulting. But do remember your
+                    prime purpose is to explain your solution clearly, that's coding, not prove that you're smarter than
+                    others.</p>
+
+                <h3>3. Avoid jargon</h3>
+                <p> Don't use patterns, algorithms and obscure ideas known only to people with specific knowledge or
+                    interests. Example: A <i>"software architect"</i>, using jargon, said in a meeting: <i>"I'm going to
+                        use
+                        CQRS
+                        and Event Sourcing to read and write to a non-relational database."</i> He could have said:
+                    <i>"I'm
+                        going
+                        to read and write from an Excel file".</i> And everyone in the room would have understood.
+                </p>
+
+                <h3>4. Use familiar tools</h3>
+                <p>When reviewing code, I once saw a magician calling this a smart solution:</p>
+                <pre><code>        const numbers = [4, 12, 15, 3, 18, 21, 9, 11]
+        const groups = numbers.reduce((acc, num) => {
+            num > 10 && (acc[num % 3] = [...(acc[num % 3] || []), num].sort((a, b) => a - b))
+            return acc
+        }, {})
+                </code></pre>
+
+                We ended up with coding clearly what we wanted:
+
+                <pre><code>        const numbers = [4, 12, 15, 3, 18, 21, 9, 11]
+        const largeNumbers = numbers.filter(num => num > 10)
+
+        const groups = {
+            0: [],  // numbers that divide evenly by 3
+            1: [],  // numbers that give remainder 1
+            2: []   // numbers that give remainder 2
+        }
+
+        for (let num of largeNumbers) {
+            const remainder = num % 3
+            groups[remainder].push(num)
+        }
+
+        for (let remainder in groups) {
+            groups[remainder].sort()
+        }
+</code></pre>
+                Unfortunately, we are not smart anymore. We just have clear code.
+                </p>
+
+                <h3>5. Use "first-degree" tools</h3>
+                <p>Use the standard library. Use your if, loop, while and functions etc. Don't invent abstractions.</p>
+                <p>These immediately bring an image to your mind. Other tools must be <i>"translated"</i> through the
+                    first-degree tools before you see.</p>
+            </div>
+        </article>
+    </div>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function () {
+            document.body.classList.toggle('dark-mode');
+            this.textContent = document.body.classList.contains('dark-mode') ? 'Light Mode' : 'Dark Mode';
+        });
+    </script>
+</body>
+
+</html>
