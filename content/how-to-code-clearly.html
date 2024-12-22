@@ -147,6 +147,72 @@
                     </li>
                 </ol>
 
+                Yes:
+                <pre><code>        const numbers = [4, 12, 15, 3, 18, 21, 9, 11];
+        const processor = new NumberGroupingService();
+        const result = processor.process(numbers);
+        const groups = result.getGroups();
+                </code></pre>
+                But:
+                <pre><code>         abstract class BaseNumberFilter {
+            protected abstract filterPredicate(num: number): boolean;
+            
+            public filter(numbers: number[]): number[] {
+                return numbers.filter(num => this.filterPredicate(num));
+            }
+        }
+
+        class LargeNumberFilter extends BaseNumberFilter {
+            private readonly threshold: number;
+            
+            constructor(threshold: number = 10) {
+                super();
+                this.threshold = threshold;
+            }
+            
+            protected filterPredicate(num: number): boolean {
+                return num > this.threshold;
+            }
+        }
+
+        class ModuloGroupingStrategy {
+            private readonly divisor: number;
+            
+            constructor(divisor: number = 3) {
+                this.divisor = divisor;
+            }
+            
+            public calculateGroup(num: number): number {
+                return num % this.divisor;
+            }
+        }
+
+        class NumberGroupingService implements INumberProcessor {
+            private readonly filter: BaseNumberFilter;
+            private readonly groupingStrategy: ModuloGroupingStrategy;
+            
+            constructor(
+                filter: BaseNumberFilter = new LargeNumberFilter(),
+                groupingStrategy: ModuloGroupingStrategy = new ModuloGroupingStrategy()
+            ) {
+                this.filter = filter;
+                this.groupingStrategy = groupingStrategy;
+            }
+            
+            public process(numbers: number[]): GroupedNumbersResult {
+                const filteredNumbers = this.filter.filter(numbers);
+                const result = new GroupedNumbersResult();
+                
+                for (const num of filteredNumbers) {
+                    const group = this.groupingStrategy.calculateGroup(num);
+                    result.addNumber(group, num);
+                }
+                
+                return result;
+            }
+        }
+                </code></pre>
+
                 <h3>6. Stick to the point</h3>
                 <p>Your outline now saves you work. Because now you can ask about any line of code: <i>"Does it relate
                         to an idea in the outline?</i> If it doesn't, delete it.</p>
