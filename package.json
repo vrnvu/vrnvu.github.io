@@ -1,0 +1,13 @@
+{
+    "name": "vrnvu.github.io",
+    "version": "1.0.0",
+    "description": "Personal website built with Hugo",
+    "scripts": {
+        "build": "hugo --gc --minify",
+        "dev": "hugo server --disableFastRender",
+        "clean": "hugo --gc"
+    },
+    "devDependencies": {
+        "hugo-extended": "latest"
+    }
+}
