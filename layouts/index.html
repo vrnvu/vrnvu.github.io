@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ if $posts }}
+<div class="posts-list">
+    <h1>Notes on code, culture and ideas</h1>
+    <div class="time-list">
+        <ul>
+            {{ range $posts }}
+            <li>
+                <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</div>
+{{ end }}
+
+{{ .Content }}
+<div class="terminal-nav">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</div>
+{{ end }}

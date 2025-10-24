@@ -1,0 +1,52 @@
+baseURL = 'https://arnaudiaz.com/'
+languageCode = 'en-us'
+title = 'zaunaidar'
+theme = 'shibui'
+[params]
+  author = "zaunaidar"
+  email = "zaunaidar@proton.me"
+
+[menu]
+  [[menu.main]]
+    name = "links"
+    url = "/links/"
+    weight = 1
+  [[menu.main]]
+    name = "now"
+    url = "/now/"
+    weight = 2
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  # By default, Goldmark trims unsafe outputs which might prevent some shortcodes from rendering.
+  # It is recommended to set markup.goldmark.renderer.unsafe=true if you encounter problems.
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = true
+    tabWidth = 4
+    style = "algol_nu"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = true
+
+[build]
+  writeStats = true
+
+disableKinds = ["section"]
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

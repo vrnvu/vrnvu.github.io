@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>invariants | zaunaidar</title>
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon_io/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon_io/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon_io/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon_io/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon_io/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon_io/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon_io/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon_io/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicon_io/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon_io/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon_io/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+
+      <script src="/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <nav class="path-nav">
+    <ol>
+      
+  
+    
+  
+    
+  
+  <li>
+    /
+    <a href="/">zaunaidar</a>
+    /
+  </li>
+
+  
+  <li>
+    
+    <a href="/posts/">posts</a>
+    /
+  </li>
+
+  
+  <li class="current">
+    
+    <a href="/posts/invariants/">invariants</a>
+    
+  </li>
+
+    </ol>
+  </nav>
+</header>
+
+
+
+  </header>
+  <main>
+    
+<h1>invariants</h1>
+
+  <div class="terms-list">
+    <ul>
+        <li><a href="/tags/code/">#Code</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <nav class="toc">
+    <strong>Table of contents</strong>
+    <div class="toc-content">
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#preconditions">Preconditions</a></li>
+        <li><a href="#why-assertions-over-types">Why Assertions Over Types</a></li>
+        <li><a href="#advanced-concepts">Advanced Concepts</a></li>
+        <li><a href="#invariants">Invariants</a></li>
+        <li><a href="#postconditions">Postconditions</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </div>
+    </nav>
+    
+
+    <h1 id="making-impossible-states-impossible">making impossible states impossible</h1>
+<p>Last week, a race condition crashed production at 3 AM. The bug was impossible to reproduce in development, but a single assertion would have caught it immediately. This is why assertions exist: they make impossible states impossible.</p>
+<p>Some developers think assertions are just debugging tools. Not true. Assertions are contracts that prevent your code from reaching invalid states. Without assertions, bugs hide in impossible states. With assertions, impossible states become impossible. When combined with good <a href="https://arnau.bearblog.dev/this-is-ci/">CI</a>, every change becomes visible, every assumption gets tested, and every deployment becomes predictable. As <a href="https://typesanitizer.com/blog/assertions.html">this analysis</a> shows, assertions are crucial for catching correctness violations that types cannot prevent.</p>
+<ul>
+<li><strong>precondition:</strong> condition that must be met just before executing a block of code.</li>
+<li><strong>postcondition:</strong> condition that must always be met just after executing a block of code.</li>
+<li><strong>invariant:</strong> something that doesn&rsquo;t change during a block of code when applying a set of transformations.</li>
+</ul>
+<h3 id="preconditions">Preconditions</h3>
+<p>Consider a payment processor that can only be enabled when disabled, and disabled when enabled. Without assertions, you get subtle bugs that are impossible to reproduce in development but crash production:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@dataclass
+</span></span><span style="display:flex;"><span>class StateManager:
+</span></span><span style="display:flex;"><span>    state: bool = False
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    def enable(self) -&gt; None:
+</span></span><span style="display:flex;"><span>        assert self.state == False, &#34;Cannot enable: state must be False&#34;
+</span></span><span style="display:flex;"><span>        self.state = True
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    def disable(self) -&gt; None:
+</span></span><span style="display:flex;"><span>        assert self.state == True, &#34;Cannot disable: state must be True&#34;
+</span></span><span style="display:flex;"><span>        self.state = False
+</span></span></code></pre></div><p>This simple example demonstrates the power of preconditions:</p>
+<ul>
+<li>We reduced our tree of states and transitions to only valid ones</li>
+<li>Test coverage improved because we eliminated invalid state combinations</li>
+<li>We can do simulations and fuzzy testing without worrying about invalid preconditions</li>
+<li>Concurrency errors and race conditions become immediately visible</li>
+<li>We can add postconditions to complete the contract</li>
+</ul>
+<h3 id="why-assertions-over-types">Why Assertions Over Types</h3>
+<p>Type systems catch some errors at the cost of some overhead. Assertions catch the impossible and act as railways for programmers: they guide you to correct code and prevent you from going off track. We can use types for business rules, but programming correctness is best expressed with assertions. When your code reaches a state it should never reach, better to panic than continue executing incorrectly. Why would your program be in an invalid state?</p>
+<p>Assertions work in any language. Type systems don&rsquo;t. Assertions catch runtime errors that types miss. Most importantly, assertions make your assumptions explicit and testable. This approach aligns with the <a href="https://typesanitizer.com/blog/errors.html">error handling philosophy</a>: make errors impossible rather than just catching them after they occur.</p>
+<p>Use both.</p>
+<h3 id="advanced-concepts">Advanced Concepts</h3>
+<p>Preconditions are just the beginning. Postconditions and invariants require deeper understanding of your domain, algorithms, and system constraints. But they enable greater correctness in complex scenarios: concurrency, race conditions, dynamic environments, and distributed systems.</p>
+<p><strong>Postconditions</strong> establish contracts between functions and their callers. Sometimes preconditions alone aren&rsquo;t enough to catch invalid results.</p>
+<p><strong>Invariants</strong> ensure properties hold throughout code execution, especially useful in algorithms and data structures. Combined with system constraints (CPU, memory, networking), they help detect errors and resource leaks.</p>
+<h3 id="invariants">Invariants</h3>
+<p>Invariants ensure properties hold throughout execution. Useful in algorithms and data structures, especially when combined with system constraints:</p>
+<ul>
+<li>Static memory allocation: no malloc, everything pre-allocated</li>
+<li>Algorithm bounds: all values positive, checked each iteration to prevent overflows</li>
+<li>Logical implications: <a href="https://tigerbeetle.com/blog/2025-05-26-asserting-implications/">if-then relationships</a> that must hold</li>
+</ul>
+<h3 id="postconditions">Postconditions</h3>
+<p>Postconditions establish the other half of the function contract. Having both pre- and postconditions creates a complete specification:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>processed := process(numbers)
+</span></span><span style="display:flex;"><span>assert len(processed) &gt; 0 # postcondition
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>def process(numbers):
+</span></span><span style="display:flex;"><span>  assert len(numbers) &gt; 0 # precondition
+</span></span></code></pre></div><p>This <a href="https://tigerbeetle.com/blog/2023-12-27-it-takes-two-to-contract/">contract-based approach</a> makes impossible states impossible and catches bugs that preconditions alone miss. As <a href="https://typesanitizer.com/blog/bug-analysis.html">this bug analysis</a> demonstrates, many correctness bugs only appear under specific conditions that traditional testing misses.</p>
+
+    
+    <time datetime="2025-10-21">2025-10-21&nbsp;</time>
+
+    
+
+    
+    <div class="terminal-nav">
+        <div class="back-nav">
+            <a href="../" class="back-link">../</a>
+        </div>
+    </div>
+    
+    
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+</html>

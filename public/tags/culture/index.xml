@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on zaunaidar</title>
+    <link>http://localhost:1313/tags/culture/</link>
+    <description>Recent content in Culture on zaunaidar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Oct 2021 17:12:11 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>engineers as gardeners</title>
+      <link>http://localhost:1313/posts/engineers-gardeners/</link>
+      <pubDate>Fri, 22 Oct 2021 17:12:11 +0700</pubDate>
+      <guid>http://localhost:1313/posts/engineers-gardeners/</guid>
+      <description>&lt;p&gt;We need to let go of the idea that software development is about planning and execution.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Never forget, agile is here to save management, not software.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;software-development-as-an-act-of-gardening-rather-than-architecting&#34;&gt;Software development as an act of gardening rather than architecting:&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Planting seeds: Just as gardeners start with seeds, we begin with initial ideas or prototypes. We cultivate these ideas, allowing them to grow and evolve.&lt;/li&gt;&#xA;&lt;li&gt;Tending the garden: We set up our infrastructure and build pipelines to nourish our code, much like watering plants and providing nutrients.&lt;/li&gt;&#xA;&lt;li&gt;Adapting to changes: We face challenges like bugs and incidents, similar to dealing with pests or weather conditions in a garden. We adjust and care for our software as it matures.&lt;/li&gt;&#xA;&lt;li&gt;Growing new features: As our product evolves, we cultivate new features or adjust existing ones. As planting new seeds or grafting branches to ensure the garden continues to thrive.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;By thinking of ourselves as gardeners, we focus on nurturing software through its life cycle. We prepare the soil, plant seeds, and guide their growth, adapting as needed and celebrating the results.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
