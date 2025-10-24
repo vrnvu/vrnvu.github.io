@@ -6,49 +6,70 @@
     <description>Recent content in Code on zaunaidar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Oct 2021 17:12:11 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>design is not a senior priviliege</title>
-      <link>http://localhost:1313/posts/design-is-not-senior/</link>
-      <pubDate>Fri, 22 Oct 2021 17:12:11 +0700</pubDate>
-      <guid>http://localhost:1313/posts/design-is-not-senior/</guid>
-      <description>&lt;p&gt;Some teams treat architecture as a separate role reserved for &amp;ldquo;senior&amp;rdquo; engineers. They draw the diagrams, make the decisions, and pass the work.&lt;/p&gt;&#xA;&lt;p&gt;This separation &lt;strong&gt;is a problem&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Design isn&amp;rsquo;t a reward for experience. It&amp;rsquo;s a skill that improves with practice, not just time. Like any skill, it should be part of the job from the start.&lt;/p&gt;&#xA;&lt;h3 id=&#34;you-grow-by-doing&#34;&gt;You grow by doing&lt;/h3&gt;&#xA;&lt;p&gt;You don&amp;rsquo;t learn implementation all at once. You start small: an endpoint, a form, a script. Later, you take on a bigger piece: auth, infra, data flows. Eventually, you ship whole services, across teams or markets.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>dev log</title>
-      <link>http://localhost:1313/posts/dev-log/</link>
-      <pubDate>Fri, 22 Oct 2021 17:12:11 +0700</pubDate>
-      <guid>http://localhost:1313/posts/dev-log/</guid>
-      <description>&lt;p&gt;This year I started a development log for my work notes. It made me far more effective. I control my work, measure my impact, and keep visibility on what I am doing and with whom.&lt;/p&gt;&#xA;&lt;p&gt;Tools support the method. Pick one you will use consistently; the method drives results.&lt;/p&gt;&#xA;&lt;p&gt;Remember:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use tools and adapt them so they feel natural.&lt;/li&gt;&#xA;&lt;li&gt;Simple and easy beats complex and hard.&lt;/li&gt;&#xA;&lt;li&gt;Clarity beats volume.&lt;/li&gt;&#xA;&lt;li&gt;Use references for easy and fast navigation.&lt;/li&gt;&#xA;&lt;li&gt;Keep your notes structured and easy to search.&lt;/li&gt;&#xA;&lt;li&gt;A note is useful if it moves a decision, an action, or a result.&lt;/li&gt;&#xA;&lt;li&gt;A note is useful if you can share it with somebody else.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;structure&#34;&gt;Structure&lt;/h2&gt;&#xA;&lt;p&gt;I use Apple Notes. It is simple. It supports tags, search, and note references. It syncs with my work phone and, most importantly, it works for me.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>invariants</title>
       <link>http://localhost:1313/posts/invariants/</link>
-      <pubDate>Fri, 22 Oct 2021 17:12:11 +0700</pubDate>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/invariants/</guid>
       <description>&lt;h1 id=&#34;making-impossible-states-impossible&#34;&gt;making impossible states impossible&lt;/h1&gt;&#xA;&lt;p&gt;Last week, a race condition crashed production at 3 AM. The bug was impossible to reproduce in development, but a single assertion would have caught it immediately. This is why assertions exist: they make impossible states impossible.&lt;/p&gt;&#xA;&lt;p&gt;Some developers think assertions are just debugging tools. Not true. Assertions are contracts that prevent your code from reaching invalid states. Without assertions, bugs hide in impossible states. With assertions, impossible states become impossible. When combined with good &lt;a href=&#34;https://arnau.bearblog.dev/this-is-ci/&#34;&gt;CI&lt;/a&gt;, every change becomes visible, every assumption gets tested, and every deployment becomes predictable. As &lt;a href=&#34;https://typesanitizer.com/blog/assertions.html&#34;&gt;this analysis&lt;/a&gt; shows, assertions are crucial for catching correctness violations that types cannot prevent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>snapshots, property and simulation testing</title>
       <link>http://localhost:1313/posts/snapshots/</link>
-      <pubDate>Fri, 22 Oct 2021 17:12:11 +0700</pubDate>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/snapshots/</guid>
       <description>&lt;p&gt;Your test suite passes. Your coverage is 90%. You deploy to production. Your software breaks.&lt;/p&gt;&#xA;&lt;p&gt;Traditional testing measures the wrong things. It counts lines of code covered, not bugs prevented. It tests components in isolation, not how they interact in the real world. It catches the bugs you expect, not the ones that actually matter.&lt;/p&gt;&#xA;&lt;p&gt;You ship correctness bugs that unit tests never catch. The best way to avoid bugs is to &lt;a href=&#34;https://www.teamten.com/lawrence/programming/dont-write-bugs.html&#34;&gt;not write them in the first place&lt;/a&gt;—but when you do, you need tests that actually catch them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>this is ci</title>
       <link>http://localhost:1313/posts/this-is-ci/</link>
-      <pubDate>Fri, 22 Oct 2021 17:12:11 +0700</pubDate>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/this-is-ci/</guid>
       <description>&lt;p&gt;Last month, a developer updated a library version. The application worked fine in development, but production crashed at 2 AM. The deployment pipeline had passed all tests—but it hadn&amp;rsquo;t tested the actual change. This is why most CI fails: it tests code, not changes. When CI fails, production breaks, teams lose trust, and changes become dangerous.&lt;/p&gt;&#xA;&lt;p&gt;Most teams think CI is about running tests on GitHub. They&amp;rsquo;re wrong. CI is about correctness and detecting changes automatically. We test to have correct code and detect changes, and CI is that process being &lt;a href=&#34;https://graydon2.dreamwidth.org/1597.html&#34;&gt;continuous&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>dev log</title>
+      <link>http://localhost:1313/posts/dev-log/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dev-log/</guid>
+      <description>&lt;p&gt;This year I started a development log for my work notes. It made me far more effective. I control my work, measure my impact, and keep visibility on what I am doing and with whom.&lt;/p&gt;&#xA;&lt;p&gt;Tools support the method. Pick one you will use consistently; the method drives results.&lt;/p&gt;&#xA;&lt;p&gt;Remember:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use tools and adapt them so they feel natural.&lt;/li&gt;&#xA;&lt;li&gt;Simple and easy beats complex and hard.&lt;/li&gt;&#xA;&lt;li&gt;Clarity beats volume.&lt;/li&gt;&#xA;&lt;li&gt;Use references for easy and fast navigation.&lt;/li&gt;&#xA;&lt;li&gt;Keep your notes structured and easy to search.&lt;/li&gt;&#xA;&lt;li&gt;A note is useful if it moves a decision, an action, or a result.&lt;/li&gt;&#xA;&lt;li&gt;A note is useful if you can share it with somebody else.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;structure&#34;&gt;Structure&lt;/h2&gt;&#xA;&lt;p&gt;I use Apple Notes. It is simple. It supports tags, search, and note references. It syncs with my work phone and, most importantly, it works for me.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>design is not a senior priviliege</title>
+      <link>http://localhost:1313/posts/design-is-not-senior/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/design-is-not-senior/</guid>
+      <description>&lt;p&gt;Some teams treat architecture as a separate role reserved for &amp;ldquo;senior&amp;rdquo; engineers. They draw the diagrams, make the decisions, and pass the work.&lt;/p&gt;&#xA;&lt;p&gt;This separation &lt;strong&gt;is a problem&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Design isn&amp;rsquo;t a reward for experience. It&amp;rsquo;s a skill that improves with practice, not just time. Like any skill, it should be part of the job from the start.&lt;/p&gt;&#xA;&lt;h3 id=&#34;you-grow-by-doing&#34;&gt;You grow by doing&lt;/h3&gt;&#xA;&lt;p&gt;You don&amp;rsquo;t learn implementation all at once. You start small: an endpoint, a form, a script. Later, you take on a bigger piece: auth, infra, data flows. Eventually, you ship whole services, across teams or markets.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>visibility and collaboration</title>
       <link>http://localhost:1313/posts/visibility-collaboration/</link>
-      <pubDate>Fri, 22 Oct 2021 17:12:11 +0700</pubDate>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/visibility-collaboration/</guid>
       <description>&lt;p&gt;Software engineering requires &lt;strong&gt;collaboration&lt;/strong&gt; by nature.&lt;/p&gt;&#xA;&lt;p&gt;Consider the classic split: one engineer builds the backend while another builds the frontend. They can work in parallel, but only if they know what each other is doing and they know what to do. The moment they don&amp;rsquo;t, progress slows.&lt;/p&gt;&#xA;&lt;p&gt;Two methods address this. Management-enforced process with agile techniques like daily standups and bureaucracy. Or software engineering culture born from the team itself. They serve different goals. Management wants visibility to control, monitor and &amp;ldquo;check in.&amp;rdquo; Good software engineers want to get the work done and do it well. The latter is the foundation of good team culture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>how to code clearly</title>
+      <link>http://localhost:1313/posts/how-to-code-clearly/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-code-clearly/</guid>
+      <description>&lt;p&gt;This piece adapts the wisdom from the &lt;a href=&#34;https://davedye.com/2019/07/12/how-to-write-good/&#34;&gt;International Paper Company&amp;rsquo;s famous writing campaign&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-code-clearly&#34;&gt;How to code clearly&lt;/h2&gt;&#xA;&lt;p&gt;If you are afraid to code, don&amp;rsquo;t be. If you think you&amp;rsquo;ve got to string together big fancy constructs and high-flying functions, forget it. To code well, you only need to know how to get your ideas across simply and clearly.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s not easy. But it&amp;rsquo;s easier than you might imagine. There are only three basic requirements:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>impact metrics</title>
+      <link>http://localhost:1313/posts/impact-metrics/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/impact-metrics/</guid>
+      <description>&lt;p&gt;Impact isn&amp;rsquo;t about how many operations you have. It&amp;rsquo;s about which operations matter most to your users.&lt;/p&gt;&#xA;&lt;p&gt;Some teams measure the wrong things. They track total traffic, average response times, and aggregate error rates. But these metrics hide the real story.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The real question&lt;/strong&gt;: Which endpoints have the highest user impact when they fail?&lt;/p&gt;&#xA;&lt;p&gt;Consider a user trying to set up your tool for the first time. If the onboarding API fails, they might abandon your product entirely. That single failure has massive impact—not because of volume, but because it&amp;rsquo;s the user&amp;rsquo;s first impression.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>code readibility</title>
+      <link>http://localhost:1313/posts/code-readibility/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/code-readibility/</guid>
+      <description>&lt;p&gt;Two quick definitions, from one of the best courses I&amp;rsquo;ve taken¹:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Syntax&lt;/strong&gt;: The rules that say what counts as valid code. Punctuation, keywords, structure.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Semantics&lt;/strong&gt;: The meaning of that code. What it does, what it represents.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;So what&amp;rsquo;s code readability?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Readability is syntax that makes semantics obvious.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It&amp;rsquo;s not about imperative vs functional.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s not about tabs, spaces, or where the braces go.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about clarity.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about mutability, iterating, cloning.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about moving or cloning values.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about understanding if we&amp;rsquo;re dealing with a value or a reference.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A &lt;strong&gt;good&lt;/strong&gt; language is &lt;strong&gt;readable&lt;/strong&gt;. A readable language makes &lt;strong&gt;semantics&lt;/strong&gt; obvious. A good programmer encourages that kind of readability.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

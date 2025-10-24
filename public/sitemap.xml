@@ -3,43 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/code/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/design-is-not-senior/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/dev-log/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/epoche/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/invariants/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/meta/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/programming-as-an-art/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/snapshots/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/this-is-ci/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/dev-log/</loc>
+    <lastmod>2025-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/design-is-not-senior/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/visibility-collaboration/</loc>
-    <lastmod>2021-10-22T17:12:11+07:00</lastmod>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/how-to-code-clearly/</loc>
+    <lastmod>2024-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/impact-metrics/</loc>
+    <lastmod>2023-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/code-readibility/</loc>
+    <lastmod>2022-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/culture/</loc>
+    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/engineers-gardeners/</loc>
+    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/traits-of-good-programmer/</loc>
+    <lastmod>2022-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/think-3d/</loc>
+    <lastmod>2022-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/epoche/</loc>
+    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/meta/</loc>
+    <lastmod>2020-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/programming-as-an-art/</loc>
+    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
