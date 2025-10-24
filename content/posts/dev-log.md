@@ -2,7 +2,7 @@
 title: "dev log"
 date: 2025-10-16T00:00:00+00:00
 comment: true
-tags: ["code"]
+tags: ["culture"]
 ---
 
 This year I started a development log for my work notes. It made me far more effective. I control my work, measure my impact, and keep visibility on what I am doing and with whom.

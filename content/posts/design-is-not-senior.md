@@ -2,7 +2,7 @@
 title: "design is not a senior priviliege"
 date: 2025-06-16T00:00:00+00:00
 comment: true
-tags: ["code"]
+tags: ["culture"]
 ---
 Some teams treat architecture as a separate role reserved for "senior" engineers. They draw the diagrams, make the decisions, and pass the work.
 

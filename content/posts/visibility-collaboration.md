@@ -2,7 +2,7 @@
 title: "visibility and collaboration"
 date: 2025-06-03T00:00:00+00:00
 comment: true
-tags: ["code"]
+tags: ["culture"]
 ---
 Software engineering requires **collaboration** by nature.
 
