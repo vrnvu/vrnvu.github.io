@@ -6,21 +6,21 @@
     <description>Recent content in Home on zaunaidar</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 00:02:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>invariants</title>
-      <link>http://localhost:1313/posts/invariants/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/invariants/</guid>
-      <description>&lt;h1 id=&#34;making-impossible-states-impossible&#34;&gt;making impossible states impossible&lt;/h1&gt;&#xA;&lt;p&gt;Last week, a race condition crashed production at 3 AM. The bug was impossible to reproduce in development, but a single assertion would have caught it immediately. This is why assertions exist: they make impossible states impossible.&lt;/p&gt;&#xA;&lt;p&gt;Some developers think assertions are just debugging tools. Not true. Assertions are contracts that prevent your code from reaching invalid states. Without assertions, bugs hide in impossible states. With assertions, impossible states become impossible. When combined with good &lt;a href=&#34;https://arnau.bearblog.dev/this-is-ci/&#34;&gt;CI&lt;/a&gt;, every change becomes visible, every assumption gets tested, and every deployment becomes predictable. As &lt;a href=&#34;https://typesanitizer.com/blog/assertions.html&#34;&gt;this analysis&lt;/a&gt; shows, assertions are crucial for catching correctness violations that types cannot prevent.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>snapshots, property and simulation testing</title>
       <link>http://localhost:1313/posts/snapshots/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 21 Oct 2025 00:02:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/snapshots/</guid>
       <description>&lt;p&gt;Your test suite passes. Your coverage is 90%. You deploy to production. Your software breaks.&lt;/p&gt;&#xA;&lt;p&gt;Traditional testing measures the wrong things. It counts lines of code covered, not bugs prevented. It tests components in isolation, not how they interact in the real world. It catches the bugs you expect, not the ones that actually matter.&lt;/p&gt;&#xA;&lt;p&gt;You ship correctness bugs that unit tests never catch. The best way to avoid bugs is to &lt;a href=&#34;https://www.teamten.com/lawrence/programming/dont-write-bugs.html&#34;&gt;not write them in the first place&lt;/a&gt;—but when you do, you need tests that actually catch them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>invariants</title>
+      <link>http://localhost:1313/posts/invariants/</link>
+      <pubDate>Tue, 21 Oct 2025 00:01:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/invariants/</guid>
+      <description>&lt;h1 id=&#34;making-impossible-states-impossible&#34;&gt;making impossible states impossible&lt;/h1&gt;&#xA;&lt;p&gt;Last week, a race condition crashed production at 3 AM. The bug was impossible to reproduce in development, but a single assertion would have caught it immediately. This is why assertions exist: they make impossible states impossible.&lt;/p&gt;&#xA;&lt;p&gt;Some developers think assertions are just debugging tools. Not true. Assertions are contracts that prevent your code from reaching invalid states. Without assertions, bugs hide in impossible states. With assertions, impossible states become impossible. When combined with good &lt;a href=&#34;https://arnau.bearblog.dev/this-is-ci/&#34;&gt;CI&lt;/a&gt;, every change becomes visible, every assumption gets tested, and every deployment becomes predictable. As &lt;a href=&#34;https://typesanitizer.com/blog/assertions.html&#34;&gt;this analysis&lt;/a&gt; shows, assertions are crucial for catching correctness violations that types cannot prevent.&lt;/p&gt;</description>
     </item>
     <item>
       <title>this is ci</title>

@@ -1,6 +1,6 @@
 ---
 title: "invariants"
-date: 2025-10-21T00:00:00+00:00
+date: 2025-10-21T00:01:00+00:00
 comment: true
 tags: ["code"]
 ---
