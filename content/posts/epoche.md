@@ -2,6 +2,7 @@
 title: "epoche"
 date: 2020-09-29T00:00:00+00:00
 comment: true
+draft: true
 tags: ["meta"]
 ---
 

@@ -2,6 +2,7 @@
 title: "programming as an art"
 date: 2020-09-28T00:00:00+00:00
 comment: true
+draft: true
 tags: ["meta"]
 ---
 art once meant skill: a practice, not a product.  
