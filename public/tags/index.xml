@@ -22,12 +22,5 @@
       <guid>http://localhost:1313/tags/culture/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Meta</title>
-      <link>http://localhost:1313/tags/meta/</link>
-      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/meta/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
