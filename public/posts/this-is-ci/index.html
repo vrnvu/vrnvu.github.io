@@ -1,4 +1,143 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>this is ci | zaunaidar</title><link rel=apple-touch-icon sizes=57x57 href=/favicon_io/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/favicon_io/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/favicon_io/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/favicon_io/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/favicon_io/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/favicon_io/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/favicon_io/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/favicon_io/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/favicon_io/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/favicon_io/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/favicon_io/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/favicon_io/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/favicon_io/favicon-16x16.png><link rel=manifest href=/favicon_io/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/favicon_io/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=stylesheet href=/css/main.min.7c2e3acb1f4933aa19f3729495445482ab9d9dc0c28c00c85831559d823fd2e7.css integrity="sha256-fC46yx9JM6oZ83KUlURUgqudncDCjADIWDFVnYI/0uc=" crossorigin=anonymous><link rel=stylesheet href=/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=" crossorigin=anonymous><script src=/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script></head><body><header><header><nav class=path-nav><ol><li>/
-<a href=/>zaunaidar</a>
-/</li><li><a href=/posts/>posts</a>
-/</li><li class=current><a href=/posts/this-is-ci/>this is ci</a></li></ol></nav></header></header><main><h1>this is ci</h1><div class=terms-list><ul><li><a href=/tags/code/>#Code</a></li></ul></div><nav class=toc><strong>Table of contents</strong><div class=toc-content><nav id=TableOfContents><ol><li><a href=#what-can-we-test>What Can We Test?</a></li><li><a href=#detecting-changes-in-practice>Detecting Changes in Practice</a></li><li><a href=#this-is-ci>This is CI</a></li></ol></nav></div></nav><p>Last month, a developer updated a library version. The application worked fine in development, but production crashed at 2 AM. The deployment pipeline had passed all tests—but it hadn&rsquo;t tested the actual change. This is why most CI fails: it tests code, not changes. When CI fails, production breaks, teams lose trust, and changes become dangerous.</p><p>Most teams think CI is about running tests on GitHub. They&rsquo;re wrong. CI is about correctness and detecting changes automatically. We test to have correct code and detect changes, and CI is that process being <a href=https://graydon2.dreamwidth.org/1597.html>continuous</a>.</p><p>That the team has the same code, versioned with tags and releases, the same functional and reproducible setup, are <a href=https://matklad.github.io/2024/03/22/basic-things.html>consequences</a> of CI.</p><h2 id=what-can-we-test>What Can We Test?</h2><p>Continuous Integration succeeds when every change becomes visible through failing tests. Everything else—pipelines, environments, tools—are just means to this end.</p><p>Test <a href=https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html>everything</a>: code, operations, environments, migrations and rollbacks. Test GitHub: releases, tags and workflows. Test observability: logs and metrics. Test binary size and lines of code.</p><p>Make linting and formatting part of the test, not separate steps. Make benchmarks part of the test: regression performance test. Test Docker and environment setup, automate everything and verify it. Test CI/CD pipelines: that scripts, actions and workflows work after changes.</p><p>Everything that can break your workflow must be tested automatically.</p><p>When CI works properly:</p><ul><li>If we change our environment from AWS to Azure, a test must fail.</li><li>If we update the version of a library and something breaks, a test must fail.</li><li>If we change a path in a pipeline, a test must fail.</li><li>If we run a migration script and we forgot a prerequisite, a test must fail.</li><li>If the code does something with logs or metrics that we didn&rsquo;t expect, a test must fail.</li></ul><p>The limit is set by you and your team. The time you have and how good you are at programming.</p><p>Now let&rsquo;s see how this works in practice. The most common scenario is when a software engineer adds new behavior.</p><h2 id=detecting-changes-in-practice>Detecting Changes in Practice</h2><p>How do we detect this change? How do you make a test fail when introducing new untested code? This is where code coverage comes in.</p><p>Code coverage doesn&rsquo;t measure code correctness, or how &ldquo;complete&rdquo; testing is, only what code is being executed by tests. When you add or remove code, coverage changes. We can create a test that fails if coverage drops below a threshold. This automatically ensures any change is detected and must be managed. This aligns with the <a href=https://googletesting-test.blogspot.com/2014/05/testing-on-toilet-risk-driven-testing.html>risk-driven testing approach</a> that emphasizes testing the areas that matter most.</p><p>Similar ideas apply to removing or changing behavior. The key is making any change visible through tests.</p><h2 id=this-is-ci>This is CI</h2><p>If something changes, a test must fail or force us to add a check! Read this sentence ten times. This is CI.</p><time datetime=2025-10-21>2025-10-21&nbsp;</time><div class=terminal-nav><div class=back-nav><a href=../ class=back-link>../</a></div></div></main><footer></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>this is ci | zaunaidar</title>
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon_io/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon_io/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon_io/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon_io/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon_io/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon_io/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon_io/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon_io/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicon_io/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon_io/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon_io/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+
+      <script src="/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <nav class="path-nav">
+    <ol>
+      
+  
+    
+  
+    
+  
+  <li>
+    /
+    <a href="/">zaunaidar</a>
+    /
+  </li>
+
+  
+  <li>
+    
+    <a href="/posts/">posts</a>
+    /
+  </li>
+
+  
+  <li class="current">
+    
+    <a href="/posts/this-is-ci/">this is ci</a>
+    
+  </li>
+
+    </ol>
+  </nav>
+</header>
+
+
+
+  </header>
+  <main>
+    
+<h1>this is ci</h1>
+
+  <div class="terms-list">
+    <ul>
+        <li><a href="/tags/code/">#Code</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <nav class="toc">
+    <strong>Table of contents</strong>
+    <div class="toc-content">
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#what-can-we-test">What Can We Test?</a></li>
+    <li><a href="#detecting-changes-in-practice">Detecting Changes in Practice</a></li>
+    <li><a href="#this-is-ci">This is CI</a></li>
+  </ol>
+</nav>
+    </div>
+    </nav>
+    
+
+    <p>Last month, a developer updated a library version. The application worked fine in development, but production crashed at 2 AM. The deployment pipeline had passed all tests—but it hadn&rsquo;t tested the actual change. This is why most CI fails: it tests code, not changes. When CI fails, production breaks, teams lose trust, and changes become dangerous.</p>
+<p>Most teams think CI is about running tests on GitHub. They&rsquo;re wrong. CI is about correctness and detecting changes automatically. We test to have correct code and detect changes, and CI is that process being <a href="https://graydon2.dreamwidth.org/1597.html">continuous</a>.</p>
+<p>That the team has the same code, versioned with tags and releases, the same functional and reproducible setup, are <a href="https://matklad.github.io/2024/03/22/basic-things.html">consequences</a> of CI.</p>
+<h2 id="what-can-we-test">What Can We Test?</h2>
+<p>Continuous Integration succeeds when every change becomes visible through failing tests. Everything else—pipelines, environments, tools—are just means to this end.</p>
+<p>Test <a href="https://kobzol.github.io/rust/2025/03/25/just-write-a-test-for-it.html">everything</a>: code, operations, environments, migrations and rollbacks. Test GitHub: releases, tags and workflows. Test observability: logs and metrics. Test binary size and lines of code.</p>
+<p>Make linting and formatting part of the test, not separate steps. Make benchmarks part of the test: regression performance test. Test Docker and environment setup, automate everything and verify it. Test CI/CD pipelines: that scripts, actions and workflows work after changes.</p>
+<p>Everything that can break your workflow must be tested automatically.</p>
+<p>When CI works properly:</p>
+<ul>
+<li>If we change our environment from AWS to Azure, a test must fail.</li>
+<li>If we update the version of a library and something breaks, a test must fail.</li>
+<li>If we change a path in a pipeline, a test must fail.</li>
+<li>If we run a migration script and we forgot a prerequisite, a test must fail.</li>
+<li>If the code does something with logs or metrics that we didn&rsquo;t expect, a test must fail.</li>
+</ul>
+<p>The limit is set by you and your team. The time you have and how good you are at programming.</p>
+<p>Now let&rsquo;s see how this works in practice. The most common scenario is when a software engineer adds new behavior.</p>
+<h2 id="detecting-changes-in-practice">Detecting Changes in Practice</h2>
+<p>How do we detect this change? How do you make a test fail when introducing new untested code? This is where code coverage comes in.</p>
+<p>Code coverage doesn&rsquo;t measure code correctness, or how &ldquo;complete&rdquo; testing is, only what code is being executed by tests. When you add or remove code, coverage changes. We can create a test that fails if coverage drops below a threshold. This automatically ensures any change is detected and must be managed. This aligns with the <a href="https://googletesting-test.blogspot.com/2014/05/testing-on-toilet-risk-driven-testing.html">risk-driven testing approach</a> that emphasizes testing the areas that matter most.</p>
+<p>Similar ideas apply to removing or changing behavior. The key is making any change visible through tests.</p>
+<h2 id="this-is-ci">This is CI</h2>
+<p>If something changes, a test must fail or force us to add a check! Read this sentence ten times. This is CI.</p>
+
+    
+    <time datetime="2025-10-21">2025-10-21&nbsp;</time>
+
+    
+
+    
+    <div class="terminal-nav">
+        <div class="back-nav">
+            <a href="../" class="back-link">../</a>
+        </div>
+    </div>
+    
+    
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+</html>

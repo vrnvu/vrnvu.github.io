@@ -1,4 +1,171 @@
-<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>think in 3d | zaunaidar</title><link rel=apple-touch-icon sizes=57x57 href=/favicon_io/apple-icon-57x57.png><link rel=apple-touch-icon sizes=60x60 href=/favicon_io/apple-icon-60x60.png><link rel=apple-touch-icon sizes=72x72 href=/favicon_io/apple-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/favicon_io/apple-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/favicon_io/apple-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/favicon_io/apple-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/favicon_io/apple-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/favicon_io/apple-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/favicon_io/apple-icon-180x180.png><link rel=icon type=image/png sizes=192x192 href=/favicon_io/android-icon-192x192.png><link rel=icon type=image/png sizes=32x32 href=/favicon_io/favicon-32x32.png><link rel=icon type=image/png sizes=96x96 href=/favicon_io/favicon-96x96.png><link rel=icon type=image/png sizes=16x16 href=/favicon_io/favicon-16x16.png><link rel=manifest href=/favicon_io/manifest.json><meta name=msapplication-TileColor content="#ffffff"><meta name=msapplication-TileImage content="/favicon_io/ms-icon-144x144.png"><meta name=theme-color content="#ffffff"><link rel=stylesheet href=/css/main.min.7c2e3acb1f4933aa19f3729495445482ab9d9dc0c28c00c85831559d823fd2e7.css integrity="sha256-fC46yx9JM6oZ83KUlURUgqudncDCjADIWDFVnYI/0uc=" crossorigin=anonymous><link rel=stylesheet href=/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css integrity="sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=" crossorigin=anonymous><script src=/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js></script></head><body><header><header><nav class=path-nav><ol><li>/
-<a href=/>zaunaidar</a>
-/</li><li><a href=/posts/>posts</a>
-/</li><li class=current><a href=/posts/think-3d/>think in 3d</a></li></ol></nav></header></header><main><h1>think in 3d</h1><div class=terms-list><ul><li><a href=/tags/culture/>#Culture</a></li></ul></div><nav class=toc><strong>Table of contents</strong><div class=toc-content><nav id=TableOfContents><ol><li><ol><li><a href=#the-third-dimension>The Third Dimension</a></li><li><a href=#why-the-third-dimension-is-overlooked>Why the third dimension is overlooked</a></li><li><a href=#measure-first-then-optimize>Measure first, then optimize</a></li><li><a href=#optimization-compounds>Optimization compounds</a></li></ol></li></ol></nav></div></nav><p>As traffic increases and performance degrades, teams default to two approaches:</p><ul><li><strong>Horizontal scaling</strong>: adding more instances</li><li><strong>Vertical scaling</strong>: upgrading to bigger machines</li></ul><p>Pause for a moment. Did you notice something missing? If not, you might be seeing in 2D.</p><p>Both approaches treat symptoms, not causes. They assume the application is already optimal. This assumption adds cost, complexity, and technical debt: more machines, more moving parts, slower teams.</p><p>Don&rsquo;t limit yourself to 2D. Add the third dimension: optimize the application. Think in 3D.</p><h3 id=the-third-dimension>The Third Dimension</h3><p>Application optimization often delivers outsized returns. Examples:</p><ul><li><strong>Database queries</strong>: Adding an index can improve performance by orders of magnitude</li><li><strong>Caching</strong>: A Redis cache can reduce database load dramatically</li><li><strong>Algorithm optimization</strong>: Switching an algorithm from O(n²) to O(n log n) can make a difference</li><li><strong>Memory usage</strong>: Reducing allocations and memory footprint translates directly to performance</li><li><strong>Memory management</strong>: Using arenas or bump allocators reduces allocation overhead and fragmentation</li><li><strong>Garbage collection</strong>: Lowering short‑lived allocations reduces GC pressure and pauses</li><li><strong>Serialization</strong>: Avoiding unnecessary serialization/deserialization removes avoidable CPU work</li><li><strong>Kernel crossings</strong>: Reducing user-kernel copies and syscalls cuts context switching overhead</li><li><strong>I/O patterns</strong>: Batch writes, use zero-copy, and align buffers to improve throughput</li><li><strong>Indirection</strong>: Flatten pointer-chasing data structures to improve cache locality</li><li><strong>Data-oriented design</strong>: Use struct-of-arrays vs array-of-structs to match access patterns</li></ul><p>These optimizations compound. A major improvement in code efficiency means you need far fewer servers. Your infrastructure costs drop, your system becomes simpler, and you have more room for growth.</p><h3 id=why-the-third-dimension-is-overlooked>Why the third dimension is overlooked</h3><p>Application optimization requires different skills than infrastructure scaling. It demands:</p><ul><li><strong>Deep code analysis</strong>: Understanding bottlenecks and inefficiencies</li><li><strong>Performance measurement</strong>: Profiling before and after changes</li><li><strong>Algorithm knowledge</strong>: Knowing when O(n) becomes O(n²)</li><li><strong>Hardware understanding</strong>: CPU, RAM, kernel, and low-level system behavior</li><li><strong>System thinking</strong>: Understanding how components interact</li></ul><p>Many teams lack these skills or don&rsquo;t prioritize them. It&rsquo;s easier to throw hardware at problems than to fix the underlying code. Invest in these <a href=https://www.brendangregg.com>skills</a> and apply them deliberately.</p><h3 id=measure-first-then-optimize>Measure first, then optimize</h3><p>Measure first. Profile your application to find <a href=https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md#performance>bottlenecks</a> across CPU, memory, disk, and network:</p><ul><li>Database query performance</li><li>Memory allocation patterns</li><li>CPU usage by function</li><li>Network I/O efficiency</li></ul><p>Then optimize the biggest wins first. A single optimization often outperforms multiple infrastructure changes.</p><h3 id=optimization-compounds>Optimization compounds</h3><p>Application optimization compounds over time. Each improvement makes the next one easier. Your code becomes more maintainable, your system more reliable, and your costs more predictable.</p><p>When you think in 3D, you don&rsquo;t just scale—you <a href=https://arnau.bearblog.dev/engineers-as-gardeners/>evolve</a>. Your application becomes more efficient, your team becomes more skilled, and your business becomes more sustainable.</p><p>Think in 3D.</p><time datetime=2022-01-12>2022-01-12&nbsp;</time><div class=terminal-nav><div class=back-nav><a href=../ class=back-link>../</a></div></div></main><footer></footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>think in 3d | zaunaidar</title>
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon_io/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon_io/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon_io/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon_io/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon_io/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon_io/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon_io/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon_io/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicon_io/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon_io/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon_io/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/custom.css">
+
+
+      <script src="/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <header>
+  <nav class="path-nav">
+    <ol>
+      
+  
+    
+  
+    
+  
+  <li>
+    /
+    <a href="/">zaunaidar</a>
+    /
+  </li>
+
+  
+  <li>
+    
+    <a href="/posts/">posts</a>
+    /
+  </li>
+
+  
+  <li class="current">
+    
+    <a href="/posts/think-3d/">think in 3d</a>
+    
+  </li>
+
+    </ol>
+  </nav>
+</header>
+
+
+
+  </header>
+  <main>
+    
+<h1>think in 3d</h1>
+
+  <div class="terms-list">
+    <ul>
+        <li><a href="/tags/culture/">#Culture</a></li>
+    </ul>
+  </div>
+
+
+
+
+  <nav class="toc">
+    <strong>Table of contents</strong>
+    <div class="toc-content">
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#the-third-dimension">The Third Dimension</a></li>
+        <li><a href="#why-the-third-dimension-is-overlooked">Why the third dimension is overlooked</a></li>
+        <li><a href="#measure-first-then-optimize">Measure first, then optimize</a></li>
+        <li><a href="#optimization-compounds">Optimization compounds</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </div>
+    </nav>
+    
+
+    <p>As traffic increases and performance degrades, teams default to two approaches:</p>
+<ul>
+<li><strong>Horizontal scaling</strong>: adding more instances</li>
+<li><strong>Vertical scaling</strong>: upgrading to bigger machines</li>
+</ul>
+<p>Pause for a moment. Did you notice something missing? If not, you might be seeing in 2D.</p>
+<p>Both approaches treat symptoms, not causes. They assume the application is already optimal. This assumption adds cost, complexity, and technical debt: more machines, more moving parts, slower teams.</p>
+<p>Don&rsquo;t limit yourself to 2D. Add the third dimension: optimize the application. Think in 3D.</p>
+<h3 id="the-third-dimension">The Third Dimension</h3>
+<p>Application optimization often delivers outsized returns. Examples:</p>
+<ul>
+<li><strong>Database queries</strong>: Adding an index can improve performance by orders of magnitude</li>
+<li><strong>Caching</strong>: A Redis cache can reduce database load dramatically</li>
+<li><strong>Algorithm optimization</strong>: Switching an algorithm from O(n²) to O(n log n) can make a difference</li>
+<li><strong>Memory usage</strong>: Reducing allocations and memory footprint translates directly to performance</li>
+<li><strong>Memory management</strong>: Using arenas or bump allocators reduces allocation overhead and fragmentation</li>
+<li><strong>Garbage collection</strong>: Lowering short‑lived allocations reduces GC pressure and pauses</li>
+<li><strong>Serialization</strong>: Avoiding unnecessary serialization/deserialization removes avoidable CPU work</li>
+<li><strong>Kernel crossings</strong>: Reducing user-kernel copies and syscalls cuts context switching overhead</li>
+<li><strong>I/O patterns</strong>: Batch writes, use zero-copy, and align buffers to improve throughput</li>
+<li><strong>Indirection</strong>: Flatten pointer-chasing data structures to improve cache locality</li>
+<li><strong>Data-oriented design</strong>: Use struct-of-arrays vs array-of-structs to match access patterns</li>
+</ul>
+<p>These optimizations compound. A major improvement in code efficiency means you need far fewer servers. Your infrastructure costs drop, your system becomes simpler, and you have more room for growth.</p>
+<h3 id="why-the-third-dimension-is-overlooked">Why the third dimension is overlooked</h3>
+<p>Application optimization requires different skills than infrastructure scaling. It demands:</p>
+<ul>
+<li><strong>Deep code analysis</strong>: Understanding bottlenecks and inefficiencies</li>
+<li><strong>Performance measurement</strong>: Profiling before and after changes</li>
+<li><strong>Algorithm knowledge</strong>: Knowing when O(n) becomes O(n²)</li>
+<li><strong>Hardware understanding</strong>: CPU, RAM, kernel, and low-level system behavior</li>
+<li><strong>System thinking</strong>: Understanding how components interact</li>
+</ul>
+<p>Many teams lack these skills or don&rsquo;t prioritize them. It&rsquo;s easier to throw hardware at problems than to fix the underlying code. Invest in these <a href="https://www.brendangregg.com">skills</a> and apply them deliberately.</p>
+<h3 id="measure-first-then-optimize">Measure first, then optimize</h3>
+<p>Measure first. Profile your application to find <a href="https://github.com/tigerbeetle/tigerbeetle/blob/main/docs/TIGER_STYLE.md#performance">bottlenecks</a> across CPU, memory, disk, and network:</p>
+<ul>
+<li>Database query performance</li>
+<li>Memory allocation patterns</li>
+<li>CPU usage by function</li>
+<li>Network I/O efficiency</li>
+</ul>
+<p>Then optimize the biggest wins first. A single optimization often outperforms multiple infrastructure changes.</p>
+<h3 id="optimization-compounds">Optimization compounds</h3>
+<p>Application optimization compounds over time. Each improvement makes the next one easier. Your code becomes more maintainable, your system more reliable, and your costs more predictable.</p>
+<p>When you think in 3D, you don&rsquo;t just scale—you <a href="https://arnau.bearblog.dev/engineers-as-gardeners/">evolve</a>. Your application becomes more efficient, your team becomes more skilled, and your business becomes more sustainable.</p>
+<p>Think in 3D.</p>
+
+    
+    <time datetime="2022-01-12">2022-01-12&nbsp;</time>
+
+    
+
+    
+    <div class="terminal-nav">
+        <div class="back-nav">
+            <a href="../" class="back-link">../</a>
+        </div>
+    </div>
+    
+    
+  </main>
+  <footer>
+    
+  </footer>
+</body>
+</html>
