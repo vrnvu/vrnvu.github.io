@@ -1,110 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>posts on zaunaidar</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in posts on zaunaidar</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>invariants</title>
-      <link>http://localhost:1313/posts/invariants/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/invariants/</guid>
-      <description>&lt;h1 id=&#34;making-impossible-states-impossible&#34;&gt;making impossible states impossible&lt;/h1&gt;&#xA;&lt;p&gt;Last week, a race condition crashed production at 3 AM. The bug was impossible to reproduce in development, but a single assertion would have caught it immediately. This is why assertions exist: they make impossible states impossible.&lt;/p&gt;&#xA;&lt;p&gt;Some developers think assertions are just debugging tools. Not true. Assertions are contracts that prevent your code from reaching invalid states. Without assertions, bugs hide in impossible states. With assertions, impossible states become impossible. When combined with good &lt;a href=&#34;https://arnau.bearblog.dev/this-is-ci/&#34;&gt;CI&lt;/a&gt;, every change becomes visible, every assumption gets tested, and every deployment becomes predictable. As &lt;a href=&#34;https://typesanitizer.com/blog/assertions.html&#34;&gt;this analysis&lt;/a&gt; shows, assertions are crucial for catching correctness violations that types cannot prevent.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>snapshots, property and simulation testing</title>
-      <link>http://localhost:1313/posts/snapshots/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/snapshots/</guid>
-      <description>&lt;p&gt;Your test suite passes. Your coverage is 90%. You deploy to production. Your software breaks.&lt;/p&gt;&#xA;&lt;p&gt;Traditional testing measures the wrong things. It counts lines of code covered, not bugs prevented. It tests components in isolation, not how they interact in the real world. It catches the bugs you expect, not the ones that actually matter.&lt;/p&gt;&#xA;&lt;p&gt;You ship correctness bugs that unit tests never catch. The best way to avoid bugs is to &lt;a href=&#34;https://www.teamten.com/lawrence/programming/dont-write-bugs.html&#34;&gt;not write them in the first place&lt;/a&gt;—but when you do, you need tests that actually catch them.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>this is ci</title>
-      <link>http://localhost:1313/posts/this-is-ci/</link>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/this-is-ci/</guid>
-      <description>&lt;p&gt;Last month, a developer updated a library version. The application worked fine in development, but production crashed at 2 AM. The deployment pipeline had passed all tests—but it hadn&amp;rsquo;t tested the actual change. This is why most CI fails: it tests code, not changes. When CI fails, production breaks, teams lose trust, and changes become dangerous.&lt;/p&gt;&#xA;&lt;p&gt;Most teams think CI is about running tests on GitHub. They&amp;rsquo;re wrong. CI is about correctness and detecting changes automatically. We test to have correct code and detect changes, and CI is that process being &lt;a href=&#34;https://graydon2.dreamwidth.org/1597.html&#34;&gt;continuous&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>dev log</title>
-      <link>http://localhost:1313/posts/dev-log/</link>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dev-log/</guid>
-      <description>&lt;p&gt;This year I started a development log for my work notes. It made me far more effective. I control my work, measure my impact, and keep visibility on what I am doing and with whom.&lt;/p&gt;&#xA;&lt;p&gt;Tools support the method. Pick one you will use consistently; the method drives results.&lt;/p&gt;&#xA;&lt;p&gt;Remember:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use tools and adapt them so they feel natural.&lt;/li&gt;&#xA;&lt;li&gt;Simple and easy beats complex and hard.&lt;/li&gt;&#xA;&lt;li&gt;Clarity beats volume.&lt;/li&gt;&#xA;&lt;li&gt;Use references for easy and fast navigation.&lt;/li&gt;&#xA;&lt;li&gt;Keep your notes structured and easy to search.&lt;/li&gt;&#xA;&lt;li&gt;A note is useful if it moves a decision, an action, or a result.&lt;/li&gt;&#xA;&lt;li&gt;A note is useful if you can share it with somebody else.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;structure&#34;&gt;Structure&lt;/h2&gt;&#xA;&lt;p&gt;I use Apple Notes. It is simple. It supports tags, search, and note references. It syncs with my work phone and, most importantly, it works for me.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>design is not a senior priviliege</title>
-      <link>http://localhost:1313/posts/design-is-not-senior/</link>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/design-is-not-senior/</guid>
-      <description>&lt;p&gt;Some teams treat architecture as a separate role reserved for &amp;ldquo;senior&amp;rdquo; engineers. They draw the diagrams, make the decisions, and pass the work.&lt;/p&gt;&#xA;&lt;p&gt;This separation &lt;strong&gt;is a problem&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Design isn&amp;rsquo;t a reward for experience. It&amp;rsquo;s a skill that improves with practice, not just time. Like any skill, it should be part of the job from the start.&lt;/p&gt;&#xA;&lt;h3 id=&#34;you-grow-by-doing&#34;&gt;You grow by doing&lt;/h3&gt;&#xA;&lt;p&gt;You don&amp;rsquo;t learn implementation all at once. You start small: an endpoint, a form, a script. Later, you take on a bigger piece: auth, infra, data flows. Eventually, you ship whole services, across teams or markets.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>visibility and collaboration</title>
-      <link>http://localhost:1313/posts/visibility-collaboration/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/visibility-collaboration/</guid>
-      <description>&lt;p&gt;Software engineering requires &lt;strong&gt;collaboration&lt;/strong&gt; by nature.&lt;/p&gt;&#xA;&lt;p&gt;Consider the classic split: one engineer builds the backend while another builds the frontend. They can work in parallel, but only if they know what each other is doing and they know what to do. The moment they don&amp;rsquo;t, progress slows.&lt;/p&gt;&#xA;&lt;p&gt;Two methods address this. Management-enforced process with agile techniques like daily standups and bureaucracy. Or software engineering culture born from the team itself. They serve different goals. Management wants visibility to control, monitor and &amp;ldquo;check in.&amp;rdquo; Good software engineers want to get the work done and do it well. The latter is the foundation of good team culture.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>how to code clearly</title>
-      <link>http://localhost:1313/posts/how-to-code-clearly/</link>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/how-to-code-clearly/</guid>
-      <description>&lt;p&gt;This piece adapts the wisdom from the &lt;a href=&#34;https://davedye.com/2019/07/12/how-to-write-good/&#34;&gt;International Paper Company&amp;rsquo;s famous writing campaign&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-to-code-clearly&#34;&gt;How to code clearly&lt;/h2&gt;&#xA;&lt;p&gt;If you are afraid to code, don&amp;rsquo;t be. If you think you&amp;rsquo;ve got to string together big fancy constructs and high-flying functions, forget it. To code well, you only need to know how to get your ideas across simply and clearly.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s not easy. But it&amp;rsquo;s easier than you might imagine. There are only three basic requirements:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>impact metrics</title>
-      <link>http://localhost:1313/posts/impact-metrics/</link>
-      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/impact-metrics/</guid>
-      <description>&lt;p&gt;Impact isn&amp;rsquo;t about how many operations you have. It&amp;rsquo;s about which operations matter most to your users.&lt;/p&gt;&#xA;&lt;p&gt;Some teams measure the wrong things. They track total traffic, average response times, and aggregate error rates. But these metrics hide the real story.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The real question&lt;/strong&gt;: Which endpoints have the highest user impact when they fail?&lt;/p&gt;&#xA;&lt;p&gt;Consider a user trying to set up your tool for the first time. If the onboarding API fails, they might abandon your product entirely. That single failure has massive impact—not because of volume, but because it&amp;rsquo;s the user&amp;rsquo;s first impression.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>code readibility</title>
-      <link>http://localhost:1313/posts/code-readibility/</link>
-      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/code-readibility/</guid>
-      <description>&lt;p&gt;Two quick definitions, from one of the best courses I&amp;rsquo;ve taken¹:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Syntax&lt;/strong&gt;: The rules that say what counts as valid code. Punctuation, keywords, structure.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Semantics&lt;/strong&gt;: The meaning of that code. What it does, what it represents.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;So what&amp;rsquo;s code readability?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Readability is syntax that makes semantics obvious.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It&amp;rsquo;s not about imperative vs functional.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s not about tabs, spaces, or where the braces go.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about clarity.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about mutability, iterating, cloning.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about moving or cloning values.&lt;/li&gt;&#xA;&lt;li&gt;It&amp;rsquo;s about understanding if we&amp;rsquo;re dealing with a value or a reference.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A &lt;strong&gt;good&lt;/strong&gt; language is &lt;strong&gt;readable&lt;/strong&gt;. A readable language makes &lt;strong&gt;semantics&lt;/strong&gt; obvious. A good programmer encourages that kind of readability.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>engineers as gardeners</title>
-      <link>http://localhost:1313/posts/engineers-gardeners/</link>
-      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/engineers-gardeners/</guid>
-      <description>&lt;p&gt;We need to let go of the idea that software development is about planning and execution.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Never forget, agile is here to save management, not software.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;software-development-as-an-act-of-gardening-rather-than-architecting&#34;&gt;Software development as an act of gardening rather than architecting:&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Planting seeds: Just as gardeners start with seeds, we begin with initial ideas or prototypes. We cultivate these ideas, allowing them to grow and evolve.&lt;/li&gt;&#xA;&lt;li&gt;Tending the garden: We set up our infrastructure and build pipelines to nourish our code, much like watering plants and providing nutrients.&lt;/li&gt;&#xA;&lt;li&gt;Adapting to changes: We face challenges like bugs and incidents, similar to dealing with pests or weather conditions in a garden. We adjust and care for our software as it matures.&lt;/li&gt;&#xA;&lt;li&gt;Growing new features: As our product evolves, we cultivate new features or adjust existing ones. As planting new seeds or grafting branches to ensure the garden continues to thrive.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;By thinking of ourselves as gardeners, we focus on nurturing software through its life cycle. We prepare the soil, plant seeds, and guide their growth, adapting as needed and celebrating the results.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>traits of good programmer</title>
-      <link>http://localhost:1313/posts/traits-of-good-programmer/</link>
-      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/traits-of-good-programmer/</guid>
-      <description>&lt;h2 id=&#34;checklist&#34;&gt;checklist&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;say please and thank you&lt;/li&gt;&#xA;&lt;li&gt;show respect for the other person&amp;rsquo;s opinion, never say &amp;ldquo;you&amp;rsquo;re wrong&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;if you are wrong, admit it&lt;/li&gt;&#xA;&lt;li&gt;talk about your own mistakes before criticizing&lt;/li&gt;&#xA;&lt;li&gt;be a good listener&lt;/li&gt;&#xA;&lt;li&gt;be a good friend and a good son&lt;/li&gt;&#xA;&lt;li&gt;don&amp;rsquo;t criticize, condemn, or complain&lt;/li&gt;&#xA;&lt;li&gt;give honest and sincere appreciation&lt;/li&gt;&#xA;&lt;li&gt;treat people well&lt;/li&gt;&#xA;&lt;li&gt;become genuinely interested in other people&lt;/li&gt;&#xA;&lt;li&gt;breathe clean air&lt;/li&gt;&#xA;&lt;li&gt;exercise your body, mind and spirit&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>think in 3d</title>
-      <link>http://localhost:1313/posts/think-3d/</link>
-      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/think-3d/</guid>
-      <description>&lt;p&gt;As traffic increases and performance degrades, teams default to two approaches:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Horizontal scaling&lt;/strong&gt;: adding more instances&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vertical scaling&lt;/strong&gt;: upgrading to bigger machines&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Pause for a moment. Did you notice something missing? If not, you might be seeing in 2D.&lt;/p&gt;&#xA;&lt;p&gt;Both approaches treat symptoms, not causes. They assume the application is already optimal. This assumption adds cost, complexity, and technical debt: more machines, more moving parts, slower teams.&lt;/p&gt;&#xA;&lt;p&gt;Don&amp;rsquo;t limit yourself to 2D. Add the third dimension: optimize the application. Think in 3D.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>epoche</title>
-      <link>http://localhost:1313/posts/epoche/</link>
-      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/epoche/</guid>
-      <description>&lt;h2 id=&#34;epoche&#34;&gt;epoche&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;suspension of judgment&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Noun&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;In ancient skepticism, the act of refraining from any conclusion for or against anything as the decisive step for the attainment of ataraxy.&lt;/li&gt;&#xA;&lt;li&gt;The methodological attitude of phenomenology in which one refrains from judging whether anything exists or can exist as the first step in the phenomenological recognition, comprehension, and description of sense appearances (transcendental reduction).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;etude&#34;&gt;etude&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Noun&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;A piece of music for the practice of a point of technique.&lt;/li&gt;&#xA;&lt;li&gt;A composition built on a technical motive but played for its artistic value.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;postmortem&#34;&gt;postmortem&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Adjective&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>programming as an art</title>
-      <link>http://localhost:1313/posts/programming-as-an-art/</link>
-      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/programming-as-an-art/</guid>
-      <description>&lt;p&gt;art once meant skill: a practice, not a product.&lt;br&gt;&#xA;we&amp;rsquo;ve lost that meaning.&lt;/p&gt;&#xA;&lt;h2 id=&#34;where-art-came-from&#34;&gt;where &amp;ldquo;art&amp;rdquo; came from&lt;/h2&gt;&#xA;&lt;p&gt;the latin &lt;em&gt;ars&lt;/em&gt; and greek &lt;em&gt;techne&lt;/em&gt; both meant skill.&lt;br&gt;&#xA;from &lt;em&gt;techne&lt;/em&gt; we get &lt;em&gt;technology&lt;/em&gt;, &lt;em&gt;technique&lt;/em&gt;: doing things well, with care.&lt;/p&gt;&#xA;&lt;p&gt;before the 20th century, art didn&amp;rsquo;t mean painting or sculpture.&lt;br&gt;&#xA;it meant logic, reason, method.&lt;br&gt;&#xA;art was human intellect, applied.&lt;/p&gt;&#xA;&lt;h2 id=&#34;science-and-art&#34;&gt;science and art&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;science was knowing.&lt;/li&gt;&#xA;&lt;li&gt;art was doing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;you learned the science of the stars to practice the art of navigation.&lt;br&gt;&#xA;today science gives us theory, engineering puts it to work.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>posts on zaunaidar</title><link>https://arnaudiaz.com/posts/</link><description>Recent content in posts on zaunaidar</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://arnaudiaz.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>invariants</title><link>https://arnaudiaz.com/posts/invariants/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/invariants/</guid><description>&lt;h1 id="making-impossible-states-impossible"&gt;making impossible states impossible&lt;/h1&gt;
+&lt;p&gt;Last week, a race condition crashed production at 3 AM. The bug was impossible to reproduce in development, but a single assertion would have caught it immediately. This is why assertions exist: they make impossible states impossible.&lt;/p&gt;
+&lt;p&gt;Some developers think assertions are just debugging tools. Not true. Assertions are contracts that prevent your code from reaching invalid states. Without assertions, bugs hide in impossible states. With assertions, impossible states become impossible. When combined with good &lt;a href="https://arnau.bearblog.dev/this-is-ci/"&gt;CI&lt;/a&gt;, every change becomes visible, every assumption gets tested, and every deployment becomes predictable. As &lt;a href="https://typesanitizer.com/blog/assertions.html"&gt;this analysis&lt;/a&gt; shows, assertions are crucial for catching correctness violations that types cannot prevent.&lt;/p&gt;</description></item><item><title>snapshots, property and simulation testing</title><link>https://arnaudiaz.com/posts/snapshots/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/snapshots/</guid><description>&lt;p&gt;Your test suite passes. Your coverage is 90%. You deploy to production. Your software breaks.&lt;/p&gt;
+&lt;p&gt;Traditional testing measures the wrong things. It counts lines of code covered, not bugs prevented. It tests components in isolation, not how they interact in the real world. It catches the bugs you expect, not the ones that actually matter.&lt;/p&gt;
+&lt;p&gt;You ship correctness bugs that unit tests never catch. The best way to avoid bugs is to &lt;a href="https://www.teamten.com/lawrence/programming/dont-write-bugs.html"&gt;not write them in the first place&lt;/a&gt;—but when you do, you need tests that actually catch them.&lt;/p&gt;</description></item><item><title>this is ci</title><link>https://arnaudiaz.com/posts/this-is-ci/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/this-is-ci/</guid><description>&lt;p&gt;Last month, a developer updated a library version. The application worked fine in development, but production crashed at 2 AM. The deployment pipeline had passed all tests—but it hadn&amp;rsquo;t tested the actual change. This is why most CI fails: it tests code, not changes. When CI fails, production breaks, teams lose trust, and changes become dangerous.&lt;/p&gt;
+&lt;p&gt;Most teams think CI is about running tests on GitHub. They&amp;rsquo;re wrong. CI is about correctness and detecting changes automatically. We test to have correct code and detect changes, and CI is that process being &lt;a href="https://graydon2.dreamwidth.org/1597.html"&gt;continuous&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>dev log</title><link>https://arnaudiaz.com/posts/dev-log/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/dev-log/</guid><description>&lt;p&gt;This year I started a development log for my work notes. It made me far more effective. I control my work, measure my impact, and keep visibility on what I am doing and with whom.&lt;/p&gt;
+&lt;p&gt;Tools support the method. Pick one you will use consistently; the method drives results.&lt;/p&gt;
+&lt;p&gt;Remember:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use tools and adapt them so they feel natural.&lt;/li&gt;
+&lt;li&gt;Simple and easy beats complex and hard.&lt;/li&gt;
+&lt;li&gt;Clarity beats volume.&lt;/li&gt;
+&lt;li&gt;Use references for easy and fast navigation.&lt;/li&gt;
+&lt;li&gt;Keep your notes structured and easy to search.&lt;/li&gt;
+&lt;li&gt;A note is useful if it moves a decision, an action, or a result.&lt;/li&gt;
+&lt;li&gt;A note is useful if you can share it with somebody else.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="structure"&gt;Structure&lt;/h2&gt;
+&lt;p&gt;I use Apple Notes. It is simple. It supports tags, search, and note references. It syncs with my work phone and, most importantly, it works for me.&lt;/p&gt;</description></item><item><title>design is not a senior priviliege</title><link>https://arnaudiaz.com/posts/design-is-not-senior/</link><pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/design-is-not-senior/</guid><description>&lt;p&gt;Some teams treat architecture as a separate role reserved for &amp;ldquo;senior&amp;rdquo; engineers. They draw the diagrams, make the decisions, and pass the work.&lt;/p&gt;
+&lt;p&gt;This separation &lt;strong&gt;is a problem&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Design isn&amp;rsquo;t a reward for experience. It&amp;rsquo;s a skill that improves with practice, not just time. Like any skill, it should be part of the job from the start.&lt;/p&gt;
+&lt;h3 id="you-grow-by-doing"&gt;You grow by doing&lt;/h3&gt;
+&lt;p&gt;You don&amp;rsquo;t learn implementation all at once. You start small: an endpoint, a form, a script. Later, you take on a bigger piece: auth, infra, data flows. Eventually, you ship whole services, across teams or markets.&lt;/p&gt;</description></item><item><title>visibility and collaboration</title><link>https://arnaudiaz.com/posts/visibility-collaboration/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/visibility-collaboration/</guid><description>&lt;p&gt;Software engineering requires &lt;strong&gt;collaboration&lt;/strong&gt; by nature.&lt;/p&gt;
+&lt;p&gt;Consider the classic split: one engineer builds the backend while another builds the frontend. They can work in parallel, but only if they know what each other is doing and they know what to do. The moment they don&amp;rsquo;t, progress slows.&lt;/p&gt;
+&lt;p&gt;Two methods address this. Management-enforced process with agile techniques like daily standups and bureaucracy. Or software engineering culture born from the team itself. They serve different goals. Management wants visibility to control, monitor and &amp;ldquo;check in.&amp;rdquo; Good software engineers want to get the work done and do it well. The latter is the foundation of good team culture.&lt;/p&gt;</description></item><item><title>how to code clearly</title><link>https://arnaudiaz.com/posts/how-to-code-clearly/</link><pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/how-to-code-clearly/</guid><description>&lt;p&gt;This piece adapts the wisdom from the &lt;a href="https://davedye.com/2019/07/12/how-to-write-good/"&gt;International Paper Company&amp;rsquo;s famous writing campaign&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="how-to-code-clearly"&gt;How to code clearly&lt;/h2&gt;
+&lt;p&gt;If you are afraid to code, don&amp;rsquo;t be. If you think you&amp;rsquo;ve got to string together big fancy constructs and high-flying functions, forget it. To code well, you only need to know how to get your ideas across simply and clearly.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not easy. But it&amp;rsquo;s easier than you might imagine. There are only three basic requirements:&lt;/p&gt;</description></item><item><title>impact metrics</title><link>https://arnaudiaz.com/posts/impact-metrics/</link><pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/impact-metrics/</guid><description>&lt;p&gt;Impact isn&amp;rsquo;t about how many operations you have. It&amp;rsquo;s about which operations matter most to your users.&lt;/p&gt;
+&lt;p&gt;Some teams measure the wrong things. They track total traffic, average response times, and aggregate error rates. But these metrics hide the real story.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The real question&lt;/strong&gt;: Which endpoints have the highest user impact when they fail?&lt;/p&gt;
+&lt;p&gt;Consider a user trying to set up your tool for the first time. If the onboarding API fails, they might abandon your product entirely. That single failure has massive impact—not because of volume, but because it&amp;rsquo;s the user&amp;rsquo;s first impression.&lt;/p&gt;</description></item><item><title>code readibility</title><link>https://arnaudiaz.com/posts/code-readibility/</link><pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/code-readibility/</guid><description>&lt;p&gt;Two quick definitions, from one of the best courses I&amp;rsquo;ve taken¹:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Syntax&lt;/strong&gt;: The rules that say what counts as valid code. Punctuation, keywords, structure.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Semantics&lt;/strong&gt;: The meaning of that code. What it does, what it represents.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;So what&amp;rsquo;s code readability?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Readability is syntax that makes semantics obvious.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s not about imperative vs functional.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s not about tabs, spaces, or where the braces go.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s about clarity.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s about mutability, iterating, cloning.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s about moving or cloning values.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s about understanding if we&amp;rsquo;re dealing with a value or a reference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A &lt;strong&gt;good&lt;/strong&gt; language is &lt;strong&gt;readable&lt;/strong&gt;. A readable language makes &lt;strong&gt;semantics&lt;/strong&gt; obvious. A good programmer encourages that kind of readability.&lt;/p&gt;</description></item><item><title>engineers as gardeners</title><link>https://arnaudiaz.com/posts/engineers-gardeners/</link><pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/engineers-gardeners/</guid><description>&lt;p&gt;We need to let go of the idea that software development is about planning and execution.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Never forget, agile is here to save management, not software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id="software-development-as-an-act-of-gardening-rather-than-architecting"&gt;Software development as an act of gardening rather than architecting:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Planting seeds: Just as gardeners start with seeds, we begin with initial ideas or prototypes. We cultivate these ideas, allowing them to grow and evolve.&lt;/li&gt;
+&lt;li&gt;Tending the garden: We set up our infrastructure and build pipelines to nourish our code, much like watering plants and providing nutrients.&lt;/li&gt;
+&lt;li&gt;Adapting to changes: We face challenges like bugs and incidents, similar to dealing with pests or weather conditions in a garden. We adjust and care for our software as it matures.&lt;/li&gt;
+&lt;li&gt;Growing new features: As our product evolves, we cultivate new features or adjust existing ones. As planting new seeds or grafting branches to ensure the garden continues to thrive.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By thinking of ourselves as gardeners, we focus on nurturing software through its life cycle. We prepare the soil, plant seeds, and guide their growth, adapting as needed and celebrating the results.&lt;/p&gt;</description></item><item><title>traits of good programmer</title><link>https://arnaudiaz.com/posts/traits-of-good-programmer/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/traits-of-good-programmer/</guid><description>&lt;h2 id="checklist"&gt;checklist&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;say please and thank you&lt;/li&gt;
+&lt;li&gt;show respect for the other person&amp;rsquo;s opinion, never say &amp;ldquo;you&amp;rsquo;re wrong&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;if you are wrong, admit it&lt;/li&gt;
+&lt;li&gt;talk about your own mistakes before criticizing&lt;/li&gt;
+&lt;li&gt;be a good listener&lt;/li&gt;
+&lt;li&gt;be a good friend and a good son&lt;/li&gt;
+&lt;li&gt;don&amp;rsquo;t criticize, condemn, or complain&lt;/li&gt;
+&lt;li&gt;give honest and sincere appreciation&lt;/li&gt;
+&lt;li&gt;treat people well&lt;/li&gt;
+&lt;li&gt;become genuinely interested in other people&lt;/li&gt;
+&lt;li&gt;breathe clean air&lt;/li&gt;
+&lt;li&gt;exercise your body, mind and spirit&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>think in 3d</title><link>https://arnaudiaz.com/posts/think-3d/</link><pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate><guid>https://arnaudiaz.com/posts/think-3d/</guid><description>&lt;p&gt;As traffic increases and performance degrades, teams default to two approaches:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Horizontal scaling&lt;/strong&gt;: adding more instances&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vertical scaling&lt;/strong&gt;: upgrading to bigger machines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pause for a moment. Did you notice something missing? If not, you might be seeing in 2D.&lt;/p&gt;
+&lt;p&gt;Both approaches treat symptoms, not causes. They assume the application is already optimal. This assumption adds cost, complexity, and technical debt: more machines, more moving parts, slower teams.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t limit yourself to 2D. Add the third dimension: optimize the application. Think in 3D.&lt;/p&gt;</description></item></channel></rss>
