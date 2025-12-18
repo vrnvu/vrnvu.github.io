@@ -1,6 +1,6 @@
 ---
 title: "writing hard things"
-date: 2025-10-24T00:00:00+00:00
+date: 2025-11-09T00:00:00+00:00
 comment: true
 tags: ["code"]
 ---
