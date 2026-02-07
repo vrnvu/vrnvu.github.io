@@ -1,3 +1,10 @@
+---
+title: "user experience is the tool"
+date: 2026-01-26T00:00:00+00:00
+comment: true
+tags: ["code", "culture"]
+---
+
 ## Tools
 
 When I use a tool, I want the tool to care about me. I want it to be good. I
